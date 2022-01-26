@@ -22,7 +22,7 @@ def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
     print('fn: ', fn)
     
     # timing
-    time = timeit.timeit(fn + "("+args+")", setup="from functions import " + fn + "; gc.enable()", number=iter)
+    time = timeit.timeit(fn + "()", setup="from functions import " + fn + "; gc.enable()", number=iter)
 
     
     # output handling    

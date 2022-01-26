@@ -2,6 +2,7 @@
 # Author: Hannes Duve
 import os
 import utils
+from benchmarker import args
 
 def uploadS3(sourceDir = "/testdata", targetDir = "/testdata/raw"):
     """uploads the folder or file to the S3 Bucket via rclone
@@ -116,15 +117,15 @@ def checksumPOSIX():
 
 
 
-def test(args):
+def test():
     """Random test function, puts a list of 1 mio ints together"""
-    max = argument_handling(args)
-    max=1000000
+    max = int(argument_handling())
+    max = 1000000
     l = []
     for i in range(max):
         l.append(i)
         
-def argument_handling(args): ## argument handling
+def argument_handling(): ## argument handling
     argstr = ""
     if(args.arg1): argstr = str(args.arg1)
     if(args.arg1 and args.arg2): argstr = str(args.arg1) + ',' + str(args.arg2)
