@@ -116,10 +116,17 @@ def checksumPOSIX():
 
 
 
-def test(max=1000000):
+def test(args):
     """Random test function, puts a list of 1 mio ints together"""
+    max = argument_handling(args)
+    max=1000000
     l = []
     for i in range(max):
         l.append(i)
         
-
+def argument_handling(args): ## argument handling
+    argstr = ""
+    if(args.arg1): argstr = str(args.arg1)
+    if(args.arg1 and args.arg2): argstr = str(args.arg1) + ',' + str(args.arg2)
+    if(args.arg1 and args.arg2 and args.arg3): argstr = str(args.arg1) + ',' + str(args.arg2) + ',' + str(args.arg3)
+    return argstr

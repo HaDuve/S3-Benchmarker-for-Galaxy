@@ -15,19 +15,14 @@ def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
     """
     import timeit
     
-    # argument handling
-    argstr = ""
-    if(arg1): argstr = str(arg1)
-    if(arg1 and arg2): argstr = str(arg1) + ',' + str(arg2)
-    if(arg1 and arg2 and arg3): argstr = str(arg1) + ',' + str(arg2) + ',' + str(arg3)
+    
     if(iter==None): iter = 1
     
     #debug
-    print('argstr: ', argstr)
     print('fn: ', fn)
     
     # timing
-    time = timeit.timeit(fn + "("+argstr+")", setup="from functions import " + fn + "; gc.enable()", number=iter)
+    time = timeit.timeit(fn + "("+args+")", setup="from functions import " + fn + "; gc.enable()", number=iter)
 
     
     # output handling    
