@@ -51,7 +51,8 @@ if __name__=='__main__':
     """Argument handling and Data Saving"""
     parser = argparse.ArgumentParser(description="A tool to benchmark the time used for different functions")    
     parser.add_argument('function', type=str, help='The function to be tested.'
-                        , choices=['test','checksumS3','uploadS3','deleteS3','readS3','seekS3']
+                        , choices=['test','checksumS3','uploadS3','deleteS3','readS3','seekS3','checksumPOSIX',
+                                   'uploadPOSIX','deletePOSIX','readPOSIX','seekPOSIX']
                         )    
     # optionals    
     parser.add_argument('-i', type=int, help='an integer for the number i of repetitions of the function-execution (without preparation)')
