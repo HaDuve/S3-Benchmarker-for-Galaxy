@@ -117,10 +117,8 @@ def checksumPOSIX():
 
 
 
-def test():
+def test(max = 1000000):
     """Random test function, puts a list of 1 mio ints together"""
-    max = int(argument_handling())
-    max = 1000000
     l = []
     for i in range(max):
         l.append(i)
