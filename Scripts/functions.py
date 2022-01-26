@@ -124,12 +124,3 @@ def test():
     l = []
     for i in range(max):
         l.append(i)
-        
-def argument_handling(): ## argument handling
-    import argparse
-    from benchmarker import args
-    argstr = ""
-    if(args.arg1): argstr = str(args.arg1)
-    if(args.arg1 and args.arg2): argstr = str(args.arg1) + ',' + str(args.arg2)
-    if(args.arg1 and args.arg2 and args.arg3): argstr = str(args.arg1) + ',' + str(args.arg2) + ',' + str(args.arg3)
-    return argstr
