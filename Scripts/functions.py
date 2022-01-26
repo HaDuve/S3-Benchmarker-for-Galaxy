@@ -2,7 +2,7 @@
 # Author: Hannes Duve
 import os
 import utils
-from benchmarker import args
+from benchmarker import *
 
 def uploadS3(sourceDir = "/testdata", targetDir = "/testdata/raw"):
     """uploads the folder or file to the S3 Bucket via rclone
