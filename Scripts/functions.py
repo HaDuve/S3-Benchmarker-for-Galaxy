@@ -2,7 +2,7 @@
 # Author: Hannes Duve
 import os
 import utils
-from benchmarker import *
+
 
 def uploadS3(sourceDir = "/testdata", targetDir = "/testdata/raw"):
     """uploads the folder or file to the S3 Bucket via rclone
@@ -126,6 +126,7 @@ def test():
         l.append(i)
         
 def argument_handling(): ## argument handling
+    from benchmarker import args
     argstr = ""
     if(args.arg1): argstr = str(args.arg1)
     if(args.arg1 and args.arg2): argstr = str(args.arg1) + ',' + str(args.arg2)
