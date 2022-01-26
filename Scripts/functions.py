@@ -126,6 +126,7 @@ def test():
         l.append(i)
         
 def argument_handling(): ## argument handling
+    import argparse
     from benchmarker import args
     argstr = ""
     if(args.arg1): argstr = str(args.arg1)
