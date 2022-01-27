@@ -29,7 +29,7 @@ def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
     if(args.arg1 and args.arg2 and args.arg3): argstr = str(args.arg1) + ',' + str(args.arg2) + ',' + str(args.arg3)
     
     # timing
-    time = timeit.timeit(fn + "("+argstr+")", setup="from __main__ import " + fn + "; gc.enable()", number=iter)
+    time = timeit.timeit(fn + "("+argstr+")", setup="from functions import " + fn + "; gc.enable()", number=iter)
 
     
     # output handling    
