@@ -4,6 +4,8 @@ import argparse
 import utils
 import functions
 
+
+
 def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
     """Reports the time used to execute function "fn"
 
@@ -19,21 +21,31 @@ def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
     
     if(iter==None): iter = 1
     
-    #debug
-    print('fn: ', fn)
-    
-    
     argstr = ""
-    if(args.arg1): argstr = str(args.arg1)
-    if(args.arg1 and args.arg2): argstr = str(args.arg1) + ',' + str(args.arg2)
-    if(args.arg1 and args.arg2 and args.arg3): argstr = str(args.arg1) + ',' + str(args.arg2) + ',' + str(args.arg3)
+    callargs = []
+    if(arg1 is not None): callargs.append(arg1)
+    if(arg2 is not None): callargs.append(arg2)
+    if(arg3 is not None): callargs.append(arg3)    
+    print('callargs: ', callargs)
+    for i in range(0, len(callargs)):
+        try:
+            int[callargs[i]]
+            print("is a number")
+        except:
+            callargs[i] = "\""+callargs[i]+"\""
+            print("is not a number")
+        argstr += callargs[i] + ","
+    argstr = argstr[:-1]
+            
     
+    
+    print('argstr: ', argstr)
     # timing
-    time = timeit.timeit(fn + "("+argstr+")", setup="from functions import " + fn + "; gc.enable()", number=iter)
+    time = timeit.timeit(fn + "("+argstr+")", setup="from functions import " + fn +"; gc.enable()", number=iter)
 
     
     # output handling    
-    print(fn + ": " + str(round(time,3)) + " sec for " + str(iter) + " iterations")
+    print(fn + ": " + str(round(time,9)) + " sec for " + str(iter) + " iterations")
     average = time/iter
     averagestr = str(round(time/iter,9))
     print('average: ' + averagestr + " sec")
@@ -61,7 +73,7 @@ if __name__=='__main__':
     """Argument handling and Data Saving"""
     parser = argparse.ArgumentParser(description="A tool to benchmark the time used for different functions")    
     parser.add_argument('function', type=str, help='The function to be tested.'
-                        , choices=['test','checksumS3','uploadS3','deleteS3','readS3','seekS3','checksumPOSIX',
+                        , choices=['test','debug','checksumS3','uploadS3','deleteS3','readS3','seekS3','checksumPOSIX',
                                    'uploadPOSIX','deletePOSIX','readPOSIX','seekPOSIX']
                         )    
     # optionals    

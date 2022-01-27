@@ -3,7 +3,13 @@
 import os
 import utils
 
-
+def debug(arg1, arg2, arg3):
+    print('debug called')
+    print(r'arg1: ', arg1)
+    print('arg2+3: ', arg2 + arg3)
+    print(r'arg3: ', arg3)    
+    
+    
 def uploadS3(sourceDir = "/testdata", targetDir = "/testdata/raw"):
     """uploads the folder or file to the S3 Bucket via rclone
 
@@ -37,7 +43,7 @@ def deleteS3(directory = "/testdata", bucket="frct-hadu-bench-ec61-01"):
         if(inp == "Y" or inp == "y" or inp == "yes" or inp == "Yes"):
             os.system("rclone purge s3ws:"+directory)
 
-def deletePOSIX(filename="test.txt"):
+def deletePOSIX(filename:str="test.txt"):
     """TODO: delete the directory or file from POSIX"""
     os.system("rm " + filename)
     pass
