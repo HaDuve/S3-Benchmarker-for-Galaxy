@@ -125,6 +125,7 @@ def checksumPOSIX():
 
 def test(max = 1000000):
     """Random test function, puts a list of 1 mio ints together"""
+    max = int(max)
     l = []
     for i in range(max):
         l.append(i)
