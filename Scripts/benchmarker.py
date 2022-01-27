@@ -28,12 +28,7 @@ def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
     if(arg3 is not None): callargs.append(arg3)    
     print('callargs: ', callargs)
     for i in range(0, len(callargs)):
-        try:
-            int[callargs[i]]
-            print("is a number")
-        except:
-            callargs[i] = "\""+callargs[i]+"\""
-            print("is not a number")
+        callargs[i] = "\""+callargs[i]+"\""
         argstr += callargs[i] + ","
     argstr = argstr[:-1]
             
