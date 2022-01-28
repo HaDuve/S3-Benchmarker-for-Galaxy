@@ -3,10 +3,10 @@
 import os
 import utils
 
-def debug(arg1, arg2, arg3):
+def debug(arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default 3"):
     print('debug called')
     print(r'arg1: ', arg1)
-    print('arg2+3: ', arg2 + arg3)
+    print(r'arg2+3: ', arg2 + arg3)
     print(r'arg3: ', arg3)    
     
     

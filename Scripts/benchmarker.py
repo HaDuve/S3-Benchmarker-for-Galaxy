@@ -25,8 +25,10 @@ def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
     callargs = []
     if(arg1 is not None): callargs.append(arg1)
     if(arg2 is not None): callargs.append(arg2)
-    if(arg3 is not None): callargs.append(arg3)    
+    if(arg3 is not None): callargs.append(arg3)
+    
     print('callargs: ', callargs)
+    
     for i in range(0, len(callargs)):
         callargs[i] = "\""+callargs[i]+"\""
         argstr += callargs[i] + ","
