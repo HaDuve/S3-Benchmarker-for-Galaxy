@@ -66,7 +66,7 @@ def prepareBenchmark(args):
     if("POSIX" in args.function):
         platform1 = "linux"
         platform2 = "linux2"
-        print("Checking correct platform? [t/f]: ", checkPlatform(platform1) or checkPlatform(platform2))
+        assert checkPlatform(platform1) or checkPlatform(platform2), "POSIX functions can only be tested on Linux platforms"
     if(args.function == 'upload'):
         print('purging directory before uploading')
         purge("/testdata")
