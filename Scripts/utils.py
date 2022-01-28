@@ -3,7 +3,8 @@
 import sys, os, boto3
 
 def save_file_as_csv(data, args):
-    assert data is not None, "Data is None Error!"
+    if not data:
+        raise "No data error!"
     # put data into .csv
     headerstring = "Operation,Iterations,Time,AverageTime\n"
     datastring = ""
