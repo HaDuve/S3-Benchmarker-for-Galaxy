@@ -2,15 +2,6 @@
 # Author: Hannes Duve
 import os
 import utils
-
-def debug(arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default 3"):
-    from sys import platform
-    print("platform :", platform)
-    print('debug called')
-    print(r'arg1: ', arg1)
-    print(r'arg2+3: ', arg2 + arg3)
-    print(r'arg3: ', arg3)    
-    
     
 def uploadS3(sourceDir = "/testdata", targetDir = "/testdata/raw"):
     """uploads the folder or file to the S3 Bucket via rclone
@@ -131,3 +122,17 @@ def test(max = 1000000):
     l = []
     for i in range(max):
         l.append(i)
+
+
+
+def debug(arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default 3"):
+    print('debug called')
+    print(r'arg1: ', arg1)
+    print(r'arg2: ', arg2)
+    print(r'arg3: ', arg3)
+    
+def debugPOSIX(arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default 3"):
+    print('debugPOSIX called')
+    print(r'arg1: ', arg1)
+    print(r'arg2: ', arg3)
+    print(r'arg3: ', arg3)  
