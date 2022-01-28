@@ -1,7 +1,7 @@
 # S3 Benchmarker for Galaxy
  Investigating and benchmarking distributed filesystems for the European Galaxy server
 
- Benchmarks the performance of different functions and compares S3 times with POSIX times.
+ Benchmarks the performance of different functions and compares S3 timings with POSIX timings.
  
  Test Data:
 
