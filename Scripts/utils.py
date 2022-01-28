@@ -88,6 +88,7 @@ def checkPlatform(ComparePlatform):
         [bool]: [true if sys.platform == Compared Platform]
     """
     from sys import platform
+    print('platform: ', platform)
     return ComparePlatform == platform
     
     
