@@ -64,8 +64,8 @@ def purge(directory = "/testdata"):
 def prepareBenchmark(args):
     """preparing the benchmark depending on args"""
     if("POSIX" in args.function):
-        platform1 = "Linux"
-        platform2 = "Linux2"
+        platform1 = "linux"
+        platform2 = "linux2"
         print("Checking correct platform? [t/f]: ", checkPlatform(platform1) or checkPlatform(platform2))
     if(args.function == 'upload'):
         print('purging directory before uploading')
@@ -88,7 +88,6 @@ def checkPlatform(ComparePlatform):
         [bool]: [true if sys.platform == Compared Platform]
     """
     from sys import platform
-    print('platform: ', platform)
     return ComparePlatform == platform
     
     
