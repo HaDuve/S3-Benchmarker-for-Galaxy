@@ -27,25 +27,17 @@ def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
     if(arg2 is not None): callargs.append(arg2)
     if(arg3 is not None): callargs.append(arg3)
     
-    print('callargs: ', callargs)
-    
     for i in range(0, len(callargs)):
         callargs[i] = "\""+callargs[i]+"\""
         argstr += callargs[i] + ","
     argstr = argstr[:-1]
-            
-    
-    
-    print('argstr: ', argstr)
+
     # timing
     time = timeit.timeit(fn + "("+argstr+")", setup="from functions import " + fn +"; gc.enable()", number=iter)
 
     
     # output handling    
-    print(fn + ": " + str(round(time,9)) + " sec for " + str(iter) + " iterations")
     average = time/iter
-    averagestr = str(round(time/iter,9))
-    print('average: ' + averagestr + " sec")
     return [time, average]
 
 
@@ -57,12 +49,9 @@ def benchmark(args):
     Returns:
         data (list): list of data
     """
-    utils.prepareBenchmark(args)
-    
-    data = report_time(args.function, args.arg1, args.arg2, args.arg3,args.i)
-    
-    utils.afterBenchmark(args)
-    
+    utils.prepareBenchmark(args)    
+    data = report_time(args.function, args.arg1, args.arg2, args.arg3,args.i)    
+    utils.afterBenchmark(args)    
     return data
 
 
@@ -81,20 +70,16 @@ if __name__=='__main__':
     parser.add_argument('--arg2', help='optional arguments to be passed to the tested function')
     parser.add_argument('--arg3', help='optional arguments to be passed to the tested function')
 
-    args = parser.parse_args()
-    print('args: ', args)
-    
-    if args.r:          # repetitive measurement with preparation        
+    args = parser.parse_args()    
+    if args.r:              # repetitive measurement with preparation        
         data =  []        
-        utils.blockPrint()    # quiet mode      
+        utils.blockPrint()  # quiet mode      
         for i in range(0,args.r):
             data.append(benchmark(args))        
         utils.enablePrint()
             
-    else:               # single measurement
+    else:                   # single measurement
         data = benchmark(args)
-        
-    
-    # print('data: ', data)
+
     utils.save_file_as_csv(data, args)
     

@@ -79,7 +79,7 @@ def afterBenchmark(args):
             purge("/testdata")
             
 def checkPlatform(ComparePlatform):
-    """[summary]
+    """[compares platforms and returns true if match, false otherwise]
 
     Args:
         ComparePlatform ([str]): [platform to be checked]
