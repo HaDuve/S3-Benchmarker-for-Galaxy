@@ -1,6 +1,3 @@
-# Dynamic Data
-data.csv
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -115,3 +112,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Dynamic Data
+Scripts/data/data.csv
