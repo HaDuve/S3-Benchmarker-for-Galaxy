@@ -4,16 +4,16 @@ import os
 import utils
 
 # Upload / Copy
-def uploadS3(sourceDir = "/testdata", targetDir = "/testdata/raw"):
-    """uploads the folder or file to the S3 Bucket via rclone
+def uploadS3(sourceDir = "~/testdata", targetDir = "/testdata/raw"):
+    """uploads the folder or file to the specific "s3ws:frct-hadu-bench-ec61-01" S3 Bucket via rclone
 
     Args:
         sourceDir (str, optional): [Source Directory]. Defaults to "/testdata".
         targetDir (str, optional): [Target Directory]. Defaults to "/testdata/raw".
     """
-    os.system("rclone copy -P --transfers=4 ~"+sourceDir+" s3ws:frct-hadu-bench-ec61-01"+targetDir)
+    os.system("rclone copy -P --transfers=4 "+sourceDir+" s3ws:frct-hadu-bench-ec61-01"+targetDir)
     
-def uploadPOSIX(sourceDir = "/testdata", targetDir = "/mnt/testdata"):
+def uploadPOSIX(sourceDir = "~/testdata", targetDir = "~/mnt/testdata"):
     """copies the folder or file to another POSIX volume via cp
 
     Args:
