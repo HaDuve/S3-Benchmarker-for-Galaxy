@@ -77,10 +77,12 @@ def prepareBenchmark(args):
         
 def afterBenchmark(args):
     """cleaning up after the benchmark depending on args"""
+    
     if(args.cleanup == True):
         if(args.function == 'upload'):
             print('purging directory after uploading')
             purge("/testdata")
+            
     if(args.function == 'seekPOSIX'):
         if(args.arg1 is not None):
             with open(args.arg1, 'r') as file:
