@@ -41,7 +41,7 @@ def deleteS3(directory = "/testdata", bucket="frct-hadu-bench-ec61-01"):
 
 def deletePOSIX(filename:str="test.txt"):
     """delete the directory or file from POSIX"""
-    os.system("rm -rf" + filename)
+    os.system("rm -rf " + filename)
     pass
 
 
