@@ -59,12 +59,13 @@ if __name__=='__main__':
                                    'uploadPOSIX','deletePOSIX','readPOSIX','seekPOSIX']
                         )    
     # optionals    
-    parser.add_argument('-i', type=int, help='an integer for the number i of repetitions of the function-execution (without preparation)')
-    parser.add_argument('-r', type=int, help='repeat the measurement for r times to get a table of data (with preparation)')
-    parser.add_argument('--cleanup', default=False)
-    parser.add_argument('--arg1', help='optional arguments to be passed to the tested function')
-    parser.add_argument('--arg2', help='optional arguments to be passed to the tested function')
-    parser.add_argument('--arg3', help='optional arguments to be passed to the tested function')
+    parser.add_argument('-i', type=int, help='An integer for the number i of repetitions of the function-execution (without preparation)')
+    parser.add_argument('-r', type=int, help='Repeat the measurement for r times to get a table of data (with preparation)')
+    parser.add_argument('--warmup', default=False, help='If True, does a warmup before measurement')
+    parser.add_argument('--cleanup', default=False, help='If True, does a cleanup after measurement')
+    parser.add_argument('--arg1', help='Optional arguments to be passed to the tested function')
+    parser.add_argument('--arg2', help='Optional arguments to be passed to the tested function')
+    parser.add_argument('--arg3', help='Optional arguments to be passed to the tested function')
 
     args = parser.parse_args()    
     if args.r:              # repetitive measurement with preparation        
