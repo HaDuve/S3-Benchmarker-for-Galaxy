@@ -46,27 +46,20 @@ def deletePOSIX(filename : str = "test.txt"):
 
 
 # Read
-def readS3(s3_bucket_name : str = "frct-hadu-bench-ec61-01", prefixFilter : str = ""):
+def readS3(object_name : str = "test", s3_bucket_name : str = "frct-hadu-bench-ec61-01"):
     """TODO: Read from S3 Bucket object
     """
-    s3 = utils.connectBoto(s3_bucket_name)
-    my_bucket=s3.Bucket(s3_bucket_name)
-    bucket_list = []
-    prefix = prefixFilter
-    # To search with prefix and suffix:
-    # for file in my_bucket.objects.filter(prefix):
-    #     file_name=file.key
-    #     if file_name.find(".csv")!=-1:
-    #         bucket_list.append(file.key)
-    for file in my_bucket.objects.all():
-        bucket_list.append(file.key)
-    print("length of Bucketlist: ", len(bucket_list))
-    print(bucket_list[0:10])
-
-def readPOSIX():
-    """TODO: Read from POSIX file
-    """
     pass
+
+
+def readPOSIX(filename : str = "test.txt"):
+    """Read from POSIX file
+
+    Args:
+        filename (str, optional): [Name of the file]. Defaults to "test.txt".
+    """
+    with open(filename, "r") as file:
+        file.read()
 
 
 
@@ -74,28 +67,14 @@ def readPOSIX():
 def seekS3():
     """TODO: Seek from S3 Bucket object
     """
-    # Python program to demonstrate
-    # seek() method
-    
-    
-    # Opening "GfG.txt" text file
-    f = open("test.txt", "r")
-    
-    # Second parameter is by default 0
-    # sets Reference point to twentieth
-    # index position from the beginning
-    f.seek(20)
-    
-    # prints current position
-    print(f.tell())
-    
-    print(f.readline())
-    f.close()
-    
-def seekPOSIX():
-    """TODO: Seek from POSIX file
-    """
     pass
+    
+def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
+    """Seek from POSIX file
+    """
+    pos = int(pos)
+    with open(filename, "r") as file:
+        file.seek(pos)
 
 
 

@@ -81,6 +81,13 @@ def afterBenchmark(args):
         if(args.function == 'upload'):
             print('purging directory after uploading')
             purge("/testdata")
+    if(args.function == 'seekPOSIX'):
+        if(args.arg1 is not None):
+            with open(args.arg1, 'r') as file:
+                file.tell()
+        else: #use test.txt
+            with open("test.txt", 'r') as file:
+                file.tell()
             
 def checkPlatform(ComparePlatform):
     """[compares platforms and returns true if match, false otherwise]
