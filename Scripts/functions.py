@@ -4,7 +4,7 @@ import os
 import utils
 
 # Upload / Copy
-def uploadS3(sourceDir = "~/testdata", targetDir = "/testdata/raw"):
+def uploadS3(sourceDir : str = "~/testdata", targetDir : str = "/testdata/raw"):
     """uploads the folder or file to the specific "s3ws:frct-hadu-bench-ec61-01" S3 Bucket via rclone
 
     Args:
@@ -13,7 +13,7 @@ def uploadS3(sourceDir = "~/testdata", targetDir = "/testdata/raw"):
     """
     os.system("rclone copy -P --transfers=4 "+sourceDir+" s3ws:frct-hadu-bench-ec61-01"+targetDir)
     
-def uploadPOSIX(sourceDir = "~/testdata", targetDir = "~/mnt/testdata"):
+def uploadPOSIX(sourceDir : str = "~/testdata", targetDir : str = "~/mnt/testdata"):
     """copies the folder or file to another POSIX volume via cp
 
     Args:
@@ -25,7 +25,7 @@ def uploadPOSIX(sourceDir = "~/testdata", targetDir = "~/mnt/testdata"):
 
 
 # Delete / Purge / Remove
-def deleteS3(directory = "/testdata", bucket="frct-hadu-bench-ec61-01"):
+def deleteS3(directory : str = "/testdata", bucket : str = "frct-hadu-bench-ec61-01"):
     """delete the S3 Bucket, directory TODO: or object
     
     Args:
@@ -39,14 +39,14 @@ def deleteS3(directory = "/testdata", bucket="frct-hadu-bench-ec61-01"):
         if(inp == "Y" or inp == "y" or inp == "yes" or inp == "Yes"):
             os.system("rclone purge s3ws:"+directory)
 
-def deletePOSIX(filename:str="test.txt"):
+def deletePOSIX(filename : str = "test.txt"):
     """delete the directory or file from POSIX"""
     os.system("rm -rf " + filename)
 
 
 
 # Read
-def readS3(s3_bucket_name = "frct-hadu-bench-ec61-01", prefixFilter = ""):
+def readS3(s3_bucket_name : str = "frct-hadu-bench-ec61-01", prefixFilter : str = ""):
     """TODO: Read from S3 Bucket object
     """
     s3 = utils.connectBoto(s3_bucket_name)
@@ -100,7 +100,7 @@ def seekPOSIX():
 
 
 # Checksum
-def checksumS3(filepath="test.txt"):
+def checksumS3(filepath : str = "test.txt"):
     """TODO: Create Checksum from S3 Bucket object
     """
     import hashlib
@@ -122,7 +122,7 @@ def checksumPOSIX():
 
 
 # Test and Debug Functions
-def test(max = 1000000):
+def test(max : str = 1000000):
     """Random test function, puts a list of 1 mio ints together"""
     max = int(max)
     l = []
