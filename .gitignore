@@ -114,4 +114,5 @@ dmypy.json
 .pyre/
 
 # Dynamic Data
+*data.csv
 Scripts/data/data.csv
