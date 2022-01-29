@@ -40,8 +40,8 @@ def deleteS3(directory = "/testdata", bucket="frct-hadu-bench-ec61-01"):
             os.system("rclone purge s3ws:"+directory)
 
 def deletePOSIX(filename:str="test.txt"):
-    """TODO: delete the directory or file from POSIX"""
-    os.system("rm " + filename)
+    """delete the directory or file from POSIX"""
+    os.system("rm -rf" + filename)
     pass
 
 
