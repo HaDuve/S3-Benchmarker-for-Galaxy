@@ -5,7 +5,6 @@ import utils
 import functions
 
 
-
 def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
     """Reports the time used to execute function "fn"
 
@@ -34,12 +33,10 @@ def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
 
     # timing
     time = timeit.timeit(fn + "("+argstr+")", setup="from functions import " + fn +"; gc.enable()", number=iter)
-
     
     # output handling    
     average = time/iter
     return [time, average]
-
 
 def benchmark(args): 
     """Calls the timing function with argument handling
@@ -53,7 +50,6 @@ def benchmark(args):
     data = report_time(args.function, args.arg1, args.arg2, args.arg3,args.i)    
     utils.afterBenchmark(args)    
     return data
-
 
 if __name__=='__main__':
     """Argument handling and Data Saving"""
@@ -78,7 +74,7 @@ if __name__=='__main__':
             data.append(benchmark(args))        
         utils.enablePrint()
             
-    else:                   # single measurement
+    else:                   # single measurement (can still be repeated via -i with just 1 preparation)
         data = benchmark(args)
 
     utils.save_file_as_csv(data, args)
