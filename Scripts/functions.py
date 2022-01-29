@@ -2,7 +2,8 @@
 # Author: Hannes Duve
 import os
 import utils
-    
+
+# Upload / Copy
 def uploadS3(sourceDir = "/testdata", targetDir = "/testdata/raw"):
     """uploads the folder or file to the S3 Bucket via rclone
 
@@ -10,18 +11,15 @@ def uploadS3(sourceDir = "/testdata", targetDir = "/testdata/raw"):
         sourceDir (str, optional): [Source Directory]. Defaults to "/testdata".
         targetDir (str, optional): [Target Directory]. Defaults to "/testdata/raw".
     """
-    # rclone copy -P --transfers=4 ~/testdata/raw s3ws:frct-hadu-bench-ec61-01/testdata/raw
-    # ~/.config/rclone/rclone.conf
     os.system("rclone copy -P --transfers=4 ~"+sourceDir+" s3ws:frct-hadu-bench-ec61-01"+targetDir)
     
 def uploadPOSIX(sourceDir = "/testdata", targetDir = "/mnt/testdata"):
     """copies the folder or file to another POSIX volume via cp"""
-    # TODO: test this
-    os.system("cp -R ~"+sourceDir+" "+targetDir)
-    pass
+    os.system("cp -R "+sourceDir+" "+targetDir)
 
 
 
+# Delete / Purge / Remove
 def deleteS3(directory = "/testdata", bucket="frct-hadu-bench-ec61-01"):
     """delete the S3 Bucket, directory TODO: or object
     
@@ -43,6 +41,7 @@ def deletePOSIX(filename:str="test.txt"):
 
 
 
+# Read
 def readS3(s3_bucket_name = "frct-hadu-bench-ec61-01", prefixFilter = ""):
     """TODO: Read from S3 Bucket object
     """
@@ -67,6 +66,7 @@ def readPOSIX():
 
 
 
+# Seek
 def seekS3():
     """TODO: Seek from S3 Bucket object
     """
@@ -95,6 +95,7 @@ def seekPOSIX():
 
 
 
+# Checksum
 def checksumS3(filepath="test.txt"):
     """TODO: Create Checksum from S3 Bucket object
     """
@@ -116,14 +117,13 @@ def checksumPOSIX():
 
 
 
+# Test and Debug Functions
 def test(max = 1000000):
     """Random test function, puts a list of 1 mio ints together"""
     max = int(max)
     l = []
     for i in range(max):
         l.append(i)
-
-
 
 def debug(arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default 3"):
     print('debug called')
