@@ -53,7 +53,8 @@ def readS3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: s
     # download file and then read
     os.system("rclone copy -P --transfers=4 "+ pathName + fileName +" .")
     with open(fileName, "r") as file:
-        file.read()
+        #file.read()
+        print('file.read(): ', file.read())
 
 def readS3withBoto3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: str = "test.txt"):
     """Read from S3 Bucket object with boto3
