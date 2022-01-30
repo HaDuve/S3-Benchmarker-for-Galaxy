@@ -75,6 +75,8 @@ def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
     pos = int(pos)
     with open(filename, "r") as file:
         file.seek(pos)
+        #debug
+        print('file.tell(): ', file.tell())
 
 
 
