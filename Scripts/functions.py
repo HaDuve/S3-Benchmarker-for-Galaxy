@@ -2,7 +2,6 @@
 # Author: Hannes Duve
 from fileinput import filename
 import os
-import utils
 
 # Upload / Copy
 def uploadS3(sourceDir : str = "~/testdata", targetDir : str = "/testdata/raw"):
@@ -86,7 +85,7 @@ def seekS3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: s
         fileName (str, optional): [fileName]. Defaults to "test.txt".
         num (int, optional): [seek pointer integer]. Defaults to 0.
     """
-    # download file and then read
+    # download file and then seek
     os.system("rclone copy -P --transfers=4 "+ pathName + fileName +" .")
     with open(fileName, "r") as file:
         file.seek(num)
@@ -102,17 +101,28 @@ def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
 
 
 # Checksum
-def checksumS3(filepath : str = "test.txt"):
-    """TODO: Create Checksum from S3 Bucket object
-    """
-    pass
+def checksumS3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: str = "test.txt"):
+    """Download from S3 and then checksum
 
-def checksumPOSIX(filename : str = "test.txt"):
+    Args:
+        pathName (str, optional): [description]. Defaults to "s3ws:frct-hadu-bench-ec61-01/testdata/".
+        fileName (str, optional): [description]. Defaults to "test.txt".
+    """
+    from hashlib import md5
+    # download file and then checksum
+    os.system("rclone copy -P --transfers=4 "+ pathName + fileName +" .")
+    hash = md5()
+    with open(fileName, "rb") as f:
+        for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
+            hash.update(chunk)
+    print(hash.hexdigest())
+
+def checksumPOSIX(fileName : str = "test.txt"):
     """Create Checksum from POSIX file
     """
     from hashlib import md5
     hash = md5()
-    with open(filename, "rb") as f:
+    with open(fileName, "rb") as f:
         for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
             hash.update(chunk)
     print(hash.hexdigest())

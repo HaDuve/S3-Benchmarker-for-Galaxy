@@ -2,7 +2,6 @@
 # Author: Hannes Duve
 import argparse
 import utils
-import functions
 
 
 def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
