@@ -46,9 +46,11 @@ def deletePOSIX(filename : str = "test.txt"):
 
 
 # Read
-def readS3(object_name : str = "test", s3_bucket_name : str = "frct-hadu-bench-ec61-01"):
+def readS3(object_name : str = "test.txt", s3_bucket_name : str = "frct-hadu-bench-ec61-01"):
     """TODO: Read from S3 Bucket object
     """
+    # download file
+    os.system("rclone copy -P s3ws:" + s3_bucket_name + "/" + object_name)
     pass
 
 
@@ -85,7 +87,7 @@ def checksumS3(filepath : str = "test.txt"):
     pass
 
 def checksumPOSIX(filename : str = "test.txt"):
-    """TODO: Create Checksum from POSIX file
+    """Create Checksum from POSIX file
     """
     from hashlib import md5
     hash = md5()

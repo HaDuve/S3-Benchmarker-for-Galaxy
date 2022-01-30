@@ -75,6 +75,7 @@ def prepareBenchmark(args):
         # TODO: delete directory before copy
         print('deleting target directory before uploading')
         pass
+    
         
 def afterBenchmark(args):
     """cleaning up after the benchmark depending on args"""
