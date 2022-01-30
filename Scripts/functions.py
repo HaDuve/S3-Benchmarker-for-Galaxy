@@ -82,21 +82,18 @@ def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
 def checksumS3(filepath : str = "test.txt"):
     """TODO: Create Checksum from S3 Bucket object
     """
-    import hashlib
-    md5_hash = hashlib.md5()
-    a_file = open(filepath,"rb")
-    content = a_file.read()
-    md5_hash.update(content)
-    
-    digest = md5_hash.hexdigest()
-    print(digest)
-    a_file.close()
     pass
 
-def checksumPOSIX():
+def checksumPOSIX(filename : str = "test.txt"):
     """TODO: Create Checksum from POSIX file
     """
-    pass
+    import hashlib
+    md5_hash = hashlib.md5()
+    with open(filename, "r") as file:
+        content = file.read()
+        md5_hash.update(content)    
+        digest = md5_hash.hexdigest()
+    print(digest)
 
 
 
