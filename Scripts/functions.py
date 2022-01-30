@@ -53,8 +53,8 @@ def readS3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: s
     # download file and then read
     os.system("rclone copy -P --transfers=4 "+ pathName + fileName +" .")
     with open(fileName, "r") as file:
-        #file.read()
-        print('file.read(): ', file.read())
+        body =  file.read()
+        print('file.read(): ', body)
 
 def readS3withBoto3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: str = "test.txt"):
     """Read from S3 Bucket object with boto3
@@ -78,11 +78,20 @@ def readPOSIX(filename : str = "test.txt"):
 
 
 # Seek
-def seekS3():
-    """TODO: Seek from S3 Bucket object
+def seekS3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: str = "test.txt", num : int = 0):
+    """download from S3 and then seek the file
+
+    Args:
+        pathName (str, optional): [pathName]. Defaults to "s3ws:frct-hadu-bench-ec61-01/testdata/".
+        fileName (str, optional): [fileName]. Defaults to "test.txt".
+        num (int, optional): [seek pointer integer]. Defaults to 0.
     """
-    pass
-    
+    # download file and then read
+    os.system("rclone copy -P --transfers=4 "+ pathName + fileName +" .")
+    with open(fileName, "r") as file:
+        file.seek(num)
+        print('file.tell(): ',  file.tell())
+
 def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
     """Seek from POSIX file
     """
