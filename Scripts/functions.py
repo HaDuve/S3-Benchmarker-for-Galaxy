@@ -87,13 +87,13 @@ def checksumS3(filepath : str = "test.txt"):
 def checksumPOSIX(filename : str = "test.txt"):
     """TODO: Create Checksum from POSIX file
     """
-    import hashlib
-    md5_hash = hashlib.md5()
-    with open(filename, "r") as file:
-        content = file.read()
-        md5_hash.update(content)    
-        digest = md5_hash.hexdigest()
-    print(digest)
+    from hashlib import md5
+    hash = md5()
+    with open(filename, "rb") as f:
+        for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
+            hash.update(chunk)
+    print(hash.hexdigest())
+
 
 
 
