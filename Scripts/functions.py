@@ -1,5 +1,6 @@
 # Time-testable functions to be called by benchmarker.py - timeit
 # Author: Hannes Duve
+from fileinput import filename
 import os
 import utils
 
@@ -46,13 +47,23 @@ def deletePOSIX(filename : str = "test.txt"):
 
 
 # Read
-def readS3(object_name : str = "test.txt", s3_bucket_name : str = "frct-hadu-bench-ec61-01"):
-    """TODO: Read from S3 Bucket object
+def readS3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: str = "test.txt"):
+    """ Download and read from S3 Bucket object
     """
-    # download file
-    os.system("rclone copy -P s3ws:" + s3_bucket_name + "/" + object_name)
-    pass
+    # download file and then read
+    os.system("rclone copy -P --transfers=4 "+ pathName + fileName +" .")
+    with open(fileName, "r") as file:
+        file.read()
 
+def readS3withBoto3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: str = "test.txt"):
+    """Read from S3 Bucket object with boto3
+    """
+    import boto3
+    s3 = boto3.resource('s3')
+    bucket =  s3.bucket('s3ws:frct-hadu-bench-ec61-01')
+    for obj in bucket.object(fileName):
+        body = obj.get('Body').read()
+        print('body: ', body)
 
 def readPOSIX(filename : str = "test.txt"):
     """Read from POSIX file
