@@ -3,19 +3,26 @@
 import sys, os, boto3
 
 def save_file_as_csv(data, args):
+    """saving the results as a comma-separated list of data points
+
+    Args:
+        data (str): .csv filestring
+        
+        args (namespace):
+    """
     if not data:
         raise "No data error!"
     # put data into .csv
     headerstring = "Operation,Iterations,Time,AverageTime\n"
     datastring = ""
     if not args.r:              # no repetitions
-        if (not args.i):        # default iterations
+        if (not args.i):        # default 1 iteration
             datastring = f"{args.function},{1},{data[0]:f},{data[1]:f}"
         else:                   # modified iterations
             datastring = f"{args.function},{args.i},{data[0]:f},{data[1]:f}"
     else:                       # modified repetitions
         for i in range(args.r):
-            if (not args.i):    # default iterations
+            if (not args.i):    # default 1 iteration
                 datastring += f"{args.function},{1},{data[i][0]:f},{data[i][1]:f}\n"
             else:               # modified iterations
                 datastring += f"{args.function},{args.i},{data[i][0]:f},{data[i][1]:f}\n"
@@ -30,7 +37,7 @@ def save_file_as_csv(data, args):
         file1.write(filestring)
     
 def blockPrint():
-    """Disable print output"""
+    """Disable print output to console"""
     sys.stdout = open(os.devnull, 'w')
     
 def enablePrint():
@@ -62,13 +69,22 @@ def purge(directory = "/testdata"):
     os.system("rclone purge s3ws:frct-hadu-bench-ec61-01" + directory)
 
 def prepareBenchmark(args):
-    """preparing the benchmark depending on args"""
+    """preparing the benchmark depending on args
+    
+    Args:
+    
+        "POSIX" in args.function  - checks if platform == linux
+        
+        'uploadS3'                - deleting target directory before upload
+        
+        'uploadPOSIX'             - deleting target directory before copy
+    """
     if("POSIX" in args.function):
         platform1 = "linux"
         platform2 = "linux2"
         if(not (checkPlatform(platform1) or checkPlatform(platform2))):
             raise Exception("POSIX functions can only be tested on Linux platforms")
-    if(args.function == 'upload'):
+    if(args.function == 'uploadS3'):
         print('purging target directory before uploading')
         purge("/testdata")
     if(args.function == 'uploadPOSIX'):
