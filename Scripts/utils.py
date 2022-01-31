@@ -74,7 +74,6 @@ def prepareBenchmark(args):
     if(args.function == 'uploadPOSIX'):
         # TODO: delete directory before copy
         print('deleting target directory before uploading')
-        pass
     
         
 def afterBenchmark(args):
