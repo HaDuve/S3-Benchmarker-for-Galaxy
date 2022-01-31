@@ -67,7 +67,7 @@ if __name__=='__main__':
     parser.add_argument('--arg3', help='Optional arguments to be passed to the tested function')
 
     args = parser.parse_args()    
-    if args.r:              # repetitive measurement with preparation        
+    if args.r:              # repetitive measurement with r preparations        
         data =  []        
         utils.blockPrint()  # quiet mode      
         for i in range(0,args.r):
