@@ -3,6 +3,10 @@
 
  Benchmarks the performance of different functions and compares S3 timings with POSIX timings.
  
+# How to use:
+ python benchmarker.py functionname -i [optional_number_of_iterations] -r [optional_number_of_repetitions] --arg1 [optional_arg1] ... --arg3 [optional_arg3]
+ 
+ 
  Test Data:
 
 Operation   | Iterations |          Time       |    AverageTime  
