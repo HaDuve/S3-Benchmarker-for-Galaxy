@@ -149,3 +149,11 @@ def debugPOSIX(arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default
     print(r'arg1: ', arg1)
     print(r'arg2: ', arg3)
     print(r'arg3: ', arg3)
+    
+def lsS3(bucket : str =  "frct-hadu-bench-ec61-01"):
+    """lists all files in a bucket recusively
+
+    Args:
+        bucket (str, optional): [name of bucket]. Defaults to "frct-hadu-bench-ec61-01".
+    """
+    os.system("aws s3api list-objects --bucket "+bucket+" --output text --query \"Contents[].{Key: Key}\"")

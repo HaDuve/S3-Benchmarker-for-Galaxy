@@ -54,7 +54,7 @@ if __name__=='__main__':
     """Argument handling and Data Saving"""
     parser = argparse.ArgumentParser(description="A tool to benchmark the time used for different functions")    
     parser.add_argument('function', type=str, help='The function to be tested.'
-                        , choices=['test','debug','debugPOSIX','checksumS3','uploadS3','deleteS3','readS3', 'readS3withBoto3','seekS3','checksumPOSIX',
+                        , choices=['test','debug','debugPOSIX','lsS3','checksumS3','uploadS3','deleteS3','readS3', 'readS3withBoto3','seekS3','checksumPOSIX',
                                    'uploadPOSIX','deletePOSIX','readPOSIX','seekPOSIX']
                         )    
     # optionals    
