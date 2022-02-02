@@ -3,6 +3,7 @@
 import os
 import boto3
 from botocore.utils import fix_s3_host
+from hashlib import md5
 
 # Upload / Copy
 def uploadS3(sourceDir : str = "~/testdata", targetDir : str = "/testdata/raw"):
@@ -110,31 +111,33 @@ def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
 
 
 # Checksum
-def checksumS3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: str = "test.txt"):
+def checksumS3(bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/test.txt'):
     """Download from S3 and then checksum
 
     Args:
         pathName (str, optional): [description]. Defaults to "s3ws:frct-hadu-bench-ec61-01/testdata/".
         fileName (str, optional): [description]. Defaults to "test.txt".
     """
-    from hashlib import md5
-    # download file and then checksum
-    os.system("rclone copy -P --transfers=4 "+ pathName + fileName +" .")
+    def_region= "fr-repl"
+    endp_url = "https://s3.bwsfs.uni-freiburg.de/"
+    access_key = os.environ.get('AWS_ACCESS_KEY_ID')
+    secret_key = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    s3 = boto3.resource('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_key, region_name=def_region,endpoint_url=endp_url)
+    s3.meta.client.meta.events.unregister('before-sign.s3', fix_s3_host)
+    
     hash = md5()
-    with open(fileName, "rb") as f:
-        for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
-            hash.update(chunk)
-    print(hash.hexdigest())
+    obj = s3.Object(bucket, key)
+    hash.update(obj.get()['Body'].read())
+    print("hash :", hash.hexdigest())
 
 def checksumPOSIX(fileName : str = "test.txt"):
     """Create Checksum from POSIX file
     """
-    from hashlib import md5
     hash = md5()
     with open(fileName, "rb") as f:
         for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
             hash.update(chunk)
-    print(hash.hexdigest())
+    print("hash :", hash.hexdigest())
 
 
 
