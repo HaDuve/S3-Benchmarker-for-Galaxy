@@ -95,7 +95,7 @@ def seekS3(bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/tes
     s3.meta.client.meta.events.unregister('before-sign.s3', fix_s3_host)
 
     obj = s3.Object(bucket, key)
-    body = (obj.get()['Body'].read().decode('utf-8'))
+    body = (obj.get()['Body'])
     print(body)
     body.seek(10)
     print('body.tell(): ',  body.tell())
