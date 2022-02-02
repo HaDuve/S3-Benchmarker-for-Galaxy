@@ -2,6 +2,7 @@
 # Author: Hannes Duve
 from fileinput import filename
 import os
+import boto3
 
 # Upload / Copy
 def uploadS3(sourceDir : str = "~/testdata", targetDir : str = "/testdata/raw"):
@@ -55,15 +56,14 @@ def readS3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: s
         body =  file.read()
         print('file.read(): ', body)
 
-def readS3withBoto3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: str = "test.txt"):
+def readS3withBoto3(bucketName: str = "s3ws:frct-hadu-bench-ec61-01", itemName: str = "/testdata/test.txt"):
     """Read from S3 Bucket object with boto3
-    """
-    import boto3
+    """    
     s3 = boto3.resource('s3')
-    bucket =  s3.bucket('s3ws:frct-hadu-bench-ec61-01')
-    for obj in bucket.object(fileName):
-        body = obj.get('Body').read()
-        print('body: ', body)
+    obj = s3.Object(bucketName, itemName)
+    body = obj.get()['Body'].read()
+    print('body: ', body)
+    
 
 def readPOSIX(filename : str = "test.txt"):
     """Read from POSIX file
