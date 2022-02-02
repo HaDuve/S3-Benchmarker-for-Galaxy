@@ -86,18 +86,15 @@ def seekS3(bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/tes
         fileName (str, optional): [fileName]. Defaults to "test.txt".
         num (int, optional): [seek pointer integer]. Defaults to 0.
     """
-    # download file and then seek
     def_region= "fr-repl"
     endp_url = "https://s3.bwsfs.uni-freiburg.de/"
     access_key = os.environ.get('AWS_ACCESS_KEY_ID')
     secret_key = os.environ.get('AWS_SECRET_ACCESS_KEY')
     s3 = boto3.resource('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_key, region_name=def_region,endpoint_url=endp_url)
     s3.meta.client.meta.events.unregister('before-sign.s3', fix_s3_host)
-
+    
     obj = s3.Object(bucket, key)
-    body = (obj.get()['Body'])
-    print(body)
-    body.seek(10)
+    body = (obj.get()['Body'].read(10*8))
     print('body.tell(): ',  body.tell())
 
 def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
