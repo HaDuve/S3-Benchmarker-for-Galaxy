@@ -95,7 +95,10 @@ def seekS3(bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/tes
     
     obj = s3.Object(bucket, key)
     body = (obj.get()['Body'].read(10*8))
-    print('body.tell(): ',  body.tell())
+    rest = (obj.get()['Body'].read())
+    
+    print('body: ',  body)
+    print('rest: ', rest)
 
 def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
     """Seek from POSIX file
