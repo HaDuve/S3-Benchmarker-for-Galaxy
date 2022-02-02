@@ -1,6 +1,5 @@
 # Time-testable functions to be called by benchmarker.py - timeit
 # Author: Hannes Duve
-from fileinput import filename
 import os
 import boto3
 from botocore.utils import fix_s3_host
@@ -48,9 +47,13 @@ def deletePOSIX(filename : str = "test.txt"):
 
 
 # Read
-def readS3(bucketName: str = "s3ws:frct-hadu-bench-ec61-01", itemName: str = "/testdata/test.txt"):
-    """Read from S3 Bucket object with boto3
-    """    
+def readS3(bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/test.txt'):
+    """reads a file directly from s3 using boto3 connection
+
+    Args:
+        bucket (str, optional): [name of the bucket]. Defaults to 'frct-hadu-bench-ec61-01'.
+        key (str, optional): [path / name of the file]. Defaults to 'testdata/raw/test.txt'.
+    """
     def_region= "fr-repl"
     endp_url = "https://s3.bwsfs.uni-freiburg.de/"
     access_key = os.environ.get('AWS_ACCESS_KEY_ID')
@@ -58,8 +61,6 @@ def readS3(bucketName: str = "s3ws:frct-hadu-bench-ec61-01", itemName: str = "/t
     s3 = boto3.resource('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_key, region_name=def_region,endpoint_url=endp_url)
     s3.meta.client.meta.events.unregister('before-sign.s3', fix_s3_host)
 
-    bucket = 'frct-hadu-bench-ec61-01'
-    key = 'testdata/raw/test.txt'
     obj = s3.Object(bucket, key)
     body = (obj.get()['Body'].read().decode('utf-8'))
     print(body)
