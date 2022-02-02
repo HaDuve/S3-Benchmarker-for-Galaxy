@@ -48,16 +48,7 @@ def deletePOSIX(filename : str = "test.txt"):
 
 
 # Read
-def readS3(pathName: str = "s3ws:frct-hadu-bench-ec61-01/testdata/", fileName: str = "test.txt"):
-    """ Download and read from S3 Bucket object
-    """
-    # download file and then read
-    os.system("rclone copy -P --transfers=4 "+ pathName + fileName +" .")
-    with open(fileName, "r") as file:
-        body =  file.read()
-        print('file.read(): ', body)
-
-def readS3withBoto3(bucketName: str = "s3ws:frct-hadu-bench-ec61-01", itemName: str = "/testdata/test.txt"):
+def readS3(bucketName: str = "s3ws:frct-hadu-bench-ec61-01", itemName: str = "/testdata/test.txt"):
     """Read from S3 Bucket object with boto3
     """    
     def_region= "fr-repl"
