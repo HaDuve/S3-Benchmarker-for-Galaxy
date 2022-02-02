@@ -62,8 +62,8 @@ def readS3withBoto3(bucketName: str = "s3ws:frct-hadu-bench-ec61-01", itemName: 
     """    
     def_region= "fr-repl"
     endp_url = "https://s3.bwsfs.uni-freiburg.de/"
-    access_key = os.environ.get(['AWS_ACCESS_KEY_ID'])
-    secret_key = os.environ.get(['AWS_SECRET_ACCESS_KEY'])
+    access_key = os.environ.get('AWS_ACCESS_KEY_ID')
+    secret_key = os.environ.get('AWS_SECRET_ACCESS_KEY')
     s3 = boto3.resource('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_key, region_name=def_region,endpoint_url=endp_url)
     s3.meta.client.meta.events.unregister('before-sign.s3', fix_s3_host)
 
