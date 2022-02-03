@@ -85,7 +85,7 @@ def seekS3(bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/tes
     Args:
         pathName (str, optional): [pathName]. Defaults to "s3ws:frct-hadu-bench-ec61-01/testdata/".
         fileName (str, optional): [fileName]. Defaults to "test.txt".
-        num (str, optional): [seek pointer integer]. Defaults to 0.
+        num (str, optional): [seek pointer integer]. Has to be a string of an integer. Defaults to 0.
     """
     def_region= "fr-repl"
     endp_url = "https://s3.bwsfs.uni-freiburg.de/"
