@@ -95,7 +95,7 @@ def seekS3(bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/tes
     s3.meta.client.meta.events.unregister('before-sign.s3', fix_s3_host)
     
     obj = s3.Object(bucket, key)
-    point = obj.get(Range='bytes='+num+'-'+num)['Body']
+    point = obj.get(Range='bytes='+num+'-')['Body']
     print(point.read())
 
 def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
