@@ -62,7 +62,7 @@ def readS3(bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/tes
 
     obj = s3.Object(bucket, key)
     body = (obj.get()['Body'].read().decode('utf-8'))
-    print(body)
+    # print('body: ', body)
 
 
 def readPOSIX(filename : str = "test.txt"):
@@ -72,7 +72,8 @@ def readPOSIX(filename : str = "test.txt"):
         filename (str, optional): [Name of the file]. Defaults to "test.txt".
     """
     with open(filename, "r") as file:
-        file.read()
+        body = file.read()
+        # print('body: ', body)
 
 
 
@@ -94,7 +95,9 @@ def seekS3(bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/tes
 
     obj = s3.Object(bucket, key)
     point = obj.get(Range='bytes='+num+'-')['Body']
-    print(point.read())
+    # body = point.read()
+    # print('body: ', body)
+    
 
 def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
     """Seek from POSIX file
@@ -102,6 +105,8 @@ def seekPOSIX(filename : str = "test.txt", pos : str = "0"):
     pos = int(pos)
     with open(filename, "r") as file:
         file.seek(pos)
+        # body = file.read()
+        # print('body: ', body)
 
 
 
@@ -123,7 +128,8 @@ def checksumS3(bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw
     hash = md5()
     obj = s3.Object(bucket, key)
     hash.update(obj.get()['Body'].read())
-    print("hash :", hash.hexdigest())
+    digest = hash.hexdigest()
+    # print("hash :", digest)
 
 def checksumPOSIX(fileName : str = "test.txt"):
     """Create Checksum from POSIX file
@@ -132,7 +138,9 @@ def checksumPOSIX(fileName : str = "test.txt"):
     with open(fileName, "rb") as f:
         for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
             hash.update(chunk)
-    print("hash :", hash.hexdigest())
+    digest = hash.hexdigest()
+    # print("hash :", digest)
+
 
 
 
