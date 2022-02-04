@@ -36,10 +36,6 @@ def deleteS3(directory : str = "/testdata", bucket : str = "frct-hadu-bench-ec61
     """
     if(directory != ""):
         os.system("rclone purge s3ws:"+directory)
-    else:
-        inp = input("Really delete the Bucket: %s ?" % bucket)
-        if(inp == "Y" or inp == "y" or inp == "yes" or inp == "Yes"):
-            os.system("rclone purge s3ws:"+directory)
 
 def deletePOSIX(filename : str = "test.txt"):
     """delete the directory or file from POSIX"""
