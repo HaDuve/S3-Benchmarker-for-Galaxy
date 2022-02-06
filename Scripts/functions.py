@@ -139,7 +139,7 @@ def checksumPOSIX(fileName : str = "test.txt"):
         for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
             hash.update(chunk)
     digest = hash.hexdigest()
-    return digest
+    return
 
 
 
@@ -162,7 +162,7 @@ def debug(arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default 3"):
 def debugPOSIX(arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default 3"):
     print('debugPOSIX called')
     print(r'arg1: ', arg1)
-    print(r'arg2: ', arg3)
+    print(r'arg2: ', arg2)
     print(r'arg3: ', arg3)
 
 def lsS3(bucket : str =  "frct-hadu-bench-ec61-01"):
