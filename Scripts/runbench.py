@@ -25,13 +25,12 @@ if __name__=='__main__':
                       cleanup=False,
                       function='debug',
                       r=None,
-                      warmup=False,
                       saveas='data',
                       default_region=default_region,
                       s3_url=s3_url,
                       s3_access_key=s3_access_key,
                       s3_secret_key=s3_secret_key,
-                      workflow=None,
-                      result_path=None,
-                      warmup=None)
+                      workflow=workflow,
+                      result_path=result_path,
+                      warmup=warmup)
     _ = benchmarker.Benchmarker(args)
