@@ -29,7 +29,7 @@ def benchmark(args):
         data (list): list of data
     """
     utils.prepareBenchmark(args)
-    data = report_time(args.function)#, args.arg1, args.arg2, args.arg3,args.i)
+    data = report_time(args.function, args)#, args.arg1, args.arg2, args.arg3,args.i)
     utils.afterBenchmark(args)
     return data
 
