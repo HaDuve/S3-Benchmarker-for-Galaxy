@@ -139,7 +139,7 @@ def checksumPOSIX(fileName : str = "test.txt"):
         for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
             hash.update(chunk)
     digest = hash.hexdigest()
-    return
+    return digest
 
 
 
