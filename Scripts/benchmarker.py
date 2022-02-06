@@ -14,7 +14,7 @@ class Benchmarker:
         if self.args.r:         # repetitive measurement with r preparations
             data =  []
             utils.blockPrint()  # quiet mode
-            for i in range(0,self.args.r):
+            for _ in range(0,int(self.args.r)):
                 data.append(benchmark(self.args))
             utils.enablePrint()
 
