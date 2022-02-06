@@ -6,12 +6,11 @@ import functions
 import timer
 
 
-def report_time(fn, *args):
-    iter=1
+def report_time(fn, arg1, arg2, arg3, iter=1):
     # timing
     t = timer.Timer(name = fn)
     t.start()
-    result = getattr(functions, fn)(*args)
+    result = getattr(functions, fn)(arg1, arg2, arg3)
     
     time = t.stop()
 
@@ -29,7 +28,7 @@ def benchmark(args):
         data (list): list of data
     """
     utils.prepareBenchmark(args)
-    data = report_time(args.function, *args)#, args.arg1, args.arg2, args.arg3,args.i)
+    data = report_time(args.function, args.arg1, args.arg2, args.arg3,args.i)
     utils.afterBenchmark(args)
     return data
 
