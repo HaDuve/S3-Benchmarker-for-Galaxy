@@ -6,8 +6,8 @@ import functions
 import timer
 
 
-def report_time(fn, arg1, arg2, arg3, iter: int =1):
-    
+def report_time(fn, arg1, arg2, arg3, iter):
+    if(iter is None): iter = 1
     # timing
     t = timer.Timer(name = fn)
     t.start()
