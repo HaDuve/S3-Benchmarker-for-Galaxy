@@ -72,17 +72,14 @@ def prepareBenchmark(args):
 
         'uploadPOSIX'             - deleting target directory before copy
     """
-    if("POSIX" in args.function):
-        platform1 = "linux"
-        platform2 = "linux2"
-        if(not (checkPlatform(platform1) or checkPlatform(platform2))):
-            raise Exception("POSIX functions can only be tested on Linux platforms")
+    checkPOSIX(args.function)
     if(args.function == 'uploadS3'):
         print('purging target directory before uploading')
         purge("/testdata")
     if(args.function == 'uploadPOSIX'):
         # TODO: delete directory before copy
         print('deleting target directory before uploading')
+
 
 
 def afterBenchmark(args):
@@ -93,6 +90,13 @@ def afterBenchmark(args):
             print('purging directory after uploading')
             purge("/testdata")
 
+def checkPOSIX(string = "POSIX"):
+    if("POSIX" in string):
+        platform1 = "linux"
+        platform2 = "linux2"
+        if(not (checkPlatform(platform1) or checkPlatform(platform2))):
+            raise Exception("POSIX functions can only be tested on Linux platforms")
+        
 def checkPlatform(ComparePlatform):
     """[compares platforms and returns true if match, false otherwise]
 
