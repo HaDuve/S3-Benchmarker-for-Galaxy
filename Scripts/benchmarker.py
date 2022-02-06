@@ -8,11 +8,10 @@ import timer
 class Benchmarker:
     def __init__(self, args):
         self.args = args
-        self.run()
-        
+        self.run()        
         
     def run(self):
-        if self.args.r:              # repetitive measurement with r preparations
+        if self.args.r:         # repetitive measurement with r preparations
             data =  []
             utils.blockPrint()  # quiet mode
             for i in range(0,self.args.r):
@@ -73,6 +72,7 @@ if __name__=='__main__':
     parser.add_argument('--arg1', help='Optional arguments to be passed to the tested function')
     parser.add_argument('--arg2', help='Optional arguments to be passed to the tested function')
     parser.add_argument('--arg3', help='Optional arguments to be passed to the tested function')
+    parser.add_argument('--saveas', default='data', help='Optional argument of naming the .csv file, defaults to data')
 
     args = parser.parse_args()
     b = Benchmarker(args)

@@ -25,7 +25,7 @@ def save_file_as_csv(data, args):
     print('filestring: \n'+ filestring)
     if not os.path.exists("data"):
         os.mkdir("data")
-    with open("data/data.csv", "w") as file1:
+    with open("data/"+args.saveas+".csv", "w") as file1:
         # Writing data to a file
         file1.write(filestring)
 
