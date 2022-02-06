@@ -18,6 +18,7 @@ if __name__=='__main__':
     workflowargs = work['workflowargs']
     repetitions = work['repetitions']
     warmup = work['warmup']
+    cleanup = work['cleanup']
     
     # workflow
     workflowlist = list(workflow.split(","))
@@ -50,7 +51,7 @@ if __name__=='__main__':
         args =  Namespace(arg1=arg1,
                         arg2=arg2,
                         arg3=arg3,
-                        cleanup=False,
+                        cleanup=cleanup,
                         function=next_function,
                         r=repetitions,
                         saveas=filename,
