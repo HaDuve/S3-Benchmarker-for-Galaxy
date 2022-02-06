@@ -76,7 +76,9 @@ def prepareBenchmark(args):
     checkPOSIX(args.function)
     if(args.function == 'uploadS3'):
         print('purging target directory before uploading')
-        purge("/testdata")
+        if (args.arg2 is None):
+            purge("/testdata/raw")
+        else: purge(args.arg2)
     if(args.function == 'uploadPOSIX'):
         # TODO: delete directory before copy
         print('deleting target directory before uploading')
@@ -87,9 +89,10 @@ def afterBenchmark(args):
     """cleaning up after the benchmark depending on args"""
 
     if(args.cleanup == True):
-        if(args.function == 'upload'):
+        if(args.function == 'uploadS3'):
             print('purging directory after uploading')
             purge("/testdata")
+        #TODO: uploadPOSIX
 
 def checkPOSIX(string = "POSIX"):
     if("POSIX" in string):
