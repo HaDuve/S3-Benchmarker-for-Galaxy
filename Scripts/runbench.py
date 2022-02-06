@@ -16,18 +16,16 @@ if __name__=='__main__':
     work = config['Workflow']
     workflow = work['workflow']
     workflowargs = work['workflowargs']
-    result_path = work['result_path']
     warmup = work['warmup']
-    #workflow
+    
+    # workflow
     workflowlist = list(workflow.split(","))
     workflowargslist = list(workflowargs.split(","))
     i = 1
     while (workflowlist):        
-        filename = "data"+str(i)
         next_function = workflowlist.pop(0)
         next_arglist = workflowargslist.pop(0)
         next_arglist = list(next_arglist.split(" "))
-        print('len(next_arglist): ', len(next_arglist))
         if (next_arglist):
             if len(next_arglist) == 1:
                 if (next_arglist[0] == ""):
@@ -45,8 +43,8 @@ if __name__=='__main__':
                 arg2 = next_arglist[1]
                 arg3 = next_arglist[2]
         
-        print(arg1,arg2, arg3)
-            
+        filename = "data"+next_function+str(i)
+        
         #default namespace + config values
         args =  Namespace(arg1=arg1,
                         arg2=arg2,
@@ -54,7 +52,7 @@ if __name__=='__main__':
                         cleanup=False,
                         function=next_function,
                         r=None,
-                        saveas=next_function,
+                        saveas=filename,
                         default_region=default_region,
                         s3_url=s3_url,
                         s3_access_key=s3_access_key,
@@ -65,3 +63,5 @@ if __name__=='__main__':
         #TODO: workflow handling    
         workflow=workflow
         _ = benchmarker.Benchmarker(args)
+        print('saved as: ', filename)
+        i+=1
