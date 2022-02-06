@@ -6,18 +6,24 @@ import functions
 import timer
 
 
-def report_time(fn, arg1, arg2, arg3, iter):
-    if(iter is None): iter = 1
+def report_time(fn, arg1, arg2, arg3):
     # timing
     t = timer.Timer(name = fn)
     t.start()
-    result = getattr(functions, fn)(arg1, arg2, arg3)
+    # assume we dont get arg3 without arg2 etc.
+    if(arg3 is not None):
+        result = getattr(functions, fn)(arg1, arg2, arg3)
+    elif(arg2 is not None):
+        result = getattr(functions, fn)(arg1, arg2)
+    elif(arg1 is not None):
+        result = getattr(functions, fn)(arg1)
+    else: #all args==None
+        result = getattr(functions, fn)()
     time = t.stop()
     
     # output handling
-    average = time/iter
     print('result: ', result)
-    return [time, average]
+    return time
 
 def benchmark(args): 
     """Calls the timing function with argument handling
@@ -28,7 +34,7 @@ def benchmark(args):
         data (list): list of data
     """
     utils.prepareBenchmark(args)
-    data = report_time(args.function, args.arg1, args.arg2, args.arg3,args.i)
+    data = report_time(args.function, args.arg1, args.arg2, args.arg3)
     utils.afterBenchmark(args)
     return data
 
@@ -40,7 +46,6 @@ if __name__=='__main__':
                                    'uploadPOSIX','deletePOSIX','readPOSIX','seekPOSIX']
                         )
     # optionals
-    parser.add_argument('-i', type=int, help='An integer for the number i of repetitions of the function-execution (without preparation)')
     parser.add_argument('-r', type=int, help='Repeat the measurement for r times to get a table of data (with preparation)')
     parser.add_argument('--warmup', default=False, help='If True, does a warmup before measurement')
     parser.add_argument('--cleanup', default=False, help='If True, does a cleanup after measurement')
