@@ -16,6 +16,7 @@ if __name__=='__main__':
     work = config['Workflow']
     workflow = work['workflow']
     workflowargs = work['workflowargs']
+    repetitions = work['repetitions']
     warmup = work['warmup']
     
     # workflow
@@ -51,7 +52,7 @@ if __name__=='__main__':
                         arg3=arg3,
                         cleanup=False,
                         function=next_function,
-                        r=None,
+                        r=repetitions,
                         saveas=filename,
                         default_region=default_region,
                         s3_url=s3_url,
