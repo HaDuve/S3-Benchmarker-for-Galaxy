@@ -1,10 +1,16 @@
 import benchmarker
 import utils
+from argparse import Namespace
 
 if __name__=='__main__':
-    fnstring = "test"
-    argstring = ""
-    b = benchmarker.Benchmarker(fnstring, argstring)
+    args =  Namespace(arg1='arg1',
+                      arg2='arg2',
+                      arg3='arg4',
+                      cleanup=False,
+                      function='debugPOSIX',
+                      r=None,
+                      warmup=False)
+    b = benchmarker.Benchmarker(args)
     
     # utils.checkPOSIX()
     # os.system("python benchmarker.py " + fnstring + argstring)
