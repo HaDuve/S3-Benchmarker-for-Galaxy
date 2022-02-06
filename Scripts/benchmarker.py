@@ -6,14 +6,14 @@ import functions
 import timer
 
 
-def report_time(fn, arg1, arg2, arg3, iter=1):
+def report_time(fn, arg1, arg2, arg3, iter: int =1):
+    
     # timing
     t = timer.Timer(name = fn)
     t.start()
     result = getattr(functions, fn)(arg1, arg2, arg3)
-    
     time = t.stop()
-
+    
     # output handling
     average = time/iter
     print('result: ', result)
