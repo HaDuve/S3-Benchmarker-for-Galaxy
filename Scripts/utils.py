@@ -13,7 +13,7 @@ def save_file_as_csv(data, args):
     if not data:
         raise "No data error!"
     # put data into .csv
-    headerstring = "Operation,Time,AverageTime\n"
+    headerstring = "Operation,Time\n"
     datastring = ""
     if not args.r: datastring = f"{args.function},{data:f}"
     else:                       # modified repetitions
