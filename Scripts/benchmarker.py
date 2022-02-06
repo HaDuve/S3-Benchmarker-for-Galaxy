@@ -2,39 +2,22 @@
 # Author: Hannes Duve
 import argparse
 import utils
+import functions
+import timer
 
 
-def report_time(fn, arg1 = None, arg2 = None, arg3 = None, iter=1):
-    """Reports the time used to execute function "fn"
-
-    Args:
-
-        fn (function): Name of the function used as a string
-        iter (int, optional): Number of executions. Defaults to 1
-    Returns:
-        [time, average]: List of datapoints, timed operations and their average over a (optionally modified) number of iterations
-    """
-    import timeit
-
-
-    if(iter==None): iter = 1
-
-    argstr = ""
-    callargs = []
-    if(arg1 is not None): callargs.append(arg1)
-    if(arg2 is not None): callargs.append(arg2)
-    if(arg3 is not None): callargs.append(arg3)
-
-    for i in range(0, len(callargs)):
-        callargs[i] = "\""+callargs[i]+"\""
-        argstr += callargs[i] + ","
-    argstr = argstr[:-1]
-
+def report_time(fn):
+    iter=1
     # timing
-    time = timeit.timeit(fn + "("+argstr+")", setup="from functions import " + fn +"; gc.enable()", number=iter)
+    t = timer.Timer(name = fn)
+    t.start()
+    result = getattr(functions, fn)()
+    
+    time = t.stop()
 
     # output handling
     average = time/iter
+    print('result: ', result)
     return [time, average]
 
 def benchmark(args): 
@@ -46,7 +29,7 @@ def benchmark(args):
         data (list): list of data
     """
     utils.prepareBenchmark(args)
-    data = report_time(args.function, args.arg1, args.arg2, args.arg3,args.i)
+    data = report_time(args.function)#, args.arg1, args.arg2, args.arg3,args.i)
     utils.afterBenchmark(args)
     return data
 
