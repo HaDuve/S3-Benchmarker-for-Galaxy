@@ -57,7 +57,6 @@ if __name__=='__main__':
                         s3_url=s3_url,
                         s3_access_key=s3_access_key,
                         s3_secret_key=s3_secret_key,
-                        result_path=result_path,
                         warmup=warmup)
         
         #TODO: workflow handling    
