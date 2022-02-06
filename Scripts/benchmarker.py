@@ -6,12 +6,12 @@ import functions
 import timer
 
 
-def report_time(fn):
+def report_time(fn, args):
     iter=1
     # timing
     t = timer.Timer(name = fn)
     t.start()
-    result = getattr(functions, fn)()
+    result = getattr(functions, fn)(args)
     
     time = t.stop()
 
