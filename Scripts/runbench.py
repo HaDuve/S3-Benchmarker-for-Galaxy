@@ -27,6 +27,7 @@ if __name__=='__main__':
         next_function = workflowlist.pop(0)
         next_arglist = workflowargslist.pop(0)
         next_arglist = list(next_arglist.split(" "))
+        print('len(next_arglist): ', len(next_arglist))
         if (next_arglist):
             if len(next_arglist) == 1:
                 arg1 = next_arglist[0]
