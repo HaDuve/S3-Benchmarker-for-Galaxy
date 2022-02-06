@@ -49,6 +49,7 @@ if __name__=='__main__':
     parser.add_argument('--arg3', help='Optional arguments to be passed to the tested function')
 
     args = parser.parse_args()
+    print('args: ', args)
     if args.r:              # repetitive measurement with r preparations
         data =  []
         utils.blockPrint()  # quiet mode
