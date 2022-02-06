@@ -75,5 +75,5 @@ if __name__=='__main__':
     parser.add_argument('--saveas', default='data', help='Optional argument of naming the .csv file, defaults to data')
 
     args = parser.parse_args()
-    b = Benchmarker(args)
+    _ = Benchmarker(args)
     
