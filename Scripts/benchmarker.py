@@ -18,6 +18,9 @@ class Benchmarker:
             for _ in range(0, self.args.r):
                 data.append(benchmark(self.args))
             utils.enablePrint()
+            if (self.args.warmup == "True"):
+                print("cold round deleted from list!")
+                data.pop(0)
 
         else:                   # single measurement (can still be repeated via -i with just 1 preparation)
             data = benchmark(self.args)
