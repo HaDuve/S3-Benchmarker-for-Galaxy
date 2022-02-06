@@ -28,15 +28,15 @@ if __name__=='__main__':
         next_arglist = workflowargslist.pop(0)
         next_arglist = list(next_arglist.split(" "))
         if (next_arglist):
-            if len(next_arglist == 1):
+            if len(next_arglist) == 1:
                 arg1 = next_arglist[0]
                 arg2 = None
                 arg3 = None
-            if len(next_arglist == 2):
+            if len(next_arglist) == 2:
                 arg1 = next_arglist[0]
                 arg2 = next_arglist[1]
                 arg3 = None
-            if len(next_arglist == 3):
+            if len(next_arglist) == 3:
                 arg1 = next_arglist[0]
                 arg2 = next_arglist[1]
                 arg3 = next_arglist[2]
