@@ -5,6 +5,26 @@ import utils
 import functions
 import timer
 
+class Benchmarker:
+    def __init__(self, args):
+        self.args = args
+        self.run()
+        
+        
+    def run(self):
+        if self.args.r:              # repetitive measurement with r preparations
+            data =  []
+            utils.blockPrint()  # quiet mode
+            for i in range(0,args.r):
+                data.append(benchmark(args))
+            utils.enablePrint()
+
+        else:                   # single measurement (can still be repeated via -i with just 1 preparation)
+            data = benchmark(args)
+            
+        print('args: ', args)
+        utils.save_file_as_csv(data, args)    
+    
 
 def report_time(fn, arg1, arg2, arg3):
     # timing
@@ -38,6 +58,7 @@ def benchmark(args):
     utils.afterBenchmark(args)
     return data
 
+
 if __name__=='__main__':
     """Argument handling and Data Saving"""
     parser = argparse.ArgumentParser(description="A tool to benchmark the time used for different functions")
@@ -54,15 +75,5 @@ if __name__=='__main__':
     parser.add_argument('--arg3', help='Optional arguments to be passed to the tested function')
 
     args = parser.parse_args()
-    if args.r:              # repetitive measurement with r preparations
-        data =  []
-        utils.blockPrint()  # quiet mode
-        for i in range(0,args.r):
-            data.append(benchmark(args))
-        utils.enablePrint()
-
-    else:                   # single measurement (can still be repeated via -i with just 1 preparation)
-        data = benchmark(args)
-        
-    print('args: ', args)
-    utils.save_file_as_csv(data, args)
+    b = Benchmarker(args)
+    
