@@ -15,15 +15,15 @@ class Benchmarker:
         if self.args.r:              # repetitive measurement with r preparations
             data =  []
             utils.blockPrint()  # quiet mode
-            for i in range(0,args.r):
-                data.append(benchmark(args))
+            for i in range(0,self.args.r):
+                data.append(benchmark(self.args))
             utils.enablePrint()
 
         else:                   # single measurement (can still be repeated via -i with just 1 preparation)
-            data = benchmark(args)
+            data = benchmark(self.args)
             
-        print('args: ', args)
-        utils.save_file_as_csv(data, args)    
+        print('args: ', self.args)
+        utils.save_file_as_csv(data, self.args)    
     
 
 def report_time(fn, arg1, arg2, arg3):
