@@ -8,13 +8,14 @@ import timer
 class Benchmarker:
     def __init__(self, args):
         self.args = args
+        self.args.r = int(self.args.r)
         self.run()        
         
     def run(self):
         if self.args.r:         # repetitive measurement with r preparations
             data =  []
             utils.blockPrint()  # quiet mode
-            for _ in range(0,int(self.args.r)):
+            for _ in range(0, self.args.r):
                 data.append(benchmark(self.args))
             utils.enablePrint()
 
