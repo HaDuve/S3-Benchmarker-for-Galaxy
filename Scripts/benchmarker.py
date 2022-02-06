@@ -49,7 +49,6 @@ if __name__=='__main__':
     parser.add_argument('--arg3', help='Optional arguments to be passed to the tested function')
 
     args = parser.parse_args()
-    print('args: ', args)
     if args.r:              # repetitive measurement with r preparations
         data =  []
         utils.blockPrint()  # quiet mode
@@ -59,5 +58,6 @@ if __name__=='__main__':
 
     else:                   # single measurement (can still be repeated via -i with just 1 preparation)
         data = benchmark(args)
-
+        
+    print('args: ', args)
     utils.save_file_as_csv(data, args)
