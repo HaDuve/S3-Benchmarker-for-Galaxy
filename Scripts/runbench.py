@@ -30,9 +30,12 @@ if __name__=='__main__':
         print('len(next_arglist): ', len(next_arglist))
         if (next_arglist):
             if len(next_arglist) == 1:
-                arg1 = next_arglist[0]
-                arg2 = None
-                arg3 = None
+                if (next_arglist[0] == ""):
+                    arg1 = arg2 = arg3 = None
+                else:
+                    arg1 = next_arglist[0]
+                    arg2 = None
+                    arg3 = None
             if len(next_arglist) == 2:
                 arg1 = next_arglist[0]
                 arg2 = next_arglist[1]
@@ -41,8 +44,7 @@ if __name__=='__main__':
                 arg1 = next_arglist[0]
                 arg2 = next_arglist[1]
                 arg3 = next_arglist[2]
-        else:
-            arg1 = arg2 = arg3 = None
+        
         print(arg1,arg2, arg3)
             
         #default namespace + config values
