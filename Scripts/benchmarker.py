@@ -64,9 +64,9 @@ class Benchmarker:
             data (list): list of data
         """
         utils.prepareBenchmark(self.args)
-        data = self.report_time()
+        time_data = self.report_time()
         utils.afterBenchmark(self.args)
-        return data
+        return time_data
 
 
 if __name__=='__main__':
