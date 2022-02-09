@@ -8,7 +8,7 @@ import timer
 class Benchmarker:
     def __init__(self, args):
         self.args = args
-        self.args.r = int(self.args.r)
+        if(self.args.r): self.args.r = int(self.args.r)
         self.fnManager = functions.FunctionManager(self.args)
 
     def run(self):
