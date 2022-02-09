@@ -63,7 +63,8 @@ if __name__=='__main__':
                         s3_access_key=s3_access_key,
                         s3_secret_key=s3_secret_key,
                         warmup=warmup)
-        _ = benchmarker.Benchmarker(args)
+        Bench = benchmarker.Benchmarker(args)
+        Bench.run()
         print('saved as: ', filename)
         config['Log']['runs'] = str(i)
         i+=1

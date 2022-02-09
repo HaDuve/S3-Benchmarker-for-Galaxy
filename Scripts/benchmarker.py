@@ -10,7 +10,6 @@ class Benchmarker:
         self.args = args
         self.args.r = int(self.args.r)
         self.fnManager = functions.FunctionManager(self.args)
-        self.run()
 
     def run(self):
         if self.args.r:         # repetitive measurement with r preparations
