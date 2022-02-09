@@ -31,7 +31,7 @@ class Benchmarker:
 
     def report_time(self):
         # timing
-        t = timer.Timer(name = self.fn)
+        t = timer.Timer(name = self.args.fn)
 
         # assume we dont get arg3 without arg2 etc.
         if(self.args.arg3 is not None):
