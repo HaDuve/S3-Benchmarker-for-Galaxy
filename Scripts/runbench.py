@@ -67,4 +67,6 @@ if __name__=='__main__':
         Bench.run()
         print('saved as: ', filename)
         config['Log']['runs'] = str(i)
+        with open('config.ini', 'w') as configfile:
+            config.write(configfile)
         i+=1
