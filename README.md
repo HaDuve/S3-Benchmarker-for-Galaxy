@@ -5,15 +5,32 @@
  
 ## How to use:
 
-### Easy way:
- 1. Setup Config
- 2. Run runbench.py
+### Configurated way:
+ 1. Setup config.ini  :
 
-### Hard way:
+        [S3 Connection]
+        default_region = fr-repl                       # standard region
+        s3_url = https://s3.bwsfs.uni-freiburg.de/     # standard bwsfs url
+        s3_access_key =                                # not yet implemented - setup via environment variables
+        s3_secret_key =                                # not yet implemented - setup via environment variables
+
+        [Workflow]
+        workflow = debug,uploadS3,test                 # comma separated functions from FunctionManager class
+        workflowargs = 3 2 1,,10                       # comma separated arguments for functions (space-separated for multiple args)
+        repetitions = 10                               # how often each function should be tested
+        warmup = True                                  # omit first run?
+        cleanup = True                                 # delete certain files after each run?
+
+        [Log]
+        runs = 0                                       # logging for .csv files, ignore it
+
+ 3. Run runbench.py
+
+### Manual way:
  python benchmarker.py functionname -i [optional_number_of_iterations] -r [optional_number_of_repetitions] --arg1 [optional_arg1] ... --arg3 [optional_arg3]
  
- 
- Test Data:
+## Returns a data file
+#### data_uploadS3_run1.csv:
  
 Operation       |Time                 |
 ----------------|---------------------|
