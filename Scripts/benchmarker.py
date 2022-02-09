@@ -36,19 +36,19 @@ class Benchmarker:
         # assume we dont get arg3 without arg2 etc.
         if(self.args.arg3 is not None):
             t.start()
-            result = self.fnManager.function(self.args.arg1, self.args.arg2, self.args.arg3)
+            result = getattr(self.fnManager,function)(self.args.arg1, self.args.arg2, self.args.arg3)
             time = t.stop()
         elif(self.args.arg2 is not None):
             t.start()
-            result = self.fnManager.function(self.args.arg1, self.args.arg2)
+            result = getattr(self.fnManager,function)(self.args.arg1, self.args.arg2)
             time = t.stop()
         elif(self.args.arg1 is not None):
             t.start()
-            result = self.fnManager.function(self.args.arg1)
+            result = getattr(self.fnManager,function)(self.args.arg1)
             time = t.stop()
         else: #all args==None
             t.start()
-            result = self.fnManager.function()
+            result = getattr(self.fnManager,function)()
             time = t.stop()
 
 
