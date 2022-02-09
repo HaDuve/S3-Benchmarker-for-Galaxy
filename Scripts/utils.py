@@ -1,8 +1,6 @@
 # Utility functions for benchmarker.py
 # Author: Hannes Duve
-import sys, os, boto3
-
-
+import sys, os
 
 def save_file_as_csv(data, args):
     """saving the results as a comma-separated list of data points
@@ -40,23 +38,8 @@ def enablePrint():
     """Restore print output"""
     sys.stdout = sys.__stdout__
 
-def connectBoto(bucketName):
-    """
-    Accessing the S3 buckets using boto3 client
-
-    Returns:
-        Bucket
-    """
-    s3_client = boto3.client('s3')
-    s3_bucket_name = bucketName
-    s3 = boto3.resource('s3',
-                        aws_access_key_id= '9IFHS2U0MX1C28Y15XM8',
-                        aws_secret_access_key='qCRZduGNr1Zsw8hky91ZEKXzkTCT/4lzPuv++pr8')
-    return s3
-
-
 def purge(directory = "/testdata"):
-    """purging the directory before upload, 
+    """purging the directory before upload,
 
     Args:
         directory (str): careful with empty directory = "" because it will delete the bucket!
@@ -85,8 +68,6 @@ def prepareBenchmark(args):
         # TODO: delete directory before copy
         print('deleting target directory before uploading')
 
-
-
 def afterBenchmark(args):
     """cleaning up after the benchmark depending on args"""
 
@@ -102,7 +83,7 @@ def checkPOSIX(string = "POSIX"):
         platform2 = "linux2"
         if(not (checkPlatform(platform1) or checkPlatform(platform2))):
             raise Exception("POSIX functions can only be tested on Linux platforms")
-        
+
 def checkPlatform(ComparePlatform):
     """[compares platforms and returns true if match, false otherwise]
 
