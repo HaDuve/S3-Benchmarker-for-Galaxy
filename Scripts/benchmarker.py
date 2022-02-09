@@ -1,4 +1,4 @@
-# Benchmarking Script 
+# Benchmarking Script
 # Author: Hannes Duve
 import argparse
 import utils
@@ -9,57 +9,65 @@ class Benchmarker:
     def __init__(self, args):
         self.args = args
         self.args.r = int(self.args.r)
-        self.run()        
-        
+        self.fnManager = functions.FunctionManager(self.args)
+        self.run()
+
     def run(self):
         if self.args.r:         # repetitive measurement with r preparations
             data =  []
             utils.blockPrint()  # quiet mode
             for _ in range(0, self.args.r):
-                data.append(benchmark(self.args))
+                data.append(self.benchmark())
             utils.enablePrint()
             if (self.args.warmup == "True"):
                 print("cold round deleted from list!")
                 data.pop(0)
 
         else:                   # single measurement (can still be repeated via -i with just 1 preparation)
-            data = benchmark(self.args)
-            
+            data = self.benchmark()
+
         print('args: ', self.args)
-        utils.save_file_as_csv(data, self.args)    
-    
+        utils.save_file_as_csv(data, self.args)
 
-def report_time(fn, arg1, arg2, arg3):
-    # timing
-    t = timer.Timer(name = fn)
-    t.start()
-    # assume we dont get arg3 without arg2 etc.
-    if(arg3 is not None):
-        result = getattr(functions, fn)(arg1, arg2, arg3)
-    elif(arg2 is not None):
-        result = getattr(functions, fn)(arg1, arg2)
-    elif(arg1 is not None):
-        result = getattr(functions, fn)(arg1)
-    else: #all args==None
-        result = getattr(functions, fn)()
-    time = t.stop()
-    
-    # output handling
-    print('result: ', result)
-    return time
+    def report_time(self):
+        # timing
+        t = timer.Timer(name = self.fn)
 
-def benchmark(args): 
-    """Calls the timing function with argument handling
+        # assume we dont get arg3 without arg2 etc.
+        if(self.args.arg3 is not None):
+            t.start()
+            result = self.fnManager.fn(self.args.arg1, self.args.arg2, self.args.arg3)
+            time = t.stop()
+        elif(self.args.arg2 is not None):
+            t.start()
+            result = self.fnManager.fn(self.args.arg1, self.args.arg2)
+            time = t.stop()
+        elif(self.args.arg1 is not None):
+            t.start()
+            result = self.fnManager.fn(self.args.arg1)
+            time = t.stop()
+        else: #all args==None
+            t.start()
+            result = self.fnManager.fn()
+            time = t.stop()
 
-    Args:
-        args (str): the arguments given via the CLI
-    Returns:
-        data (list): list of data
-    """
-    utils.prepareBenchmark(args)
-    data = report_time(args.function, args.arg1, args.arg2, args.arg3)
-    utils.afterBenchmark(args)
-    return data
+
+        # output handling
+        print('result: ', result)
+        return time
+
+    def benchmark(self):
+        """Calls the timing function with argument handling
+
+        Args:
+            args (str): the arguments given via the CLI
+        Returns:
+            data (list): list of data
+        """
+        utils.prepareBenchmark(self.args)
+        data = self.report_time()
+        utils.afterBenchmark(self.args)
+        return data
 
 
 if __name__=='__main__':
@@ -80,4 +88,4 @@ if __name__=='__main__':
 
     args = parser.parse_args()
     _ = Benchmarker(args)
-    
+
