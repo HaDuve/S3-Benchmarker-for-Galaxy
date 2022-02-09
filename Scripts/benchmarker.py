@@ -31,24 +31,24 @@ class Benchmarker:
 
     def report_time(self):
         # timing
-        t = timer.Timer(name = self.args.fn)
+        t = timer.Timer(name = self.args.function)
 
         # assume we dont get arg3 without arg2 etc.
         if(self.args.arg3 is not None):
             t.start()
-            result = self.fnManager.fn(self.args.arg1, self.args.arg2, self.args.arg3)
+            result = self.fnManager.function(self.args.arg1, self.args.arg2, self.args.arg3)
             time = t.stop()
         elif(self.args.arg2 is not None):
             t.start()
-            result = self.fnManager.fn(self.args.arg1, self.args.arg2)
+            result = self.fnManager.function(self.args.arg1, self.args.arg2)
             time = t.stop()
         elif(self.args.arg1 is not None):
             t.start()
-            result = self.fnManager.fn(self.args.arg1)
+            result = self.fnManager.function(self.args.arg1)
             time = t.stop()
         else: #all args==None
             t.start()
-            result = self.fnManager.fn()
+            result = self.fnManager.function()
             time = t.stop()
 
 
