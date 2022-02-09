@@ -1,8 +1,10 @@
 import benchmarker
 import configparser
+import argparse
 from argparse import Namespace
 
 if __name__=='__main__':
+    parser = argparse.ArgumentParser(description="A tool to run the benchmarker with settings from the config.ini")
     config = configparser.ConfigParser()
     config.read('config.ini')
 
