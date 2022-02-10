@@ -8,8 +8,6 @@ from hashlib import md5
 class FunctionManager:
     def __init__(self, args):
         self.args = args
-
-        # TODO Decide: Access keys via config or env?
         self.access_key = os.environ.get('AWS_ACCESS_KEY_ID')
         self.secret_key = os.environ.get('AWS_SECRET_ACCESS_KEY')
 

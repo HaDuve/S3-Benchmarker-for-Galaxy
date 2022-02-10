@@ -2,7 +2,7 @@
  Investigating and benchmarking distributed filesystems for the European Galaxy server
 
  Benchmarks the performance of different functions and compares S3 timings with POSIX timings.
- 
+
 ## How to use:
 
 ### Configurated way:
@@ -11,8 +11,6 @@
         [S3 Connection]
         default_region = fr-repl                       # standard region
         s3_url = https://s3.bwsfs.uni-freiburg.de/     # standard bwsfs url
-        s3_access_key =                                # not yet implemented - setup via environment variables
-        s3_secret_key =                                # not yet implemented - setup via environment variables
 
         [Workflow]
         workflow = debug,uploadS3,test                 # comma separated functions from FunctionManager class
@@ -28,10 +26,10 @@
 
 ### Manual way:
  python benchmarker.py functionname -i [optional_number_of_iterations] -r [optional_number_of_repetitions] --arg1 [optional_arg1] ... --arg3 [optional_arg3]
- 
+
 ## Returns a data file
 #### data_uploadS3_run1.csv:
- 
+
 Operation       |Time                 |
 ----------------|---------------------|
 uploadS3        |             0.802693|
