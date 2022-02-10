@@ -5,7 +5,11 @@
  
 ## How to use:
 
-### Configurated way:
+### 1) Setup the following environment variables:
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+
+### 2a) Configurated way:
  1. Setup config.ini  :
 
         [S3 Connection]
@@ -26,7 +30,7 @@
 
  3. Run runbench.py
 
-### Manual way:
+### 2b) Manual way:
  python benchmarker.py functionname -i [optional_number_of_iterations] -r [optional_number_of_repetitions] --arg1 [optional_arg1] ... --arg3 [optional_arg3]
  
 ## Returns a data file
