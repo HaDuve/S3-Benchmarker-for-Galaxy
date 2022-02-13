@@ -26,7 +26,7 @@ if __name__=='__main__':
     # workflow
     workflowlist = list(workflow.split(","))
     workflowargslist = list(workflowargs.split(","))
-    i = int(runs)
+    numRuns = int(runs)
     while (workflowlist):
         next_function = workflowlist.pop(0)
         next_arglist = workflowargslist.pop(0)
@@ -48,7 +48,7 @@ if __name__=='__main__':
                 arg2 = next_arglist[1]
                 arg3 = next_arglist[2]
 
-        filename = "data_"+next_function+"_run_"+str(i)
+        filename = f"time_{str(numRuns)}_{next_function}"
 
         #default namespace + config values
         args =  Namespace(arg1=arg1,
@@ -65,8 +65,8 @@ if __name__=='__main__':
                         warmup=warmup)
         Bench = benchmarker.Benchmarker(args)
         Bench.run()
-        print('saved as: ', filename)
-        config['Log']['runs'] = str(i)
+        print('saved as: ', f"\"{filename}.csv\"")
+        config['Log']['runs'] = str(numRuns)
         with open('config.ini', 'w') as configfile:
             config.write(configfile)
-        i+=1
+        numRuns+=1
