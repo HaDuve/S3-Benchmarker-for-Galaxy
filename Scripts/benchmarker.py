@@ -19,7 +19,7 @@ class Benchmarker:
                 data.append(self.benchmark())
             utils.enablePrint()
             if (self.args.warmup == "True"):
-                print("cold round deleted from list!")
+                # delete the warmup run from data
                 data.pop(0)
 
         else:                   # single measurement (can still be repeated via -i with just 1 preparation)
