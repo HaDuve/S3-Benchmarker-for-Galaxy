@@ -71,9 +71,6 @@ def prepareBenchmark(args):
 
 def afterBenchmark(args):
     """cleaning up after the benchmark depending on args"""
-    print("Here comes the cleaner!")
-    print('args.cleanup: ', args.cleanup)
-    print('args.function: ', args.function)
     if(args.cleanup == "True"):
         if(args.function == 'uploadS3'):
             print(f'purging {args.arg2} from s3 after uploading')
