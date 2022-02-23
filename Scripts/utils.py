@@ -11,7 +11,8 @@ def save_file_as_csv(data, args):
         args (namespace):
     """
     if not data:
-        raise "No data error!"
+        print("No data error!")
+        return
     # put data into .csv
     headerstring = "Operation,Time, Argument1, Argument2, Argument3\n"
     datastring = ""
