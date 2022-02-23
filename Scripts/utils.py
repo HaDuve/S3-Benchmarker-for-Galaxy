@@ -15,11 +15,11 @@ def save_file_as_csv(data, args):
     # put data into .csv
     headerstring = "Operation,Time, Argument1, Argument2, Argument3\n"
     datastring = ""
-    if not args.r: datastring = f"{args.function},{data:f},{args.args1},{args.args2},{args.args3}"
+    if not args.r: datastring = f"{args.function},{data:f},{args.arg1},{args.arg2},{args.arg3}"
     else:                       # modified repetitions
         if (args.warmup == "True"): args.r -= 1
         for i in range(args.r):
-                datastring += f"{args.function},{data[i]:f},{args.args1},{args.args2},{args.args3}\n"
+                datastring += f"{args.function},{data[i]:f},{args.arg1},{args.arg2},{args.arg3}\n"
 
     filestring = headerstring + datastring
 
