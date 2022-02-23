@@ -65,8 +65,9 @@ def prepareBenchmark(args):
             purge("/testdata/raw")
         else: purge(args.arg2)
     if(args.function == 'uploadPOSIX'):
-        # TODO: delete directory before copy
-        print('deleting target directory before uploading')
+        # create directory before copy
+        os.system("mkdir "+ args.arg2)
+        print('creating target directory before uploading')
 
 def afterBenchmark(args):
     """cleaning up after the benchmark depending on args"""
