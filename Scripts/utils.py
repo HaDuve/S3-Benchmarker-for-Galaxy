@@ -13,13 +13,13 @@ def save_file_as_csv(data, args):
     if not data:
         raise "No data error!"
     # put data into .csv
-    headerstring = "Operation,Time\n"
+    headerstring = "Operation,Time, Argument1, Argument2, Argument3\n"
     datastring = ""
-    if not args.r: datastring = f"{args.function},{data:f}"
+    if not args.r: datastring = f"{args.function},{data:f},{args.args1},{args.args2},{args.args3}"
     else:                       # modified repetitions
         if (args.warmup == "True"): args.r -= 1
         for i in range(args.r):
-                datastring += f"{args.function},{data[i]:f}\n"
+                datastring += f"{args.function},{data[i]:f},{args.args1},{args.args2},{args.args3}\n"
 
     filestring = headerstring + datastring
 
