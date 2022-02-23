@@ -10,8 +10,6 @@ if __name__=='__main__':
     s3_con = config['S3 Connection']
     default_region = s3_con['default_region']
     s3_url = s3_con['s3_url']
-    s3_access_key = s3_con['s3_access_key']
-    s3_secret_key = s3_con['s3_secret_key']
 
     work = config['Workflow']
     workflow = work['workflow']
@@ -60,8 +58,6 @@ if __name__=='__main__':
                         saveas=filename,
                         default_region=default_region,
                         s3_url=s3_url,
-                        s3_access_key=s3_access_key,
-                        s3_secret_key=s3_secret_key,
                         warmup=warmup)
         Bench = benchmarker.Benchmarker(args)
         Bench.run()
