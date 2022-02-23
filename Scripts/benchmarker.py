@@ -10,6 +10,7 @@ class Benchmarker:
         self.args = args
         if(self.args.r): self.args.r = int(self.args.r)
         self.fnManager = functions.FunctionManager(self.args)
+        print('args: ', self.args)
 
     def run(self):
         data =  []
@@ -25,9 +26,6 @@ class Benchmarker:
                 print(f"Removing warmup time: {warmup}s run from data")
                 data.append(self.benchmark())
 
-
-        print('args: ', self.args)
-        print('data: ', data)
         utils.save_file_as_csv(data, self.args)
 
 
