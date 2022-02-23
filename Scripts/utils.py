@@ -59,15 +59,24 @@ def prepareBenchmark(args):
         'uploadPOSIX'             - creating target directory before copy
     """
     checkPOSIX(args.function)
+
     if(args.function == 'uploadS3'):
         print('purging target directory before uploading')
         if (args.arg2 is None):
             purge("/testdata/raw")
         else: purge(args.arg2)
+
     if(args.function == 'uploadPOSIX'):
         # create directory before copy
         os.system("mkdir -p "+ args.arg2)
         print('creating target directory before uploading')
+
+    if(args.function == 'deletePOSIX'):
+        # copy the file before deleting to recover after bench
+        if(os.path.exists(args.arg1)):
+            print("copy to recover after bench!")
+            os.system("cp "+args.arg1+" "+args.arg1+"copy")
+
 
 def afterBenchmark(args):
     """cleaning up after the benchmark depending on args"""
@@ -78,6 +87,10 @@ def afterBenchmark(args):
         if(args.function == 'uploadPOSIX'):
             print(f'removing "rm -rf" {args.arg2} after copying')
             os.system("rm -rf " + args.arg2)
+    if(args.function == 'deletePOSIX'):
+        # recover file
+        print("recovering file after delete-benchmark!")
+        os.system("mv "+args.arg1+"copy" + args.arg1)
 
 def checkPOSIX(string = "POSIX"):
     if("POSIX" in string):
