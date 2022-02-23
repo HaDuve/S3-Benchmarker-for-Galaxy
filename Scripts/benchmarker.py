@@ -21,11 +21,8 @@ class Benchmarker:
             #utils.enablePrint()
             if (self.args.warmup == "True"):
                 # delete the warmup run from data
+                data.append(self.benchmark())
                 data.pop(0)
-
-        else:                   # single measurement (can still be repeated via -i with just 1 preparation)
-            data = self.benchmark()
-
         print('args: ', self.args)
         print('data: ', data)
         utils.save_file_as_csv(data, self.args)
