@@ -66,7 +66,7 @@ def prepareBenchmark(args):
         else: purge(args.arg2)
     if(args.function == 'uploadPOSIX'):
         # create directory before copy
-        os.system("mkdir "+ args.arg2)
+        os.system("mkdir -p"+ args.arg2)
         print('creating target directory before uploading')
 
 def afterBenchmark(args):
