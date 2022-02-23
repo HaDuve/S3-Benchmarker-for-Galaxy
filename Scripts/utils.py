@@ -76,6 +76,7 @@ def prepareBenchmark(args):
         if(os.path.exists(args.arg1)):
             print("copy to recover after bench!")
             os.system("cp "+args.arg1+" "+args.arg1+"copy")
+        else: print("Path to delete file does not exist!")
 
 
 def afterBenchmark(args):
