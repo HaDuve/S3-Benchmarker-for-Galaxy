@@ -74,9 +74,11 @@ def afterBenchmark(args):
 
     if(args.cleanup == True):
         if(args.function == 'uploadS3'):
-            print('purging directory after uploading')
-            purge("/testdata")
-        #TODO: uploadPOSIX
+            print(f'purging {args.arg2} from s3 after uploading')
+            purge(args.arg2)
+        if(args.function == 'uploadPOSIX'):
+            print(f'removing "rm -rf" {args.arg2} after copying')
+            os.system("rm -rf " + args.arg2)
 
 def checkPOSIX(string = "POSIX"):
     if("POSIX" in string):
