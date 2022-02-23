@@ -14,10 +14,10 @@ class Benchmarker:
     def run(self):
         if self.args.r:         # repetitive measurement with r preparations
             data =  []
-            utils.blockPrint()  # quiet mode
+            #utils.blockPrint()  # quiet mode
             for _ in range(0, self.args.r):
                 data.append(self.benchmark())
-            utils.enablePrint()
+            #utils.enablePrint()
             if (self.args.warmup == "True"):
                 # delete the warmup run from data
                 data.pop(0)
