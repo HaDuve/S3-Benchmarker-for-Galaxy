@@ -74,7 +74,7 @@ def prepareBenchmark(args):
     if(args.function == 'deletePOSIX'):
         # copy the file before deleting to recover after bench
         print("copy to recover after bench!")
-        os.system("cp "+args.arg1+" "+args.arg1+"copy")
+        os.system("pv "+args.arg1+" "+args.arg1+"copy")
 
 
 def afterBenchmark(args):

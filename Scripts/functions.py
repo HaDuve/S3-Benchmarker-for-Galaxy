@@ -35,7 +35,7 @@ class FunctionManager:
             sourceDir (str, optional): [Source Directory]. Defaults to "/testdata".
             targetDir (str, optional): [Target Directory]. Defaults to "/mnt/testdata".
         """
-        os.system("cp -R "+sourceDir+" "+targetDir)
+        os.system("pv -R "+sourceDir+" "+targetDir)
         return "upload POSIX finished!"
 
 
