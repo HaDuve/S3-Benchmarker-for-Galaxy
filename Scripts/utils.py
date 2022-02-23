@@ -90,7 +90,7 @@ def afterBenchmark(args):
     if(args.function == 'deletePOSIX'):
         # recover file
         print("recovering file after delete-benchmark!")
-        os.system("mv "+args.arg1+"copy" + args.arg1)
+        os.system("mv "+args.arg1+"copy " + args.arg1)
 
 def checkPOSIX(string = "POSIX"):
     if("POSIX" in string):
