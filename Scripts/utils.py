@@ -71,12 +71,16 @@ def prepareBenchmark(args):
 
 def afterBenchmark(args):
     """cleaning up after the benchmark depending on args"""
-
+    print("Here comes the cleaner!")
+    print('args.cleanup: ', args.cleanup)
+    print('args.function: ', args.function)
     if(args.cleanup == True):
+
         if(args.function == 'uploadS3'):
             print(f'purging {args.arg2} from s3 after uploading')
             purge(args.arg2)
         if(args.function == 'uploadPOSIX'):
+
             print(f'removing "rm -rf" {args.arg2} after copying')
             os.system("rm -rf " + args.arg2)
 
