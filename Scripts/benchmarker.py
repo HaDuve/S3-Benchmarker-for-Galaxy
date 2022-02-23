@@ -21,8 +21,10 @@ class Benchmarker:
 
         if (self.args.warmup == "True"):
                 # delete the warmup run from data
+                warmup = data.pop(0)
+                print(f"Removing warmup time: {warmup}s run from data")
                 data.append(self.benchmark())
-                data.pop(0)
+
 
         print('args: ', self.args)
         print('data: ', data)
