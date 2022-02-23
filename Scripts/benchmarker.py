@@ -55,7 +55,9 @@ class Benchmarker:
 
         # output handling
         print('result: ', result)
+        print('time: ', time)
         return time
+
 
     def benchmark(self):
         """Calls the timing function with argument handling
