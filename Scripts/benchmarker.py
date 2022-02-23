@@ -26,7 +26,9 @@ class Benchmarker:
             data = self.benchmark()
 
         print('args: ', self.args)
+        print('data: ', data)
         utils.save_file_as_csv(data, self.args)
+
 
     def report_time(self):
         # timing
