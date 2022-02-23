@@ -13,6 +13,7 @@ class Benchmarker:
 
     def run(self):
         if self.args.r:         # repetitive measurement with r preparations
+            print("SELF R :", self.args.r)
             data =  []
             #utils.blockPrint()  # quiet mode
             for _ in range(0, self.args.r):
