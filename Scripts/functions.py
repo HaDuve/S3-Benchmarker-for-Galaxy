@@ -53,7 +53,7 @@ class FunctionManager:
         else:
             raise Exception("Specification of bucket path needed!")
 
-    def deletePOSIX(filename : str = "test.txt"):
+    def deletePOSIX(self, filename : str = "test.txt"):
         """delete the directory or file from POSIX"""
         os.system("rm -rf " + filename)
 
