@@ -12,17 +12,18 @@ class Benchmarker:
         self.fnManager = functions.FunctionManager(self.args)
 
     def run(self):
+        data =  []
         if self.args.r:         # repetitive measurement with r preparations
-            print("SELF R :", self.args.r)
-            data =  []
-            #utils.blockPrint()  # quiet mode
             for _ in range(0, self.args.r):
                 data.append(self.benchmark())
-            #utils.enablePrint()
-            if (self.args.warmup == "True"):
+        else:
+            data.append(self.benchmark())
+
+        if (self.args.warmup == "True"):
                 # delete the warmup run from data
                 data.append(self.benchmark())
                 data.pop(0)
+
         print('args: ', self.args)
         print('data: ', data)
         utils.save_file_as_csv(data, self.args)
