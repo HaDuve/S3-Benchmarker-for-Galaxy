@@ -56,7 +56,7 @@ def prepareBenchmark(args):
 
         'uploadS3'                - deleting target directory before upload
 
-        'uploadPOSIX'             - deleting target directory before copy
+        'uploadPOSIX'             - creating target directory before copy
     """
     checkPOSIX(args.function)
     if(args.function == 'uploadS3'):
