@@ -1,4 +1,5 @@
 # timer.py
+# https://realpython.com/python-timer/
 import time
 
 class TimerError(Exception):
@@ -21,7 +22,7 @@ class Timer:
         # Add new named timers to dictionary of timers
         if name:
             self.timers.setdefault(name, 0)
-    
+
     def start(self):
         """Start a new timer"""
         if self._start_time is not None:
