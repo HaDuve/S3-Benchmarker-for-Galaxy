@@ -19,14 +19,18 @@ class FunctionManager:
         self.s3.meta.client.meta.events.unregister('before-sign.s3', fix_s3_host)
 
     # Upload / Copy
-    def uploadS3(self, sourceDir : str = "~/testdata", targetDir : str = "/testdata/raw"):
-        """uploads the folder or file to the specific "s3ws:frct-hadu-bench-ec61-01" S3 Bucket via rclone
+    def uploadS3(self,
+                 sourceDir : str = "~/testdata",
+                 targetDir : str = "/testdata/raw",
+                 targetBucket : str = "s3ws:frct-hadu-bench-ec61-01"):
+        """uploads the folder or file to the S3 Bucket via rclone
 
         Args:
             sourceDir (str, optional): [Source Directory]. Defaults to "/testdata".
             targetDir (str, optional): [Target Directory]. Defaults to "/testdata/raw".
+            targetBucket (str, optional): [Target Bucket]. Defaults to "s3ws:frct-hadu-bench-ec61-01".
         """
-        os.system("rclone copy -P --transfers=4 "+sourceDir+" s3ws:frct-hadu-bench-ec61-01"+targetDir)
+        os.system("rclone copy -P --transfers=4 "+sourceDir+" "+targetBucket+targetDir)
 
     def uploadPOSIX(self, sourceDir : str = "~/testdata", targetDir : str = "~/mnt/testdata"):
         """copies the folder or file to another POSIX volume via cp
@@ -36,11 +40,10 @@ class FunctionManager:
             targetDir (str, optional): [Target Directory]. Defaults to "/mnt/testdata".
         """
         os.system("pv -R "+sourceDir+" "+targetDir)
-        return "upload POSIX finished!"
 
 
 
-    # Delete / Purge / Remove
+    # Delete / remove
     def deleteS3(self, directory : str = "/testdata", bucket : str = "frct-hadu-bench-ec61-01"):
         """delete the S3 Bucket, directory TODO: or object
 
@@ -49,7 +52,7 @@ class FunctionManager:
 
         """
         if(directory != ""):
-            os.system("rclone purge s3ws:"+directory)
+            os.system("rclone delete s3ws:"+directory)
         else:
             raise Exception("Specification of bucket path needed!")
 
@@ -60,7 +63,7 @@ class FunctionManager:
 
 
     # Read
-    def readS3(self, bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/test.txt'):
+    def readS3(self, key: str = 'testdata/raw/test.txt', bucket: str = 'frct-hadu-bench-ec61-01', ):
         """reads a file directly from s3 using boto3 connection
 
         Args:
@@ -78,6 +81,7 @@ class FunctionManager:
         Args:
             filename (str, optional): [Name of the file]. Defaults to "test.txt".
         """
+        #TODO: rewrite this to os.path to open directories
         with open(filename, "r") as file:
             body = file.read()
             return body
@@ -85,7 +89,10 @@ class FunctionManager:
 
 
     # Seek
-    def seekS3(self, bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/test.txt', num : str = '0'):
+    def seekS3(self,
+               key: str = 'testdata/raw/test.txt',
+               num : str = '0',
+               bucket: str = 'frct-hadu-bench-ec61-01'):
         """download from S3 and then seek the file
 
         Args:
@@ -101,12 +108,15 @@ class FunctionManager:
         """Seek from POSIX file
         """
         pos = int(pos)
+        #TODO: rewrite this to os.path to open directories
         with open(filename, "r") as file:
             file.seek(pos)
             return file.tell()
 
     # Checksum
-    def checksumS3(self, bucket: str = 'frct-hadu-bench-ec61-01', key: str = 'testdata/raw/test.txt'):
+    def checksumS3(self,
+                   key: str = 'testdata/raw/test.txt',
+                   bucket: str = 'frct-hadu-bench-ec61-01'):
         """Download from S3 and then checksum
 
         Args:
@@ -160,4 +170,5 @@ class FunctionManager:
         Args:
             bucket (str, optional): [name of bucket]. Defaults to "frct-hadu-bench-ec61-01".
         """
-        os.system("aws s3api list-objects --bucket "+bucket+" --output text --query \"Contents[].{Key: Key}\"")
+        os.system("aws s3api list-objects --bucket "+bucket
+                  +" --output text --query \"Contents[].{Key: Key}\"")
