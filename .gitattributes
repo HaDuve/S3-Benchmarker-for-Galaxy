@@ -8,3 +8,6 @@ fasta.gz filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.nc filter=lfs diff=lfs merge=lfs -text
+Database/Benchfiles/FASTA/hg19.fa.gz filter=lfs diff=lfs merge=lfs -text
+Database/Benchfiles/NetCDF/test_echam_spectral.nc filter=lfs diff=lfs merge=lfs -text
+Database/Benchfiles/gzip/pxproteome.tar.gz filter=lfs diff=lfs merge=lfs -text
