@@ -18,8 +18,8 @@ if __name__=='__main__':
     warmup = work['warmup']
     cleanup = work['cleanup']
 
-    work = config['Log']
-    runs = work['runs']
+    log = config['Log']
+    runs = log['runs']
 
     # workflow
     workflowlist = list(workflow.split(","))
