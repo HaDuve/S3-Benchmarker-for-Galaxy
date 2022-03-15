@@ -68,17 +68,20 @@ def prepareBenchmark(args):
 
     if(args.function == 'uploadPOSIX'):
         # create directory before copy
-        os.system("mkdir -p "+ args.arg2)
-        print('creating target directory before uploading')
+        index = args.arg2.rfind("/")
+        pathname = args.arg2[0:index]
+        os.system("mkdir -p "+ pathname)
+        print('creating target ' +pathname+' directory before uploading')
 
     if(args.function == 'deletePOSIX'):
         # copy the file before deleting to recover after bench
-        print("copy to recover after bench!")
+        print("copy the file before deleting to recover after bench")
         os.system("cp "+args.arg1+" "+args.arg1+"copy")
 
 
 def afterBenchmark(args):
     """cleaning up after the benchmark depending on args"""
+    # These functions will only be applied if cleanup mode is activated
     if(args.cleanup == "True"):
         if(args.function == 'uploadS3'):
             print(f'purging {args.arg2} from s3 after uploading')
@@ -86,6 +89,8 @@ def afterBenchmark(args):
         if(args.function == 'uploadPOSIX'):
             print(f'removing "rm -rf" {args.arg2} after copying')
             os.system("rm -rf " + args.arg2)
+
+    # These functions will be applied after every benchmark run
     if(args.function == 'deletePOSIX'):
         # recover file
         print("recovering file after delete-benchmark!")
