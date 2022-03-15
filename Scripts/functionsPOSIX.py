@@ -8,8 +8,6 @@ class FunctionManager:
         self.args = args
 
     def uploadPOSIX(self, sourceDir : str = "~/testdata", targetDir : str = "~/mnt/testdata"):
-        print('targetDir: ', targetDir)
-        print('sourceDir: ', sourceDir)
         """copies the folder or file to another POSIX volume via cp
 
         Args:
