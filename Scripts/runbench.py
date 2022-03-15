@@ -26,6 +26,7 @@ if __name__=='__main__':
     workflowargslist = list(workflowargs.split(","))
     numRuns = int(runs)
     while (workflowlist):
+        numRuns+=1
         next_function = workflowlist.pop(0)
         next_arglist = workflowargslist.pop(0)
         next_arglist = list(next_arglist.split(" "))
@@ -65,4 +66,3 @@ if __name__=='__main__':
         config['Log']['runs'] = str(numRuns)
         with open('config.ini', 'w') as configfile:
             config.write(configfile)
-        numRuns+=1
