@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,0.136845,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.205353,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.203297,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.454810,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.141290,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.298150,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.298951,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.455617,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.141315,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.298400,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.520610,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.077405,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.296926,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.326680,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
+uploadPOSIX,0.520208,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None

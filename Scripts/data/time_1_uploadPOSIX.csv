@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,0.003798,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001518,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001234,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001209,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001361,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001293,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001315,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001284,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001312,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001328,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001231,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001183,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001282,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001265,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
+uploadPOSIX,0.001258,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None

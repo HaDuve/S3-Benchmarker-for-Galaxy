@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,0.255515,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.176425,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.438099,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.829714,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.048532,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.414079,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.850264,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.051941,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.456285,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.405034,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.454239,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.441462,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.456771,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.799244,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
+uploadPOSIX,0.065101,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None

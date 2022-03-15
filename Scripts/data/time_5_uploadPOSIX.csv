@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,0.364663,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.383779,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.468787,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.769286,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.542413,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.530979,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.381669,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.697544,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.615174,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.460593,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.581721,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.258656,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.773544,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.323758,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
+uploadPOSIX,0.754682,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None

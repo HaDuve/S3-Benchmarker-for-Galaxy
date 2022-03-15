@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,0.023622,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.021103,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.021975,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.020947,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.014623,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.017310,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.024984,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.048207,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.031408,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.051823,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.029522,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.048369,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.030989,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.092818,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
+uploadPOSIX,0.024658,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,9.660106,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,10.441409,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,11.488457,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,10.010220,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,9.755076,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,10.141348,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,9.582669,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,9.747936,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,10.007858,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,10.175707,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,9.668953,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,10.097399,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,9.625181,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,10.097616,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
+uploadPOSIX,9.888877,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,0.002253,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.006861,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.005588,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.004848,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.004740,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.004803,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.004358,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.005565,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.008067,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.024283,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.019586,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.004589,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.007225,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.007018,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
+uploadPOSIX,0.009086,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None

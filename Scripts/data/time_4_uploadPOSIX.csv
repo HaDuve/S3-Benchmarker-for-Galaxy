@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,0.053724,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.067124,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.067196,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.122553,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.034451,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.151346,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.036987,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.127071,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.102654,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.127125,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.051340,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.156857,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.106353,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.061900,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
+uploadPOSIX,0.124206,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None

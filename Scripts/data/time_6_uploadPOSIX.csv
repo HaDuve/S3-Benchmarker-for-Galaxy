@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,0.001332,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.001427,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.001355,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.008339,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.004476,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.004676,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.001254,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.001231,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.001405,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.008796,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.001344,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.001306,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.001316,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.001376,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
+uploadPOSIX,0.001217,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
