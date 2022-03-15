@@ -14,7 +14,7 @@ class FunctionManager:
             sourceDir (str, optional): [Source Directory]. Defaults to "/testdata".
             targetDir (str, optional): [Target Directory]. Defaults to "/mnt/testdata".
         """
-        os.system("pv -R "+sourceDir+" "+targetDir)
+        os.system("cp -Rf "+sourceDir+" "+targetDir)
 
     def deletePOSIX(self, filename : str = "test.txt"):
         """delete the directory or file from POSIX"""
@@ -26,7 +26,6 @@ class FunctionManager:
         Args:
             filename (str, optional): [Name of the file]. Defaults to "test.txt".
         """
-        #TODO: rewrite this to os.path to open directories
         with open(filename, "r") as file:
             body = file.read()
             return body
@@ -35,7 +34,6 @@ class FunctionManager:
         """Seek from POSIX file
         """
         pos = int(pos)
-        #TODO: rewrite this to os.path to open directories
         with open(filename, "r") as file:
             file.seek(pos)
             return file.tell()
