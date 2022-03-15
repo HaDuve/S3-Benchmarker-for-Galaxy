@@ -1,16 +1,29 @@
 # Benchmarking Script
 # Author: Hannes Duve
+
+# Modules:
+import functionsPOSIX, functionsS3
+
+# Other Imports:
 import argparse
 import utils
-import functions
 import timer
 
 class Benchmarker:
     def __init__(self, args):
         self.args = args
         if(self.args.r): self.args.r = int(self.args.r)
-        self.fnManager = functions.FunctionManager(self.args)
         print('args: ', self.args)
+
+        # Modules:
+        if ("POSIX" in self.args.function):
+            self.fnManager = functionsPOSIX.FunctionManager(self.args)
+        elif ("S3" in self.args.function):
+            self.fnManager = functionsS3.FunctionManager(self.args)
+
+        # If no module fits, print error:
+        else: print("No suitable module found!")
+
 
     def run(self):
         data =  []
@@ -76,7 +89,7 @@ if __name__=='__main__':
     """Argument handling and Data Saving"""
     parser = argparse.ArgumentParser(description="A tool to benchmark the time used for different functions")
     parser.add_argument('function', type=str, help='The function to be tested.'
-                        , choices=['test','debug','debugPOSIX','lsS3','checksumS3','uploadS3','deleteS3','readS3','seekS3','checksumPOSIX',
+                        , choices=['testS3','debugS3','lsS3','checksumS3','uploadS3','deleteS3','readS3','seekS3','testPOSIX','debugPOSIX','checksumPOSIX',
                                    'uploadPOSIX','deletePOSIX','readPOSIX','seekPOSIX']
                         )
     # optionals

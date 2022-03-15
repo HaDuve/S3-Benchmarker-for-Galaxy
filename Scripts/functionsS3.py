@@ -5,7 +5,7 @@ import boto3
 from botocore.utils import fix_s3_host
 from hashlib import md5
 
-class FunctionManager:
+class FunctionManagerS3:
     def __init__(self, args):
         self.args = args
         self.access_key = os.environ.get('AWS_ACCESS_KEY_ID')
@@ -32,17 +32,6 @@ class FunctionManager:
         """
         os.system("rclone copy -P --transfers=4 "+sourceDir+" "+targetBucket+targetDir)
 
-    def uploadPOSIX(self, sourceDir : str = "~/testdata", targetDir : str = "~/mnt/testdata"):
-        """copies the folder or file to another POSIX volume via cp
-
-        Args:
-            sourceDir (str, optional): [Source Directory]. Defaults to "/testdata".
-            targetDir (str, optional): [Target Directory]. Defaults to "/mnt/testdata".
-        """
-        os.system("pv -R "+sourceDir+" "+targetDir)
-
-
-
     # Delete / remove
     def deleteS3(self, directory : str = "/testdata", bucket : str = "frct-hadu-bench-ec61-01"):
         """delete the S3 Bucket, directory TODO: or object
@@ -56,12 +45,6 @@ class FunctionManager:
         else:
             raise Exception("Specification of bucket path needed!")
 
-    def deletePOSIX(self, filename : str = "test.txt"):
-        """delete the directory or file from POSIX"""
-        os.system("rm -rf " + filename)
-
-
-
     # Read
     def readS3(self, key: str = 'testdata/raw/test.txt', bucket: str = 'frct-hadu-bench-ec61-01', ):
         """reads a file directly from s3 using boto3 connection
@@ -73,20 +56,6 @@ class FunctionManager:
         obj = self.s3.Object(bucket, key)
         body = (obj.get()['Body'].read().decode('utf-8'))
         return body
-
-
-    def readPOSIX(self, filename : str = "test.txt"):
-        """Read from POSIX file
-
-        Args:
-            filename (str, optional): [Name of the file]. Defaults to "test.txt".
-        """
-        #TODO: rewrite this to os.path to open directories
-        with open(filename, "r") as file:
-            body = file.read()
-            return body
-
-
 
     # Seek
     def seekS3(self,
@@ -103,15 +72,6 @@ class FunctionManager:
         obj = self.s3.Object(bucket, key)
         point = obj.get(Range='bytes='+num+'-')['Body']
         return point
-
-    def seekPOSIX(self, filename : str = "test.txt", pos : str = "0"):
-        """Seek from POSIX file
-        """
-        pos = int(pos)
-        #TODO: rewrite this to os.path to open directories
-        with open(filename, "r") as file:
-            file.seek(pos)
-            return file.tell()
 
     # Checksum
     def checksumS3(self,
@@ -130,36 +90,17 @@ class FunctionManager:
         digest = hash.hexdigest()
         return digest
 
-    def checksumPOSIX(self, fileName : str = "test.txt"):
-        """Create Checksum from POSIX file
-        """
-        hash = md5()
-        with open(fileName, "rb") as f:
-            for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
-                hash.update(chunk)
-        digest = hash.hexdigest()
-        return digest
-
-
-
-
 
     # Test and Debug Functions
-    def test(self, max : str = 1000000):
+    def testS3(self, max : str = 1000000):
         """Random test function, puts a list of 1 mio ints together"""
         max = int(max)
         l = []
         for i in range(max):
             l.append(i)
 
-    def debug(self, arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default 3"):
+    def debugS3(self, arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default 3"):
         print('debug called')
-        print(r'arg1: ', arg1)
-        print(r'arg2: ', arg2)
-        print(r'arg3: ', arg3)
-
-    def debugPOSIX(self, arg1:str = "default 1", arg2:str= "default 2", arg3:str= "default 3"):
-        print('debugPOSIX called')
         print(r'arg1: ', arg1)
         print(r'arg2: ', arg2)
         print(r'arg3: ', arg3)
