@@ -3,7 +3,7 @@
 import os
 from hashlib import md5
 
-class FunctionManagerPOSIX:
+class FunctionManager:
     def __init__(self, args):
         self.args = args
 

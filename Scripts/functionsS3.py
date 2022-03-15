@@ -5,7 +5,7 @@ import boto3
 from botocore.utils import fix_s3_host
 from hashlib import md5
 
-class FunctionManagerS3:
+class FunctionManager:
     def __init__(self, args):
         self.args = args
         self.access_key = os.environ.get('AWS_ACCESS_KEY_ID')
