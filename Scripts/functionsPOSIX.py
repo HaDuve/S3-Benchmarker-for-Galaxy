@@ -39,8 +39,11 @@ class FunctionManager:
         elif(self.args.arg1.endswith('.nc')):
             #read NetCDF file
             ds = Dataset(filename)
-            for name in ds:
-                data = ds[name][:]
+            for dim in ds.dimensions.items():
+                data = dim
+            for key in ds.variables.keys():
+                data = ds.variables[key]
+            tmp = data
         elif(self.args.arg1.endswith('.mp4')):
             # read mp4 file
             cap = cv2.VideoCapture(filename)
