@@ -41,7 +41,7 @@ class FunctionManager:
             cap.release()
         elif(self.args.arg1.endswith('.jpg')):
             # read an image
-            image = imageio.imread('testa.png')
+            image = imageio.imread(filename)
             # print shape of the image
             tmp = image.shape
         elif(self.args.arg1.endswith('.gz')):
