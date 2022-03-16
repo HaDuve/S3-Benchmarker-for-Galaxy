@@ -42,7 +42,7 @@ class FunctionManager:
             for dim in ds.dimensions.items():
                 data = dim
             for key in ds.variables.keys():
-                data = ds.variables[key]
+                data = ds.variables[key][:]
             tmp = data
         elif(self.args.arg1.endswith('.mp4')):
             # read mp4 file
