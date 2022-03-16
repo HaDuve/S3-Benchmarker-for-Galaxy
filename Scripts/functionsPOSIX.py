@@ -4,6 +4,7 @@ import os
 from hashlib import md5
 import gzip
 import h5py
+import imageio
 
 class FunctionManager:
     def __init__(self, args):
@@ -28,10 +29,17 @@ class FunctionManager:
         Args:
             filename (str, optional): [Name of the file]. Defaults to "test.txt".
         """
+        tmp = ""
         if(self.args.arg1.endswith('.hdf5')):
+            # read hdf5 file
             f1 = h5py.File(filename,'r+')
-            tmp = ""
+        if(self.args.arg1.endswith('.jpg')):
+            # read an image
+            image = imageio.imread('testa.png')
+            # print shape of the image
+            tmp = image.shape
         elif(self.args.arg1.endswith('.gz')):
+            # read a gzip file
             with open(filename, 'rb') as file:
                 gzip_fd = gzip.GzipFile(fileobj=file)
                 for line in gzip_fd:
