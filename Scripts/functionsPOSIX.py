@@ -3,6 +3,7 @@
 import os
 from hashlib import md5
 import gzip
+import h5py
 
 class FunctionManager:
     def __init__(self, args):
@@ -27,7 +28,14 @@ class FunctionManager:
         Args:
             filename (str, optional): [Name of the file]. Defaults to "test.txt".
         """
-        if(self.args.arg1.endswith('.gz')):
+        if(self.args.arg1.endswith('.hdf5')):
+            with h5py.File(filename, "r") as file:
+                # List all groups
+                print("Keys: %s" % file.keys())
+                a_group_key = list(file.keys())[0]
+                # Get the data
+                data = list(file[a_group_key])
+        elif(self.args.arg1.endswith('.gz')):
             with open(filename, 'rb') as file:
                 gzip_fd = gzip.GzipFile(fileobj=file)
                 for line in gzip_fd:
