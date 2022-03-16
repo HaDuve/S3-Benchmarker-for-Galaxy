@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deletePOSIX,0.001148,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001265,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001104,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001063,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001060,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001105,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001049,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001046,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001138,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001471,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001180,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.010262,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001136,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.001414,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deletePOSIX,0.004826,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None

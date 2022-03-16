@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deletePOSIX,0.031940,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.042919,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.031792,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.031335,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.028982,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.033244,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.030978,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.030288,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.029735,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.029775,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.029837,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.029448,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.030749,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.033526,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deletePOSIX,0.033186,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None

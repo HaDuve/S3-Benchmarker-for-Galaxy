@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deletePOSIX,0.145763,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.029864,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001262,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001364,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001232,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001259,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001271,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001279,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001247,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001350,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001209,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001317,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001259,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001263,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deletePOSIX,0.001234,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None

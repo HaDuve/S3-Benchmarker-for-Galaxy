@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deletePOSIX,0.000842,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000813,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000799,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000814,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000809,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000924,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000859,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000886,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000806,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000902,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000804,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000797,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000804,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000909,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deletePOSIX,0.000896,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
