@@ -31,11 +31,12 @@ class FunctionManager:
             with open(filename, 'rb') as file:
                 gzip_fd = gzip.GzipFile(fileobj=file)
                 for line in gzip_fd:
-                    print('line: ', line)
+                    tmp = line
         else:
             with open(filename, "r") as file:
                 for line in file:
-                    print('line: ', line)
+                    tmp = line
+        return tmp
 
     def seekPOSIX(self, filename : str = "test.txt", pos : str = "0"):
         """Seek from POSIX file
