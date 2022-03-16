@@ -17,8 +17,10 @@ class Benchmarker:
 
         # Modules:
         if ("POSIX" in self.args.function):
+            print("Initiated POSIX Benchmarker")
             self.fnManager = functionsPOSIX.FunctionManager(self.args)
         elif ("S3" in self.args.function):
+            print("Initiated S3 Benchmarker")
             self.fnManager = functionsS3.FunctionManager(self.args)
 
         # If no module fits, print error:

@@ -1,56 +1,56 @@
 # small fasta 2KB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta
 # big fasta 1GB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/FASTA/hg19.fa.gz
 
 # small fastq 2MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq
 # medium fastq 10MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq
 # big fastq 55MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq
 
 # small gzip 11KB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/gzip/constitution.txt.gz
 # medium gzip 50MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/gzip/External_test_data.tar.gz
 # big gzip 720MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/gzip/pxproteome.tar.gz
 
 # small HDF5 4MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5
 # medium HDF5 11MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5
 # medium HDF5 45MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5
 
 # small JPG 100KB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg
 # medium JPG 1MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg
 # big JPG 2.5MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg
 
 # small MP4 1MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4
 # medium MP4 5MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4
 # big MP4 30MB
-workflow = deleteS3
+workflow = deletePOSIX
 workflowargs = /mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4
