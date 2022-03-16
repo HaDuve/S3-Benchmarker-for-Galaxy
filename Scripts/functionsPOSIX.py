@@ -29,12 +29,7 @@ class FunctionManager:
             filename (str, optional): [Name of the file]. Defaults to "test.txt".
         """
         if(self.args.arg1.endswith('.hdf5')):
-            with h5py.File(filename, "r") as file:
-                # List all groups
-                print("Keys: %s" % file.keys())
-                a_group_key = list(file.keys())[0]
-                # Get the data
-                tmp = list(file[a_group_key])
+            f1 = h5py.File(filename,'r+')
         elif(self.args.arg1.endswith('.gz')):
             with open(filename, 'rb') as file:
                 gzip_fd = gzip.GzipFile(fileobj=file)
