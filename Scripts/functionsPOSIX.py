@@ -5,7 +5,7 @@ from hashlib import md5
 import gzip
 import h5py
 import imageio
-import cv2
+#import cv2
 from netCDF4 import Dataset
 import numpy
 
@@ -46,9 +46,10 @@ class FunctionManager:
             tmp = data
         elif(self.args.arg1.endswith('.mp4')):
             # read mp4 file
-            cap = cv2.VideoCapture(filename)
-            tmp = cap.isOpened()
-            cap.release()
+            #cap = cv2.VideoCapture(filename)
+            #tmp = cap.isOpened()
+            #cap.release()
+            pass
         elif(self.args.arg1.endswith('.jpg')):
             # read an image
             image = imageio.imread(filename)
