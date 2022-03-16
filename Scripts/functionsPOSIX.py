@@ -71,7 +71,7 @@ class FunctionManager:
         """
         pos = int(pos)
         with open(filename, "r") as file:
-            file.seek(pos)
+            file.seek(-1, os.SEEK_END)
             return file.tell()
 
     # Checksum
