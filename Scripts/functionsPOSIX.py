@@ -66,16 +66,17 @@ class FunctionManager:
                     tmp = line
         return tmp
 
-    def seekPOSIX(self, filename : str = "test.txt", pos : str = "0"):
+    def seekPOSIX(self, filename : str = "test.txt", pos : str = "1000"):
         """Seek from POSIX file
         """
         pos = int(pos)
+
         with open(filename, "r") as file:
             if (file.seekable()):
                 # seek to end of file
                 file.seek(0, os.SEEK_END)
-                # go backwards 1 byte
-                file.seek(file.tell() - 1, os.SEEK_SET)
+                # go backwards 1 Kilobyte
+                file.seek(file.tell() - pos, os.SEEK_SET)
             else: print("file not seekable")
 
     # Checksum
