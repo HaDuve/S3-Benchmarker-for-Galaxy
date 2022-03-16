@@ -26,6 +26,7 @@ class FunctionManager:
         Args:
             filename (str, optional): [Name of the file]. Defaults to "test.txt".
         """
+        hash = md5()
         with open(filename, "r") as file:
             body = []
             for chunk in iter(lambda: file.read(128 * hash.block_size), b""):
