@@ -6,6 +6,7 @@ import gzip
 import h5py
 import imageio
 import cv2
+from netCDF4 import Dataset
 
 class FunctionManager:
     def __init__(self, args):
@@ -34,6 +35,9 @@ class FunctionManager:
         if(self.args.arg1.endswith('.hdf5')):
             # read hdf5 file
             f1 = h5py.File(filename,'r+')
+        elif(self.args.arg1.endswith('.nc')):
+            #read NetCDF file
+            ds = Dataset(filename)
         elif(self.args.arg1.endswith('.mp4')):
             # read mp4 file
             cap = cv2.VideoCapture(filename)
