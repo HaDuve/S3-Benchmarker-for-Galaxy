@@ -28,7 +28,7 @@ class FunctionManager:
         """
         with open(filename, "r") as file:
             body = file.read()
-            return body
+            #return body
 
     def seekPOSIX(self, filename : str = "test.txt", pos : str = "0"):
         """Seek from POSIX file
