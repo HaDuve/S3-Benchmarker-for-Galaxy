@@ -39,7 +39,7 @@ class FunctionManager:
         elif(self.args.arg1.endswith('.nc')):
             #read NetCDF file
             ds = Dataset(filename)
-            prcp = ds['prcp'][:]
+            prcp = ds[0][:]
         elif(self.args.arg1.endswith('.mp4')):
             # read mp4 file
             cap = cv2.VideoCapture(filename)
