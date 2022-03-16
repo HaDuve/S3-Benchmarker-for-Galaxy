@@ -30,6 +30,7 @@ class FunctionManager:
         """
         if(self.args.arg1.endswith('.hdf5')):
             f1 = h5py.File(filename,'r+')
+            tmp = ""
         elif(self.args.arg1.endswith('.gz')):
             with open(filename, 'rb') as file:
                 gzip_fd = gzip.GzipFile(fileobj=file)
