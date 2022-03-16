@@ -34,7 +34,7 @@ class FunctionManager:
                 print("Keys: %s" % file.keys())
                 a_group_key = list(file.keys())[0]
                 # Get the data
-                data = list(file[a_group_key])
+                tmp = list(file[a_group_key])
         elif(self.args.arg1.endswith('.gz')):
             with open(filename, 'rb') as file:
                 gzip_fd = gzip.GzipFile(fileobj=file)
