@@ -2,6 +2,7 @@
 # Author: Hannes Duve
 import os
 from hashlib import md5
+import gzip
 
 class FunctionManager:
     def __init__(self, args):
@@ -26,11 +27,15 @@ class FunctionManager:
         Args:
             filename (str, optional): [Name of the file]. Defaults to "test.txt".
         """
-        with open(filename, "r") as file:
-            for line in file:
-                body = line
-                #print('line: ', line)
-            return body
+        if(self.args.arg1.endswith('.gz')):
+            with open(filename, 'rb') as file:
+                gzip_fd = gzip.GzipFile(fileobj=file)
+                for line in gzip_fd:
+                    print('line: ', line)
+        else:
+            with open(filename, "r") as file:
+                for line in file:
+                    print('line: ', line)
 
     def seekPOSIX(self, filename : str = "test.txt", pos : str = "0"):
         """Seek from POSIX file
