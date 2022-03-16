@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deletePOSIX,0.000835,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000797,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000855,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000877,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000849,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000806,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000792,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000803,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000800,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000836,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000863,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000819,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000798,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000816,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deletePOSIX,0.000797,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None

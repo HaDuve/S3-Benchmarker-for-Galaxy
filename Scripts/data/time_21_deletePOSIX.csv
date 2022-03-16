@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deletePOSIX,0.064294,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002369,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002165,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002093,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002102,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002081,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002129,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.007294,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002215,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002099,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002059,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002160,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002091,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002102,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deletePOSIX,0.002053,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
