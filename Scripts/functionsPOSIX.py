@@ -7,6 +7,7 @@ import h5py
 import imageio
 import cv2
 from netCDF4 import Dataset
+import numpy
 
 class FunctionManager:
     def __init__(self, args):
@@ -38,6 +39,7 @@ class FunctionManager:
         elif(self.args.arg1.endswith('.nc')):
             #read NetCDF file
             ds = Dataset(filename)
+            prcp = ds['prcp'][:]
         elif(self.args.arg1.endswith('.mp4')):
             # read mp4 file
             cap = cv2.VideoCapture(filename)
