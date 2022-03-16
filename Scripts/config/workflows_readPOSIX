@@ -54,3 +54,13 @@ workflowargs = /mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4
 # big MP4 30MB
 workflow = readPOSIX
 workflowargs = /mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4
+
+# small NetCDF 3MB
+workflow = readPOSIX
+workflowargs = /mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc
+# medium NetCDF 21 MB
+workflow = readPOSIX
+workflowargs = /mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc
+# small NetCDF 274 MB
+workflow = readPOSIX
+workflowargs = /mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc
