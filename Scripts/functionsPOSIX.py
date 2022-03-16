@@ -26,12 +26,10 @@ class FunctionManager:
         Args:
             filename (str, optional): [Name of the file]. Defaults to "test.txt".
         """
-        hash = md5()
         with open(filename, "r") as file:
-            body = []
-            for chunk in iter(lambda: file.read(128 * hash.block_size), b""):
-                body.append(chunk)
-            return body
+            for line in file:
+                print('line: ', line)
+            #return body
 
     def seekPOSIX(self, filename : str = "test.txt", pos : str = "0"):
         """Seek from POSIX file
