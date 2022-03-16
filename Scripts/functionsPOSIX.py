@@ -27,8 +27,10 @@ class FunctionManager:
             filename (str, optional): [Name of the file]. Defaults to "test.txt".
         """
         with open(filename, "r") as file:
-            body = file.read()
-            #return body
+            body = []
+            for chunk in iter(lambda: file.read(128 * hash.block_size), b""):
+                body.append(chunk)
+            return body
 
     def seekPOSIX(self, filename : str = "test.txt", pos : str = "0"):
         """Seek from POSIX file
