@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+readPOSIX,18.935340,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,20.861934,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,21.466959,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,19.212040,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,20.648460,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,21.064083,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,22.223524,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,20.417023,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,19.970243,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,20.345479,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,20.430579,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,19.261947,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,18.972676,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,19.471021,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+readPOSIX,17.499771,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None

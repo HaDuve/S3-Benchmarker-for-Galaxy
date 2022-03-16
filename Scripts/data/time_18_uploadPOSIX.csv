@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,0.003358,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.021550,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.017178,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.018101,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.017311,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.015391,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.013913,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.012607,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.015453,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.013878,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.013613,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.013351,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.024593,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.026808,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
+uploadPOSIX,0.023765,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+readPOSIX,6.275896,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.275773,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.281720,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.285763,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.200654,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.190677,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.211326,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.240894,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.233621,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.270815,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.311040,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.307043,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.250819,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.320539,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readPOSIX,6.393026,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None

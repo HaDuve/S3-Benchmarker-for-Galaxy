@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+readPOSIX,0.227713,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.220970,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.218664,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.220892,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217109,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217253,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217261,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217553,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217467,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217171,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217792,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217116,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217458,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217041,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readPOSIX,0.217095,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None

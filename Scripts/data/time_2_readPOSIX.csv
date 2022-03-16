@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+readPOSIX,75.619499,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,74.977149,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,76.900184,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,77.148043,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,81.015627,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,80.166326,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,79.863832,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,78.213411,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,74.695874,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,73.340544,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,75.057301,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,72.249338,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,72.846863,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,74.359053,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+readPOSIX,72.264157,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None

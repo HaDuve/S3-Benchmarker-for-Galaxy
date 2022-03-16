@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+readPOSIX,0.012556,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012509,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012492,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012592,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012468,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012643,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012505,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012472,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012551,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012655,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012554,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012511,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012518,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012582,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readPOSIX,0.012503,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None

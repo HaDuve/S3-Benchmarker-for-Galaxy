@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,0.017599,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.084751,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.212053,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.206348,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.252607,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.193599,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.188867,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.211775,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.206930,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.251297,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.155653,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.236172,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.228663,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.218159,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
+uploadPOSIX,0.181332,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None

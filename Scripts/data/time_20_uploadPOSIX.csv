@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadPOSIX,2.733712,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.298329,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.537387,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.663662,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.673250,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.748116,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.622703,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.681510,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.691583,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.690070,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.663090,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.691740,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.677081,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.696135,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
+uploadPOSIX,2.687446,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
