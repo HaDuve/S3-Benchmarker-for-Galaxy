@@ -71,8 +71,10 @@ class FunctionManager:
         """
         pos = int(pos)
         with open(filename, "r") as file:
-            file.seek(-1, os.SEEK_END)
-            return file.tell()
+            # seek to end of file
+            file.seek(0, os.SEEK_END)
+            # go backwards 1 byte
+            file.seek(file.tell() - 1, os.SEEK_SET)
 
     # Checksum
     def checksumPOSIX(self, fileName : str = "test.txt"):
