@@ -5,6 +5,7 @@ from hashlib import md5
 import gzip
 import h5py
 import imageio
+import cv2
 
 class FunctionManager:
     def __init__(self, args):
@@ -33,7 +34,12 @@ class FunctionManager:
         if(self.args.arg1.endswith('.hdf5')):
             # read hdf5 file
             f1 = h5py.File(filename,'r+')
-        if(self.args.arg1.endswith('.jpg')):
+        elif(self.args.arg1.endswith('.mp4')):
+            # read mp4 file
+            cap = cv2.VideoCapture(filename)
+            tmp = cap.isOpened()
+            cap.release()
+        elif(self.args.arg1.endswith('.jpg')):
             # read an image
             image = imageio.imread('testa.png')
             # print shape of the image
