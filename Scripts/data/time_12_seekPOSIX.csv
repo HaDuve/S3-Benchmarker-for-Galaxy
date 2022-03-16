@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekPOSIX,0.000032,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000041,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000033,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000029,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000031,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None

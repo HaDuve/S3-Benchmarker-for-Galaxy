@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekPOSIX,0.000029,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000026,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000026,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000028,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000026,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000028,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000026,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekPOSIX,0.000029,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None

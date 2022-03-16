@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekPOSIX,0.000056,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000048,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000046,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000046,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000046,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000078,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000047,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000045,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000045,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000046,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000045,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000046,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000045,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000045,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekPOSIX,0.000058,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
