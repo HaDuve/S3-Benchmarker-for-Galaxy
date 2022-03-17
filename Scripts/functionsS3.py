@@ -86,9 +86,14 @@ class FunctionManager:
 
         hash = md5()
         obj = self.s3.Object(bucket, key)
-        hash.update(obj.get()['Body'].read())
-        digest = hash.hexdigest()
-        return digest
+        md5s = []
+        with open(obj, 'rb') as f:
+            for data in iter(lambda: f.read(128 * hash.block_size), b''):
+                md5s.append(hash.md5(data).digest())
+        m = hash.md5("".join(md5s))
+        return '{}-{}'.format(m.hexdigest(), len(md5s))
+
+
 
 
     # Test and Debug Functions
