@@ -1,6 +1,7 @@
 # Time-testable functions to be called by benchmarker.py - timeit
 # Author: Hannes Duve
 import os
+from tkinter import TRUE
 import boto3
 from botocore.utils import fix_s3_host
 from hashlib import md5
@@ -83,8 +84,8 @@ class FunctionManager:
             pathName (str, optional): [description]. Defaults to "s3ws:frct-hadu-bench-ec61-01/testdata/".
             fileName (str, optional): [description]. Defaults to "test.txt".
         """
-        open('tmp').write('')
-        self.s3.download_file(bucket, key, 'tmp')
+        f = open("tmp", "w")
+        self.s3.download_file(bucket, key, 'tmp', force=TRUE)
         hash = md5()
         with open('tmp', "rb") as f:
             for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
