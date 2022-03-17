@@ -84,6 +84,8 @@ class FunctionManager:
             pathName (str, optional): [description]. Defaults to "s3ws:frct-hadu-bench-ec61-01/testdata/".
             fileName (str, optional): [description]. Defaults to "test.txt".
         """
+        # https://zihao.me/post/calculating-etag-for-aws-s3-objects/
+        # the other way to calculate checksums via comparing them with local files
         f = open("tmp", "w")
         self.s3.meta.client.download_file(bucket, key, 'tmp')
         hash = md5()
