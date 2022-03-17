@@ -5,6 +5,7 @@ from tkinter import TRUE
 import boto3
 from botocore.utils import fix_s3_host
 from hashlib import md5
+import smart_open
 
 class FunctionManager:
     def __init__(self, args):
@@ -54,29 +55,8 @@ class FunctionManager:
             bucket (str, optional): [name of the bucket]. Defaults to 'frct-hadu-bench-ec61-01'.
             key (str, optional): [path / name of the file]. Defaults to 'testdata/raw/test.txt'.
         """
-        s3 = self.s3
-        obj = s3.get_object(Bucket=bucket, Key=key)
-
-        total_bytes = obj['ContentLength']
-        chunk_bytes = 1024*1024*5 # 5 MB as an example.
-        floor = int(total_bytes//chunk_bytes)
-        whole = total_bytes/chunk_bytes
-        total_chunks = [1+floor if floor<whole else floor][0]
-
-        chunk_size_list = [(i*chunk_bytes, (i+1)*chunk_bytes-1) for i in range(total_chunks)]
-        a,b = chunk_size_list[-1]
-        b = total_bytes
-        chunk_size_list[-1] = (a,b)
-        chunk_size_list = [f'bytes={a}-{b}' for a,b in chunk_size_list]
-
-        prev_str = ''
-
-        for i,chunk in enumerate(chunk_size_list):
-            s3 = boto3.client('s3', region_name=self.args.default_region, aws_access_key_id=self.access_key,
-                            aws_secret_access_key=self.secret_key)
-            byte_obj = s3.get_object(Bucket=bucket, Key=key, Range=chunk_size_list[i])
-            byte_obj = byte_obj['Body'].read()
-            del byte_obj
+        for line in smart_open.smart_open('s3://mybucket/mykey.txt'):
+            tmp = line
 
     # Seek
     def seekS3(self,
