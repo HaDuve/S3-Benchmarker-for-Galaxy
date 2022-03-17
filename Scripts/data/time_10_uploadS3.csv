@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,0.585171,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.632494,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.602031,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.613287,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.028394,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.807747,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.672621,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.677057,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.583842,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.694181,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.608386,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.786063,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.608707,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.631143,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,0.710248,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/Benchfiles/Data/HDF5,None

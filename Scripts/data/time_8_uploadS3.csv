@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,24.687655,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,23.498352,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,24.279695,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,23.740832,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,22.779614,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,23.986414,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,22.917290,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,22.824863,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,23.208631,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,22.854099,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,23.353917,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,22.631486,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,22.648904,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,22.764859,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,22.977348,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/Benchfiles/Data/gzip,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,0.849707,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.836963,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.867148,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.929675,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.860932,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.858816,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,1.165749,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.884061,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.861751,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,1.009615,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.933425,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.939876,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.946750,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.981891,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,1.107129,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/Benchfiles/Data/NetCDF,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,0.978023,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.312983,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,0.928190,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.621465,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.252179,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.012753,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.182817,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.493415,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,2.118035,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.443701,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.012313,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.169609,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.029582,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,1.063914,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None
+uploadS3,0.968822,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/Benchfiles/Data/MP4,None

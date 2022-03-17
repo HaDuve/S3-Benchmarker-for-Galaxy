@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,0.833289,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.654707,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.606785,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.582997,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.747525,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.631815,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.683697,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.692704,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.648784,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.777217,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.657744,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.695864,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.642922,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.628800,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.609119,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None

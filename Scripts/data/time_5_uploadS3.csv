@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,1.795755,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,2.628754,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,2.302173,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,1.835726,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,2.254443,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,2.408476,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,1.962632,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,1.684742,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,1.671663,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,2.267560,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,1.922919,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,3.394774,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,2.293419,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,1.707169,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,2.336269,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,0.426014,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.517338,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.439880,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.415426,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.425473,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.434208,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.384134,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.422141,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.409083,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.421735,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.450643,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.432752,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.536911,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.576718,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None
+uploadS3,0.471337,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/Benchfiles/Data/JPG,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,35.222533,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,32.385467,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,34.210690,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,30.979310,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,32.521466,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,31.465659,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,29.784433,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,32.825536,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,31.853542,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,32.557702,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,34.362395,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,31.560667,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,30.278800,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,31.892057,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None
+uploadS3,29.824308,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/Benchfiles/Data/FASTA,None

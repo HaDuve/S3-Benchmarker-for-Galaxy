@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,0.406439,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.503883,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.454151,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.453342,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.555901,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.528785,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.516677,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.411690,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.729233,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.400195,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.563098,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.496681,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.463522,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.791151,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None
+uploadS3,0.560658,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/Benchfiles/Data/NetCDF,None

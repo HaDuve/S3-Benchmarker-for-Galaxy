@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,1.191777,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.311246,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,2.337727,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.152786,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.187394,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.185686,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.222411,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.334813,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.444395,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.285494,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.196966,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.578604,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.683514,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.199957,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None
+uploadS3,1.203479,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/Benchfiles/Data/HDF5,None

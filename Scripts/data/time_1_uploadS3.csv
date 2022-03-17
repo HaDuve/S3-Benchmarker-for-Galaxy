@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,0.360497,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.296520,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.316577,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.410986,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.380971,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.379329,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.382378,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.415776,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.316230,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.398620,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.398480,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.389296,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.404194,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.356236,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None
+uploadS3,0.314564,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/Benchfiles/Data/FASTA,None

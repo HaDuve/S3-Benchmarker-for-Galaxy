@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,1.903157,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.795539,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.460891,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,2.033180,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.715889,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.779854,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.517128,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.259962,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.483965,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.286433,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.252262,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.309235,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.630006,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.266029,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None
+uploadS3,1.250554,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/Benchfiles/Data/gzip,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+uploadS3,0.402001,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.508615,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.524394,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.450865,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.408347,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.429776,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.456041,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.642205,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.458452,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.843701,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.407981,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.418530,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.573086,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.476378,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
+uploadS3,0.408176,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/Benchfiles/Data/FASTQ,None
