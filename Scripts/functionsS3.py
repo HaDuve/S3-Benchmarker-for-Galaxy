@@ -55,7 +55,7 @@ class FunctionManager:
             bucket (str, optional): [name of the bucket]. Defaults to 'frct-hadu-bench-ec61-01'.
             key (str, optional): [path / name of the file]. Defaults to 'testdata/raw/test.txt'.
         """
-        for line in smart_open.smart_open('s3ws://'+bucket+key):
+        for line in smart_open.smart_open('s3://'+bucket+key):
             tmp = line
 
     # Seek
