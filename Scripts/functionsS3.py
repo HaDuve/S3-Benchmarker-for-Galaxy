@@ -91,6 +91,7 @@ class FunctionManager:
             for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
                 hash.update(chunk)
         digest = hash.hexdigest()
+        f.close()
         return digest
 
 
