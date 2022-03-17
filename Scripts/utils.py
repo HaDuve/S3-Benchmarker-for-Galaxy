@@ -39,7 +39,7 @@ def enablePrint():
     sys.stdout = sys.__stdout__
 
 def purge(directory = "/testdata"):
-    """purging the directory before upload,
+    """S3 purging the directory before upload,
 
     Args:
         directory (str): careful with empty directory = "" because it will delete the bucket!
@@ -48,7 +48,7 @@ def purge(directory = "/testdata"):
     os.system("rclone purge s3ws:frct-hadu-bench-ec61-01" + directory)
 
 def delete(filename = "/testdata"):
-    """purging the directory before upload,
+    """S3 purging the directory before upload,
 
     Args:
         directory (str): careful with empty directory = "" because it will delete the bucket!
