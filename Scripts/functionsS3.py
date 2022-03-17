@@ -83,15 +83,14 @@ class FunctionManager:
             pathName (str, optional): [description]. Defaults to "s3ws:frct-hadu-bench-ec61-01/testdata/".
             fileName (str, optional): [description]. Defaults to "test.txt".
         """
-
+        open('tmp').write('')
+        self.s3.download_file(bucket, key, 'tmp')
         hash = md5()
-        obj = self.s3.Object(bucket, key)
-        md5s = []
-        with open(obj, 'rb') as f:
-            for data in iter(lambda: f.read(128 * hash.block_size), b''):
-                md5s.append(hash.md5(data).digest())
-        m = hash.md5("".join(md5s))
-        return '{}-{}'.format(m.hexdigest(), len(md5s))
+        with open('tmp', "rb") as f:
+            for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
+                hash.update(chunk)
+        digest = hash.hexdigest()
+        return digest
 
 
 
