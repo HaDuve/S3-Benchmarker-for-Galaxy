@@ -47,6 +47,15 @@ def purge(directory = "/testdata"):
     """
     os.system("rclone purge s3ws:frct-hadu-bench-ec61-01" + directory)
 
+def delete(filename = "/testdata"):
+    """purging the directory before upload,
+
+    Args:
+        directory (str): careful with empty directory = "" because it will delete the bucket!
+
+    """
+    os.system("rclone delete s3ws:frct-hadu-bench-ec61-01" + filename)
+
 def prepareBenchmark(args):
     """preparing the benchmark depending on args
 
@@ -64,7 +73,7 @@ def prepareBenchmark(args):
         print('purging target file before uploading')
         if (args.arg2 is None):
             purge("/testdata/raw")
-        else: purge(args.arg1)
+        else: delete(args.arg1)
 
     if(args.function == 'uploadPOSIX'):
         # create directory before copy
