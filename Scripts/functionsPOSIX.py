@@ -45,10 +45,10 @@ class FunctionManager:
                 data = ds.variables[key][:]
             tmp = data
         elif(self.args.arg1.endswith('.mp4')):
-            # read mp4 file
-            #cap = cv2.VideoCapture(filename)
-            #tmp = cap.isOpened()
-            #cap.release()
+            #read mp4 file
+            cap = cv2.VideoCapture(filename)
+            tmp = cap.isOpened()
+            cap.release()
             pass
         elif(self.args.arg1.endswith('.jpg')):
             # read an image
