@@ -6,6 +6,8 @@ import boto3
 from botocore.utils import fix_s3_host
 from hashlib import md5
 import smart_open
+from io import TextIOWrapper
+from gzip import GzipFile
 
 class FunctionManager:
     def __init__(self, args):
@@ -55,7 +57,16 @@ class FunctionManager:
             bucket (str, optional): [name of the bucket]. Defaults to 'frct-hadu-bench-ec61-01'.
             key (str, optional): [path / name of the file]. Defaults to 'testdata/raw/test.txt'.
         """
-        for line in smart_open.smart_open('s3://'+bucket+key):
+        # get StreamingBody from botocore.response
+        response = self.s3.get_object(Bucket=bucket, Key=key)
+        # if gzipped
+        if(self.args.arg1.endswith('.gz')):
+            gzipped = GzipFile(None, 'rb', fileobj=response['Body'])
+            data = TextIOWrapper(gzipped)
+        else: data=response
+
+        for line in data:
+            # process line
             tmp = line
 
     # Seek
