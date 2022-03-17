@@ -58,7 +58,7 @@ class FunctionManager:
             key (str, optional): [path / name of the file]. Defaults to 'testdata/raw/test.txt'.
         """
         # get StreamingBody from botocore.response
-        response = self.s3.get_object(Bucket=bucket, Key=key)
+        response = self.s3.Object(Bucket=bucket, Key=key)
         # if gzipped
         if(self.args.arg1.endswith('.gz')):
             gzipped = GzipFile(None, 'rb', fileobj=response['Body'])
