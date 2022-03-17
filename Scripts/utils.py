@@ -61,10 +61,10 @@ def prepareBenchmark(args):
     checkPOSIX(args.function)
 
     if(args.function == 'uploadS3'):
-        print('purging target directory before uploading')
+        print('purging target file before uploading')
         if (args.arg2 is None):
             purge("/testdata/raw")
-        else: purge(args.arg2)
+        else: purge(args.arg1)
 
     if(args.function == 'uploadPOSIX'):
         # create directory before copy
