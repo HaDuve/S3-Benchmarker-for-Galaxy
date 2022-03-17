@@ -85,7 +85,7 @@ class FunctionManager:
             fileName (str, optional): [description]. Defaults to "test.txt".
         """
         f = open("tmp", "w")
-        self.s3.download_file(bucket, key, 'tmp', force=TRUE)
+        self.s3.meta.client.download_file(bucket, key, 'tmp')
         hash = md5()
         with open('tmp', "rb") as f:
             for chunk in iter(lambda: f.read(128 * hash.block_size), b""):
