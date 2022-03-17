@@ -55,8 +55,7 @@ class FunctionManager:
             key (str, optional): [path / name of the file]. Defaults to 'testdata/raw/test.txt'.
         """
         obj = self.s3.Object(bucket, key)
-        body = (obj.get()['Body'].read().decode('utf-8'))
-        return body
+        body = (obj.get()['Body'].read())
 
     # Seek
     def seekS3(self,
