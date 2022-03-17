@@ -5,7 +5,7 @@ from hashlib import md5
 import gzip
 import h5py
 import imageio
-#import cv2
+import cv2
 from netCDF4 import Dataset
 import numpy
 
