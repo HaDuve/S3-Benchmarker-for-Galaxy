@@ -60,7 +60,7 @@ class FunctionManager:
     # Seek
     def seekS3(self,
                key: str = 'testdata/raw/test.txt',
-               num : str = '0',
+               num : str = '1000',
                bucket: str = 'frct-hadu-bench-ec61-01'):
         """download from S3 and then seek the file
 

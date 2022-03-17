@@ -75,9 +75,7 @@ class FunctionManager:
         with open(filename, "r") as file:
             if (file.seekable()):
                 # seek to end of file
-                file.seek(0, os.SEEK_END)
-                # go backwards 1 Kilobyte
-                file.seek(file.tell() - pos, os.SEEK_SET)
+                file.seek(pos)
             else: print("file not seekable")
 
     # Checksum
