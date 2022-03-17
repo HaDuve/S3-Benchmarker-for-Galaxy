@@ -73,7 +73,7 @@ def prepareBenchmark(args):
         print('purging target file before uploading')
         if (args.arg2 is None):
             purge("/testdata/raw")
-        else: delete(args.arg1)
+        else: delete(args.arg2)
 
     if(args.function == 'uploadPOSIX'):
         # create directory before copy
