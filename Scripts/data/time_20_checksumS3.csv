@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+checksumS3,3.152286,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,2.895191,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,3.028121,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,3.042219,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,3.026897,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,3.305679,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,2.769337,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,3.035349,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,2.904706,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,3.112124,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,3.278896,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,2.710672,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,3.055302,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,2.999469,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+checksumS3,3.018726,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None

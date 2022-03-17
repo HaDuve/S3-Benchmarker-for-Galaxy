@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+checksumS3,0.027010,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.020937,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.026985,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.014180,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.014618,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.018453,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.021480,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.016916,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.022510,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.015459,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.014625,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.014402,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.014428,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.014532,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+checksumS3,0.014271,Benchfiles/Data/gzip/constitution.txt.gz,None,None
