@@ -54,6 +54,7 @@ class FunctionManager:
             bucket (str, optional): [name of the bucket]. Defaults to 'frct-hadu-bench-ec61-01'.
             key (str, optional): [path / name of the file]. Defaults to 'testdata/raw/test.txt'.
         """
+        s3 = self.s3
         obj = s3.get_object(Bucket=bucket, Key=key)
 
         total_bytes = obj['ContentLength']
