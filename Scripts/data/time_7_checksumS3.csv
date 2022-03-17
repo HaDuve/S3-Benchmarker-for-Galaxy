@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+checksumS3,0.621515,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,0.955594,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,0.602389,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,1.017051,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,0.829329,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,0.799551,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,0.576568,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,0.930720,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,0.627405,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,1.011735,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,0.700376,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,1.092504,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,0.521554,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,1.078437,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+checksumS3,0.688703,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+checksumS3,0.025140,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.014650,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.028141,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.021145,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.014938,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.015232,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.034956,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.014373,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.015798,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.023215,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.013588,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.014759,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.013857,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.014182,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+checksumS3,0.015196,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None

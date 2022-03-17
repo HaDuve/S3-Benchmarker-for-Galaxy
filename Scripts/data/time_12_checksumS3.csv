@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+checksumS3,0.038976,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.045317,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.027623,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.031955,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.033322,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.018591,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.027540,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.019145,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.021368,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.020116,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.021560,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.019707,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.022314,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.025350,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+checksumS3,0.024985,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
