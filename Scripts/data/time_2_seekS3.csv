@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.087925,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.079062,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.066847,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.076659,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.133284,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.098869,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.076520,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.072692,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.100692,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.062334,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.065492,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.078299,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.199282,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.076958,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.064627,Benchfiles/Data/FASTA/hg19.fa.gz,None,None

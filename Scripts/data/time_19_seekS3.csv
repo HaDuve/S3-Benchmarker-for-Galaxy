@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.105714,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.114386,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.112731,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.099159,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.114033,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.106634,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.104618,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.122781,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.103629,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.118760,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.103338,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.105328,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.116561,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.113494,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.103721,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None

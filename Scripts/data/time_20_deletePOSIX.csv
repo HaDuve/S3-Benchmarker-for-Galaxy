@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deletePOSIX,0.020090,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.019734,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.024923,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.023870,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.031038,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.023250,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.026263,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.024031,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.026264,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.023108,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.025972,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.023582,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.029526,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.025100,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.023908,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None

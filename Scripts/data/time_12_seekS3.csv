@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.031170,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.022612,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.030619,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.035828,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.021639,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.029627,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.032650,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.031581,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.022850,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.021801,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.023525,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.040076,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.023561,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.023002,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.031065,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None

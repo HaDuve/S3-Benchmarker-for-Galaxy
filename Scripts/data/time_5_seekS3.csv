@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.106213,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.104606,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.105350,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.104789,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.103599,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.119055,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.103942,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.118598,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.104464,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.152664,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.107316,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.104644,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.104355,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.114235,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.106984,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None

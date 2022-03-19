@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.137225,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.148795,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.138967,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.137459,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.136821,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.137062,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.135804,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.144834,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.137427,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.137711,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.136408,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.139322,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.137150,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.135822,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.146005,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None

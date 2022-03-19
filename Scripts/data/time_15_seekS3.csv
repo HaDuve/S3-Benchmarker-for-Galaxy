@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.123691,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.103192,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.112464,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.109554,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.104125,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.098573,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.104195,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.103606,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.104647,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.105814,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.114844,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.105643,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.113817,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.107576,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.105309,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None

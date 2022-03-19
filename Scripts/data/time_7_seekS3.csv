@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.059210,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.050209,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.048253,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.048650,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.058247,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.064535,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.052443,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.059319,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.048157,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.058098,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.058101,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.047928,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.048750,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.049931,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.049685,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.054848,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.050459,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.049699,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.057694,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.049259,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.050821,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.049260,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.055496,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.057840,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.049562,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.067117,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.050648,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.057830,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.048525,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.051791,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None

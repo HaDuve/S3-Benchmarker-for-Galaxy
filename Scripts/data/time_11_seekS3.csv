@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.035996,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.041944,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.035724,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.033708,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.031283,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.032124,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.044423,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.035042,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.040428,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.040652,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.044762,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.032305,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.032685,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.031142,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.041576,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
