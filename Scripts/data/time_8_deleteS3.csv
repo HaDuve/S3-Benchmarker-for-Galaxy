@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.118434,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.108482,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.102313,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.159696,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.100648,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.098706,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.103451,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.105718,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.100218,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.099484,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.098888,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.108057,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.104627,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.101232,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.117378,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.110485,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.104653,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.099029,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.101527,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.099141,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.105156,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.132833,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.098227,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.098116,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.098298,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.109260,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.102759,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.099033,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.099382,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.108823,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None

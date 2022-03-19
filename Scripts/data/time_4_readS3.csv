@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+readS3,0.360754,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.323542,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.366164,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.340076,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.352304,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.322586,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.340353,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.320760,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.390989,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.362515,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.333326,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.349560,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.346517,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.347645,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.371082,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.103860,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.110784,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.096787,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.114183,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.097330,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.096671,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.107292,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.108014,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.119319,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.101012,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.095074,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.104177,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.097586,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.101347,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.109459,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None

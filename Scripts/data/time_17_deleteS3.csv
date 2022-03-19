@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.100257,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.099986,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.100094,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.101660,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.120086,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.111475,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.105247,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.100531,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.105204,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.108207,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.112045,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.097060,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.100982,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.209240,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.111063,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None

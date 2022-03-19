@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+readS3,0.337846,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.333667,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.233303,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.088883,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.227601,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.318865,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.086426,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.086092,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.346919,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.343732,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.334311,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.333276,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.086618,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.338592,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.086982,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.154721,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.101875,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.100170,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.101935,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.099019,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.179467,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.107864,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.101844,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.143904,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.134737,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.100054,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.098985,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.099943,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.101398,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.119278,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None

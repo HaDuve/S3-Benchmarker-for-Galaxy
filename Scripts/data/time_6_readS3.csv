@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+readS3,0.008208,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.008113,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.025156,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.015070,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.008467,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.016935,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.069301,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007810,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007389,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007732,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007969,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.015496,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007467,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007431,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007608,Benchfiles/Data/gzip/constitution.txt.gz,None,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.098280,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.108231,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.096015,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.128566,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.097837,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.115854,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.096888,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.095522,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.100386,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.098596,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.107537,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.099065,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.098720,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.130240,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.099036,/Benchfiles/Data/gzip/constitution.txt.gz,None,None

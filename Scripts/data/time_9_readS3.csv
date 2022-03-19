@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+readS3,0.231702,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.237782,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.249064,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.234614,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.247075,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.236361,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.237499,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.243834,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.245574,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.228926,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.227984,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.231591,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.241343,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.232528,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.236038,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None

@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.100332,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.097490,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.099992,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.097369,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.099271,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.098616,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.097710,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.096861,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.111950,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.110926,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.111944,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.111666,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.106893,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.176721,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.117974,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None

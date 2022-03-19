@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.110899,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.103811,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.113413,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.149480,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.110446,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.142232,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.106908,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.098647,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.101724,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.100283,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.096827,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.114798,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.122200,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.100387,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.103286,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None

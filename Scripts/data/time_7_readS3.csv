@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+readS3,0.615070,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.608251,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.613068,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.602396,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.607492,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.625615,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.612953,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.612496,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.614425,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.603609,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.629654,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.623518,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.617320,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.663775,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.621221,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None

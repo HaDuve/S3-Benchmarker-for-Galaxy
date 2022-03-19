@@ -1,0 +1,16 @@
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.096974,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.105105,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.099387,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.100191,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.143215,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.097695,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.097541,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.106547,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.098826,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.134411,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.098237,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.097576,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.098448,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.097921,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.106509,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
