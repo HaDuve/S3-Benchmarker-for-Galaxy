@@ -59,15 +59,6 @@ class FunctionManager:
         """
         # get StreamingBody from botocore.response
         response = self.s3.Object(bucket, key)
-        # if gzipped
-        if(self.args.arg1.endswith('.gz')):
-            gzipped = GzipFile(None, 'rb', fileobj=response['Body'])
-            data = TextIOWrapper(gzipped)
-        else: data=response
-
-        for line in data:
-            # process line
-            tmp = line
 
     # Seek
     def seekS3(self,
