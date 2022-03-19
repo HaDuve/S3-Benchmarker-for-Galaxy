@@ -1,6 +1,7 @@
 # Utility functions for benchmarker.py
 # Author: Hannes Duve
 import sys, os
+import time
 
 def save_file_as_csv(data, args):
     """saving the results as a comma-separated list of data points
@@ -90,6 +91,7 @@ def prepareBenchmark(args):
         # copy the file before deleting to recover after bench
         print("LOG::  copy the file before deleting to recover after bench S3")
         os.system("rclone copy s3ws:frct-hadu-bench-ec61-01"+args.arg1+" s3ws:frct-hadu-bench-ec61-01/Copies"+args.arg1)
+        time.sleep(1)
         print("LOG::  copy done")
 
 
