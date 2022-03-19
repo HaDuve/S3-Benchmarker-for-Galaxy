@@ -45,7 +45,7 @@ class FunctionManager:
 
         """
         if(directory != ""):
-            os.system("rclone delete s3ws:"+directory)
+            os.system("rclone delete s3ws:"+bucket+directory)
         else:
             raise Exception("Specification of bucket path needed!")
 
