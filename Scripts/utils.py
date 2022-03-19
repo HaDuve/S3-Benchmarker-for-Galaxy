@@ -71,7 +71,7 @@ def prepareBenchmark(args):
     checkPOSIX(args.function)
 
     if(args.function == 'uploadS3'):
-        print('purging target file before uploading')
+        print('LOG::  purging target file before uploading')
         if (args.arg2 is None):
             purge("/testdata/raw")
         else: delete(args.arg2)
@@ -81,18 +81,16 @@ def prepareBenchmark(args):
         index = args.arg2.rfind("/")
         pathname = args.arg2[0:index]
         os.system("mkdir -p "+ pathname)
-        print('creating target ' +pathname+' directory before uploading')
+        print('LOG::  creating target ' +pathname+' directory before uploading')
 
     if(args.function == 'deletePOSIX'):
         # copy the file before deleting to recover after bench
-        print("copy the file before deleting to recover after bench")
+        print("LOG::  copy the file before deleting to recover after bench")
         os.system("cp "+args.arg1+" "+args.arg1+"copy")
     if(args.function == 'deleteS3'):
         # copy the file before deleting to recover after bench
         print("LOG::  copy the file before deleting to recover after bench S3")
         os.system("rclone copy s3ws:frct-hadu-bench-ec61-01"+args.arg1+" s3ws:frct-hadu-bench-ec61-01/Copies"+args.arg1)
-        time.sleep(1)
-        print("LOG::  copy done")
 
 
 def afterBenchmark(args):
@@ -100,22 +98,21 @@ def afterBenchmark(args):
     # These functions will only be applied if cleanup mode is activated
     if(args.cleanup == "True"):
         if(args.function == 'uploadS3'):
-            print(f'purging {args.arg2} from s3 after uploading')
+            print(f'LOG::  purging {args.arg2} from s3 after uploading')
             purge(args.arg2)
         if(args.function == 'uploadPOSIX'):
-            print(f'removing "rm -rf" {args.arg2} after copying')
+            print(f'LOG::  removing "rm -rf" {args.arg2} after copying')
             os.system("rm -rf " + args.arg2)
 
     # These functions will be applied after every benchmark run
     if(args.function == 'deletePOSIX'):
         # recover file
-        print("recovering file after delete-benchmark")
+        print("LOG::  recovering file after delete-benchmark")
         os.system("mv "+args.arg1+"copy " + args.arg1)
     if(args.function == 'deleteS3'):
         # recover file
         print("LOG::   copy back file after delete-benchmark S3")
         os.system("rclone copy s3ws:frct-hadu-bench-ec61-01/Copies"+args.arg1+" s3ws:frct-hadu-bench-ec61-01"+args.arg1)
-        print("LOG::   copy done")
 
 def checkPOSIX(string = "POSIX"):
     if("POSIX" in string):
