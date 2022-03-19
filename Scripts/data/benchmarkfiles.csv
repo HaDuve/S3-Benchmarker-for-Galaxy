@@ -47,6 +47,22 @@ deletePOSIX,0.002023,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,Non
 deletePOSIX,0.002057,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 deletePOSIX,0.002052,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.154721,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.101875,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.100170,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.101935,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.099019,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.179467,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.107864,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.101844,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.143904,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.134737,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.100054,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.098985,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.099943,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.101398,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+deleteS3,0.119278,/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.000184,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 readPOSIX,0.000162,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 readPOSIX,0.000161,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
@@ -63,6 +79,22 @@ readPOSIX,0.000165,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 readPOSIX,0.000166,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 readPOSIX,0.000154,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.337846,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.333667,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.233303,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.088883,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.227601,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.318865,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.086426,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.086092,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.346919,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.343732,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.334311,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.333276,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.086618,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.338592,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+readS3,0.086982,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000048,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 seekPOSIX,0.000035,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 seekPOSIX,0.000032,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
@@ -78,6 +110,22 @@ seekPOSIX,0.000029,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.144736,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.104317,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.105686,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.104894,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.097793,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.103351,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.109733,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.118491,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.104378,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.103518,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.104788,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.112913,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.119057,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.112612,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
+seekS3,0.105068,Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.036315,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None
 uploadPOSIX,0.054477,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_one_node_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None
@@ -159,6 +207,22 @@ deletePOSIX,0.155859,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5
 deletePOSIX,0.348024,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 deletePOSIX,0.172731,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.100275,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.100115,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.104387,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.112160,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.101201,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.098149,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.104072,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.099654,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.102077,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.099448,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.103582,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.101384,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.100034,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.099486,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+deleteS3,0.097791,/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.000264,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 readPOSIX,0.000157,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 readPOSIX,0.000157,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
@@ -175,6 +239,22 @@ readPOSIX,0.000152,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 readPOSIX,0.000161,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 readPOSIX,0.000177,/mnt/Benchfiles/Data/HDF5/ap_one_node_capture.hdf5,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.631439,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.672745,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.605714,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.580160,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.626887,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.631251,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.602732,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.571551,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.604553,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.615068,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.640300,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.579339,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.622829,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.658101,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+readS3,0.623670,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 seekPOSIX,0.000043,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
@@ -190,6 +270,22 @@ seekPOSIX,0.000041,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,N
 seekPOSIX,0.000040,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 seekPOSIX,0.000037,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 seekPOSIX,0.000041,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.035996,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.041944,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.035724,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.033708,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.031283,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.032124,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.044423,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.035042,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.040428,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.040652,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.044762,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.032305,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.032685,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.031142,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
+seekS3,0.041576,Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.255515,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
 uploadPOSIX,0.176425,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/ap_two_node_two_flow_capture.hdf5,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None
@@ -271,6 +367,22 @@ deletePOSIX,0.000858,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,No
 deletePOSIX,0.000859,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 deletePOSIX,0.000844,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.100332,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.097490,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.099992,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.097369,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.099271,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.098616,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.097710,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.096861,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.111950,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.110926,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.111944,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.111666,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.106893,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.176721,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+deleteS3,0.117974,/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.000166,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 readPOSIX,0.000163,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 readPOSIX,0.000153,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
@@ -287,6 +399,22 @@ readPOSIX,0.000152,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,N
 readPOSIX,0.000152,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 readPOSIX,0.000154,/mnt/Benchfiles/Data/HDF5/ap_two_node_two_flow_capture.hdf5,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.008525,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.009031,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.010598,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.008638,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.008315,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.007694,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.010334,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.007322,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.015635,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.008768,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.008693,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.007732,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.008085,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.008001,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+readS3,0.007185,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000032,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 seekPOSIX,0.000041,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 seekPOSIX,0.000033,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
@@ -302,6 +430,22 @@ seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.031170,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.022612,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.030619,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.035828,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.021639,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.029627,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.032650,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.031581,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.022850,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.021801,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.023525,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.040076,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.023561,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.023002,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
+seekS3,0.031065,Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.001692,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_100kB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None
 uploadPOSIX,0.002247,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_100kB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None
@@ -383,6 +527,22 @@ deletePOSIX,0.000999,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 deletePOSIX,0.001005,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 deletePOSIX,0.000934,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.111357,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.099338,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.101333,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.098792,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.099319,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.101247,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.100029,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.114854,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.101150,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.100356,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.108336,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.101199,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.098627,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.097869,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+deleteS3,0.102916,/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.015600,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 readPOSIX,0.016449,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 readPOSIX,0.016095,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
@@ -399,6 +559,22 @@ readPOSIX,0.015889,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 readPOSIX,0.015736,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 readPOSIX,0.015833,/mnt/Benchfiles/Data/JPG/file_example_JPG_100kB.jpg,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.174072,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.202091,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.201113,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.202267,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.164814,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.165387,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.164048,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.164428,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.163393,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.164382,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.166311,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.175179,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.201959,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.162959,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+readS3,0.168730,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000035,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 seekPOSIX,0.000030,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
@@ -414,6 +590,22 @@ seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.032220,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.030824,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.043273,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.045765,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.030300,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.040496,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.030767,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.031902,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.042048,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.040585,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.033793,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.044083,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.031737,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.033711,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
+seekS3,0.031547,Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.002253,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
 uploadPOSIX,0.006861,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_1MB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None
@@ -495,6 +687,22 @@ deletePOSIX,0.001136,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,N
 deletePOSIX,0.001414,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 deletePOSIX,0.004826,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.099926,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.097966,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.100782,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.101754,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.115049,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.098372,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.107266,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.097617,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.099257,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.097247,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.098282,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.098024,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.142121,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.098456,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+deleteS3,0.110083,/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.227713,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 readPOSIX,0.220970,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 readPOSIX,0.218664,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
@@ -511,6 +719,22 @@ readPOSIX,0.217458,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 readPOSIX,0.217041,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 readPOSIX,0.217095,/mnt/Benchfiles/Data/JPG/file_example_JPG_1MB.jpg,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.202303,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.205459,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.240849,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.204429,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.245945,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.158585,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.248897,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.251926,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.205302,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.250232,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.242128,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.242486,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.203923,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.249647,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+readS3,0.235234,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000030,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
@@ -526,6 +750,22 @@ seekPOSIX,0.000031,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,Non
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.114516,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.104438,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.104675,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.105779,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.117357,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.103166,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.104816,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.142436,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.105243,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.120238,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.106271,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.113467,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.112846,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.104084,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
+seekS3,0.112453,Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.003494,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None
 uploadPOSIX,0.017206,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/JPG/file_example_JPG_2500kB.jpg,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None
@@ -607,6 +847,22 @@ deletePOSIX,0.000906,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,
 deletePOSIX,0.000919,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 deletePOSIX,0.000941,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.107799,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.251526,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.102360,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.098988,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.108173,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.100116,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.097959,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.117259,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.144010,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.125288,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.099214,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.102014,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.101143,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.144249,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+deleteS3,0.110771,/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.531594,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 readPOSIX,0.515060,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 readPOSIX,0.537254,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
@@ -623,6 +879,22 @@ readPOSIX,0.505793,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,Non
 readPOSIX,0.504975,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 readPOSIX,0.504845,/mnt/Benchfiles/Data/JPG/file_example_JPG_2500kB.jpg,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.177874,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.185777,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.177685,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.228751,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.182984,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.183745,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.178198,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.185330,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.183851,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.183615,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.176470,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.177686,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.185450,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.183403,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+readS3,0.182624,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000036,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 seekPOSIX,0.000032,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 seekPOSIX,0.000030,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
@@ -638,6 +910,22 @@ seekPOSIX,0.000031,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,No
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.123691,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.103192,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.112464,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.109554,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.104125,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.098573,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.104195,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.103606,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.104647,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.105814,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.114844,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.105643,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.113817,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.107576,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
+seekS3,0.105309,Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.002310,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_1mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None
 uploadPOSIX,0.009754,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_1mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None
@@ -719,6 +1007,22 @@ deletePOSIX,0.001450,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,
 deletePOSIX,0.001427,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 deletePOSIX,0.001474,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.102268,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.228063,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.111444,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.122874,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.115500,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.109191,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.106191,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.159782,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.112124,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.101951,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.103000,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.165297,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.102247,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.101578,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+deleteS3,0.099866,/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.012551,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 readPOSIX,0.012466,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 readPOSIX,0.012474,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
@@ -735,6 +1039,22 @@ readPOSIX,0.012415,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,No
 readPOSIX,0.012435,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 readPOSIX,0.012478,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_1mb.mp4,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.245140,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.247332,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.254798,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.248958,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.244504,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.229847,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.229010,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.226018,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.248309,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.209004,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.236226,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.232657,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.234556,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.237638,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+readS3,0.231520,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
@@ -750,6 +1070,22 @@ seekPOSIX,0.000027,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,No
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.104501,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.118116,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.113966,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.114453,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.115906,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.115049,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.103970,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.105649,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.114511,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.114302,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.089125,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.114602,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.116215,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.114997,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
+seekS3,0.103517,Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.005761,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_5mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None
 uploadPOSIX,0.021829,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_5mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None
@@ -831,6 +1167,22 @@ deletePOSIX,0.005362,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
 deletePOSIX,0.005338,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 deletePOSIX,0.005446,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.100257,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.099986,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.100094,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.101660,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.120086,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.111475,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.105247,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.100531,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.105204,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.108207,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.112045,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.097060,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.100982,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.209240,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+deleteS3,0.111063,/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.012556,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 readPOSIX,0.012509,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 readPOSIX,0.012492,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
@@ -847,6 +1199,22 @@ readPOSIX,0.012518,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,No
 readPOSIX,0.012582,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 readPOSIX,0.012503,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_5mb.mp4,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.521560,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.561906,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.566830,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.647143,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.593675,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.496955,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.588387,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.462096,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.523252,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.502668,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.778053,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.593838,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.551833,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.508273,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+readS3,0.583853,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 seekPOSIX,0.000030,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 seekPOSIX,0.000018,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
@@ -862,6 +1230,22 @@ seekPOSIX,0.000028,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,N
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.114787,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.106175,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.113614,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.114755,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.114107,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.103132,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.106963,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.116266,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.104976,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.104123,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.105949,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.117160,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.117557,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.114272,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
+seekS3,0.103793,Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.136845,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
 uploadPOSIX,0.205353,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/MP4/SampleVideo_1280x720_30mb.mp4,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None
@@ -927,6 +1311,38 @@ checksumS3,0.210832,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,No
 checksumS3,0.210302,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
 checksumS3,0.210722,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deletePOSIX,0.001254,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001119,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001173,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001101,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001117,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001067,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001097,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001122,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001160,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001125,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001075,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001128,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001158,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001121,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.001078,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.110485,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.104653,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.099029,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.101527,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.099141,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.105156,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.132833,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.098227,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.098116,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.098298,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.109260,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.102759,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.099033,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.099382,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deleteS3,0.108823,/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.012980,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 readPOSIX,0.012968,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 readPOSIX,0.012983,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
@@ -943,6 +1359,22 @@ readPOSIX,0.012980,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,N
 readPOSIX,0.012969,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 readPOSIX,0.012973,/mnt/Benchfiles/Data/MP4/SampleVideo_1280x720_30mb.mp4,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.216285,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.266591,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.272141,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.311461,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.264854,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.275122,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.243993,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.271546,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.269087,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.264188,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.209296,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.274615,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.262960,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.272839,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readS3,0.264751,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
 seekPOSIX,0.000026,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
@@ -958,6 +1390,22 @@ seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,Non
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
 seekPOSIX,0.000026,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.043578,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.033870,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.042657,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.031874,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.041872,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.034396,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.031388,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.043836,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.040811,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.040662,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.039989,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.030539,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.034620,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.039858,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+seekS3,0.040778,Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.003358,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
 uploadPOSIX,0.021550,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/sresa1b_ncar_ccsm3-example.nc,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None
@@ -1023,21 +1471,69 @@ checksumS3,0.573434,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
 checksumS3,0.487961,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
 checksumS3,0.591352,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
 Operation,Time, Argument1, Argument2, Argument3
-readPOSIX,0.000156,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000177,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000176,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000163,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000160,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000166,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000166,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000166,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000162,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000154,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000165,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000163,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000169,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000164,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
-readPOSIX,0.000308,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+deletePOSIX,0.003467,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003419,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003403,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003292,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003383,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003420,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003396,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003396,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003500,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003414,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.004035,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003358,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003373,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003397,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.003376,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.105744,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.102222,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.097911,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.100411,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.121597,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.098795,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.108932,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.111857,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.098901,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.098536,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.225302,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.174752,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.203763,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.140282,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deleteS3,0.109776,/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
+readPOSIX,0.003745,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.003817,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.003920,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.003923,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.004265,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.004052,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.004070,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.004341,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.003989,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.003967,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.004128,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.003935,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.004534,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.004186,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+readPOSIX,0.004075,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
+readS3,0.484664,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.491828,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.480673,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.472573,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.487980,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.494535,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.558768,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.484603,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.474826,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.486739,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.498277,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.502123,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.736817,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.518095,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readS3,0.482550,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
 Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000030,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
@@ -1054,6 +1550,22 @@ seekPOSIX,0.000028,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
 seekPOSIX,0.000030,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.105714,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.114386,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.112731,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.099159,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.114033,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.106634,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.104618,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.122781,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.103629,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.118760,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.103338,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.105328,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.116561,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.113494,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+seekS3,0.103721,Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.017599,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
 uploadPOSIX,0.084751,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/ECMWF_ERA-40_subset.nc,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None
@@ -1135,6 +1647,22 @@ deletePOSIX,0.000808,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 deletePOSIX,0.000839,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 deletePOSIX,0.000827,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.098067,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.106981,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.100506,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.118115,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.098378,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.097963,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.110636,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.169638,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.101411,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.110380,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.100208,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.100128,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.097426,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.098523,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+deleteS3,0.119812,/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.000042,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 readPOSIX,0.000034,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 readPOSIX,0.000032,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
@@ -1151,6 +1679,22 @@ readPOSIX,0.000031,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 readPOSIX,0.000033,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 readPOSIX,0.000031,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.028451,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.016132,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.007496,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.016038,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.032974,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.007606,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.007370,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.007805,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.008305,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.007119,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.015694,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.022772,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.007364,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.007527,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+readS3,0.007514,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000056,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 seekPOSIX,0.000048,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 seekPOSIX,0.000046,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
@@ -1166,6 +1710,22 @@ seekPOSIX,0.000046,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 seekPOSIX,0.000045,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 seekPOSIX,0.000045,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 seekPOSIX,0.000058,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.055336,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.032055,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.024116,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.033571,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.022138,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.021875,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.021249,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.022894,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.021611,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.023185,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.044032,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.022153,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.031489,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.041911,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
+seekS3,0.021598,Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.003798,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
 uploadPOSIX,0.001518,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/rcsb_pdb_4Q4W.fasta,/mnt/Benchfiles/Data/FASTA/rcsb_pdb_4Q4W.fasta,None
@@ -1231,21 +1791,53 @@ checksumS3,3.055302,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
 checksumS3,2.999469,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
 checksumS3,3.018726,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
 Operation,Time, Argument1, Argument2, Argument3
-readPOSIX,0.000167,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000177,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000172,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000170,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000176,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000167,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000172,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000170,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000175,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000204,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000209,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000202,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000185,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000255,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
-readPOSIX,0.000218,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+deletePOSIX,0.020090,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.019734,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.024923,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.023870,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.031038,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.023250,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.026263,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.024031,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.026264,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.023108,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.025972,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.023582,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.029526,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.025100,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deletePOSIX,0.023908,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.102531,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.228389,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.111966,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.109255,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.097628,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.126498,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.114151,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.098809,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.104585,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.104595,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.105333,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.118548,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.097585,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.108441,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+deleteS3,0.097405,/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
+readPOSIX,0.058179,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.061069,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058853,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.059002,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058804,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058897,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058671,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058830,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058902,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058825,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.059435,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058811,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058770,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058367,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
+readPOSIX,0.058510,/mnt/Benchfiles/Data/NetCDF/ECMWF_ERA-40_subset.nc,None,None
 Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
 seekPOSIX,0.000038,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
@@ -1262,6 +1854,22 @@ seekPOSIX,0.000030,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
 seekPOSIX,0.000107,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
 seekPOSIX,0.000031,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.064286,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.061038,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.071082,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.064607,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.064723,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.082055,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.085171,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.069554,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.060198,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.071626,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.071176,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.070326,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.071704,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.069163,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+seekS3,0.068057,Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,2.733712,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
 uploadPOSIX,2.298329,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None
@@ -1295,21 +1903,21 @@ uploadS3,9.534482,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test
 uploadS3,9.599368,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/Benchfiles/Data/NetCDF,None
 uploadS3,9.025978,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/NetCDF/test_echam_spectral.nc,/Benchfiles/Data/NetCDF,None
 Operation,Time, Argument1, Argument2, Argument3
-readPOSIX,0.001350,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.001015,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.000894,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.000906,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.000966,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.001235,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.000895,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.000890,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.000903,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.001103,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.001269,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.000911,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.000930,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.000876,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
-readPOSIX,0.000930,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.169738,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.156206,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155629,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155705,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.156223,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155893,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155368,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155825,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155620,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155392,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155588,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155552,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155433,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155684,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
+readPOSIX,0.155664,/mnt/Benchfiles/Data/NetCDF/test_echam_spectral.nc,None,None
 Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.000185,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
 readPOSIX,0.000156,/mnt/Benchfiles/Data/NetCDF/sresa1b_ncar_ccsm3-example.nc,None,None
@@ -1455,6 +2063,22 @@ deletePOSIX,0.033670,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
 deletePOSIX,0.038484,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
 deletePOSIX,0.031280,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.110899,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.103811,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.113413,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.149480,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.110446,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.142232,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.106908,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.098647,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.101724,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.100283,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.096827,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.114798,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.122200,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.100387,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+deleteS3,0.103286,/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,75.619499,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
 readPOSIX,74.977149,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
 readPOSIX,76.900184,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
@@ -1486,6 +2110,22 @@ seekPOSIX,0.000028,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
 seekPOSIX,0.000030,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.087925,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.079062,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.066847,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.076659,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.133284,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.098869,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.076520,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.072692,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.100692,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.062334,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.065492,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.078299,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.199282,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.076958,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
+seekS3,0.064627,Benchfiles/Data/FASTA/hg19.fa.gz,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,9.660106,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
 uploadPOSIX,10.441409,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTA/hg19.fa.gz,/mnt/Benchfiles/Data/FASTA/hg19.fa.gz,None
@@ -1567,6 +2207,22 @@ deletePOSIX,0.001006,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq
 deletePOSIX,0.001071,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 deletePOSIX,0.001035,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.103860,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.110784,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.096787,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.114183,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.097330,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.096671,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.107292,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.108014,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.119319,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.101012,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.095074,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.104177,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.097586,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.101347,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+deleteS3,0.109459,/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.002243,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 readPOSIX,0.002070,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 readPOSIX,0.001970,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
@@ -1583,6 +2239,22 @@ readPOSIX,0.001950,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,N
 readPOSIX,0.001929,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 readPOSIX,0.001892,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.233548,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.244403,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.213839,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.324397,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.213902,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.244176,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.236463,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.246453,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.233640,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.209801,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.240845,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.221679,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.246625,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.249765,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+readS3,0.211196,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000038,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
@@ -1598,6 +2270,22 @@ seekPOSIX,0.000029,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,N
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 seekPOSIX,0.000037,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.060005,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.048466,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.060262,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.051605,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.050449,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.065436,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.049855,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.049411,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.057044,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.059428,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.048214,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.047541,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.058391,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.048008,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
+seekS3,0.051474,Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.003335,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None
 uploadPOSIX,0.016963,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_psbA3_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_psbA3_2019_minq7.fastq,None
@@ -1679,6 +2367,22 @@ deletePOSIX,0.002179,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,N
 deletePOSIX,0.002115,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 deletePOSIX,0.002171,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.108958,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.102455,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.099512,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.097621,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.098898,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.097563,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.097902,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.099774,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.111609,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.112429,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.097343,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.118761,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.098135,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.098646,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+deleteS3,0.097604,/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.009802,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 readPOSIX,0.009634,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 readPOSIX,0.009343,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
@@ -1695,6 +2399,22 @@ readPOSIX,0.009233,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,Non
 readPOSIX,0.009255,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 readPOSIX,0.009215,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.360754,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.323542,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.366164,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.340076,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.352304,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.322586,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.340353,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.320760,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.390989,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.362515,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.333326,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.349560,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.346517,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.347645,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+readS3,0.371082,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000032,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 seekPOSIX,0.000026,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
@@ -1710,6 +2430,22 @@ seekPOSIX,0.000027,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,Non
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 seekPOSIX,0.000037,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.049716,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.049242,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.031319,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.048738,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.052214,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.059007,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.030282,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.057303,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.047661,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.050035,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.050385,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.032510,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.061075,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.048596,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
+seekS3,0.056763,Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.053724,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
 uploadPOSIX,0.067124,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/1_control_18S_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/1_control_18S_2019_minq7.fastq,None
@@ -1791,6 +2527,22 @@ deletePOSIX,0.331916,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fas
 deletePOSIX,0.318972,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 deletePOSIX,0.322245,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.108717,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.097535,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.108933,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.100617,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.105168,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.098994,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.101483,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.110759,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.126512,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.099915,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.101558,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.098406,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.102628,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.105415,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+deleteS3,0.119229,/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.038160,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 readPOSIX,0.034355,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 readPOSIX,0.034287,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
@@ -1807,6 +2559,22 @@ readPOSIX,0.034321,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq
 readPOSIX,0.034145,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 readPOSIX,0.034719,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.908856,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.883931,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.850211,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.857075,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,1.230066,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.869007,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.870061,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.892299,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.834591,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.855177,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.828510,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.886695,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,1.142531,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.856454,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+readS3,0.991599,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
@@ -1822,6 +2590,22 @@ seekPOSIX,0.000027,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq
 seekPOSIX,0.000031,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.106213,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.104606,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.105350,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.104789,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.103599,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.119055,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.103942,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.118598,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.104464,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.152664,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.107316,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.104644,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.104355,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.114235,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
+seekS3,0.106984,Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.364663,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
 uploadPOSIX,0.383779,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,/mnt/Benchfiles/Data/FASTQ/9_Swamp_S2B_rbcLa_2019_minq7.fastq,None
@@ -1903,6 +2687,22 @@ deletePOSIX,0.000804,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 deletePOSIX,0.000909,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 deletePOSIX,0.000896,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.098280,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.108231,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.096015,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.128566,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.097837,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.115854,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.096888,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.095522,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.100386,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.098596,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.107537,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.099065,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.098720,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.130240,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+deleteS3,0.099036,/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,0.000602,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 readPOSIX,0.000558,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 readPOSIX,0.000567,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
@@ -1919,6 +2719,22 @@ readPOSIX,0.000552,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 readPOSIX,0.000550,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 readPOSIX,0.000626,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.008208,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.008113,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.025156,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.015070,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.008467,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.016935,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.069301,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007810,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007389,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007732,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007969,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.015496,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007467,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007431,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+readS3,0.007608,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000046,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 seekPOSIX,0.000061,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 seekPOSIX,0.000045,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
@@ -1934,6 +2750,22 @@ seekPOSIX,0.000045,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 seekPOSIX,0.000045,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 seekPOSIX,0.000045,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
 seekPOSIX,0.000053,/mnt/Benchfiles/Data/gzip/constitution.txt.gz,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.028834,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.028586,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.029910,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.022853,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.022217,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.028821,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.022868,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.022079,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.028901,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.028342,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.022823,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.022565,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.022184,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.028669,Benchfiles/Data/gzip/constitution.txt.gz,None,None
+seekS3,0.022905,Benchfiles/Data/gzip/constitution.txt.gz,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.001332,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
 uploadPOSIX,0.001427,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/constitution.txt.gz,/mnt/Benchfiles/Data/gzip/gzip/constitution.txt.gz,None
@@ -2015,6 +2847,22 @@ deletePOSIX,0.000803,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,No
 deletePOSIX,0.000836,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 deletePOSIX,0.000807,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.096974,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.105105,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.099387,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.100191,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.143215,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.097695,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.097541,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.106547,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.098826,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.134411,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.098237,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.097576,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.098448,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.097921,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+deleteS3,0.106509,/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,6.275896,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 readPOSIX,6.275773,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 readPOSIX,6.281720,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
@@ -2031,6 +2879,22 @@ readPOSIX,6.250819,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 readPOSIX,6.320539,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 readPOSIX,6.393026,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.615070,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.608251,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.613068,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.602396,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.607492,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.625615,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.612953,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.612496,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.614425,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.603609,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.629654,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.623518,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.617320,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.663775,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+readS3,0.621221,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000030,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
@@ -2046,6 +2910,22 @@ seekPOSIX,0.000027,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 seekPOSIX,0.000035,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.059210,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.050209,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.048253,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.048650,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.058247,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.064535,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.052443,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.059319,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.048157,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.058098,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.058101,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.047928,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.048750,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.049931,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
+seekS3,0.049685,Benchfiles/Data/gzip/External_test_data.tar.gz,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.249333,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/mnt/Benchfiles/Data/gzip/gzip/External_test_data.tar.gz,None
 uploadPOSIX,0.499906,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/External_test_data.tar.gz,/mnt/Benchfiles/Data/gzip/gzip/External_test_data.tar.gz,None
@@ -2127,6 +3007,22 @@ deletePOSIX,0.030749,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
 deletePOSIX,0.033526,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
 deletePOSIX,0.033186,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.118434,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.108482,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.102313,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.159696,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.100648,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.098706,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.103451,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.105718,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.100218,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.099484,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.098888,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.108057,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.104627,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.101232,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+deleteS3,0.117378,/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,18.935340,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
 readPOSIX,20.861934,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
 readPOSIX,21.466959,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
@@ -2158,6 +3054,22 @@ seekPOSIX,0.000028,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.137225,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.148795,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.138967,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.137459,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.136821,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.137062,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.135804,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.144834,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.137427,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.137711,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.136408,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.139322,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.137150,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.135822,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
+seekS3,0.146005,Benchfiles/Data/gzip/pxproteome.tar.gz,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,7.596451,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None
 uploadPOSIX,8.019842,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/gzip/pxproteome.tar.gz,/mnt/Benchfiles/Data/gzip/pxproteome.tar.gz,None
@@ -2239,6 +3151,22 @@ deletePOSIX,0.001259,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 deletePOSIX,0.001263,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 deletePOSIX,0.001234,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 Operation,Time, Argument1, Argument2, Argument3
+deleteS3,0.112679,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.173700,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.114794,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.122708,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.108117,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.129247,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.112788,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.102170,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.107993,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.104599,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.134362,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.105300,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.115872,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.100946,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+deleteS3,0.099729,/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+Operation,Time, Argument1, Argument2, Argument3
 readPOSIX,2.958509,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 readPOSIX,2.964235,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 readPOSIX,2.957565,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
@@ -2255,6 +3183,22 @@ readPOSIX,2.995443,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 readPOSIX,2.977683,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 readPOSIX,2.971995,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 Operation,Time, Argument1, Argument2, Argument3
+readS3,0.231702,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.237782,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.249064,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.234614,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.247075,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.236361,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.237499,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.243834,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.245574,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.228926,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.227984,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.231591,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.241343,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.232528,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+readS3,0.236038,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+Operation,Time, Argument1, Argument2, Argument3
 seekPOSIX,0.000032,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 seekPOSIX,0.000029,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
@@ -2270,6 +3214,22 @@ seekPOSIX,0.000029,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 seekPOSIX,0.000028,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 seekPOSIX,0.000027,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+Operation,Time, Argument1, Argument2, Argument3
+seekS3,0.054848,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.050459,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.049699,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.057694,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.049259,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.050821,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.049260,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.055496,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.057840,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.049562,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.067117,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.050648,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.057830,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.048525,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
+seekS3,0.051791,Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None,None
 Operation,Time, Argument1, Argument2, Argument3
 uploadPOSIX,0.023622,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
 uploadPOSIX,0.021103,/git/S3-Benchmarker-for-Galaxy/Database/Benchfiles/HDF5/np_rx_ofdm_entries.hdf5,/mnt/Benchfiles/Data/HDF5/np_rx_ofdm_entries.hdf5,None
