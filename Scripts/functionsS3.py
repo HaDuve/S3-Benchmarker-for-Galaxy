@@ -58,7 +58,8 @@ class FunctionManager:
             key (str, optional): [path / name of the file]. Defaults to 'testdata/raw/test.txt'.
         """
         # get StreamingBody from botocore.response
-        response = self.s3.Object(bucket, key)
+        obj = self.s3.Object(bucket, key)
+        body = obj.get()['Body'].read()
 
     # Seek
     def seekS3(self,
