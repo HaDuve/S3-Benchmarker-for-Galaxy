@@ -106,11 +106,11 @@ def afterBenchmark(args):
     # These functions will be applied after every benchmark run
     if(args.function == 'deletePOSIX'):
         # recover file
-        print("recovering file after delete-benchmark!")
+        print("recovering file after delete-benchmark")
         os.system("mv "+args.arg1+"copy " + args.arg1)
     if(args.function == 'deleteS3'):
         # recover file
-        print("recovering file after delete-benchmark! S3")
+        print("recovering file after delete-benchmark S3")
         os.system("rclone moveto s3ws:frct-hadu-bench-ec61-01"+args.arg1+"copy s3ws:frct-hadu-bench-ec61-01" + args.arg1)
 
 def checkPOSIX(string = "POSIX"):
