@@ -89,7 +89,7 @@ def prepareBenchmark(args):
     if(args.function == 'deleteS3'):
         # copy the file before deleting to recover after bench
         print("copy the file before deleting to recover after bench S3")
-        os.system("rclone copy s3ws:frct-hadu-bench-ec61-01"+args.arg1+" s3ws:frct-hadu-bench-ec61-01"+args.arg1+"copy")
+        os.system("rclone copy s3ws:frct-hadu-bench-ec61-01"+args.arg1+" s3ws:frct-hadu-bench-ec61-01/Copies"+args.arg1)
 
 
 def afterBenchmark(args):
@@ -111,7 +111,7 @@ def afterBenchmark(args):
     if(args.function == 'deleteS3'):
         # recover file
         print("recovering file after delete-benchmark S3")
-        os.system("rclone moveto s3ws:frct-hadu-bench-ec61-01"+args.arg1+"copy s3ws:frct-hadu-bench-ec61-01" + args.arg1)
+        os.system("rclone moveto s3ws:frct-hadu-bench-ec61-01/Copies"+args.arg1+"s3ws:frct-hadu-bench-ec61-01"+args.arg1)
 
 def checkPOSIX(string = "POSIX"):
     if("POSIX" in string):
