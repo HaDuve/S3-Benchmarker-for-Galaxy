@@ -62,7 +62,7 @@ class FunctionManager:
             obj = self.s3.Object(bucket, key)
             body = obj.get()['Body'].read()
         except:
-            pass
+            print("EXCEPTION reading from s3!")
     # Seek
     def seekS3(self,
                key: str = 'testdata/raw/test.txt',
