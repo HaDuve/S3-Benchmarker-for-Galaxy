@@ -1,0 +1,11 @@
+1. start instance -> sudo apt update -> sudo apt upgrade
+2. Download Anaconda from https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh (to be found on https://www.anaconda.com/products/individual)
+3. bash Anaconda3-2021.11-Linux-x86_64.sh (enter/yes) (install it on a volume with enough space)
+4. restart console -> conda update conda
+5. conda config --add channels conda-forge 
+6. conda create -n bench 'python<3.10' rclone awscli boto3 git s3api imageio libopencv-dev python3-opencv h5py netCDF4  s3fs
+pip install smart-open
+7. conda activate bench
+8. Setup S3 and rclone with "set-s3-credentials.sh" and "rclone.conf" from the Setup folder in git
+9. git clone https://github.com/HaDuve/S3-Benchmarker-for-Galaxy
+

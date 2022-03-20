@@ -1,0 +1,22 @@
+1. Create class named functionsMODULENAME.py (note upper and lower case) in the Scripts folder with atleast the following 2 lines as __init__ function (add optional access/secret keys for connections out of the environment):
+
+	def __init__(self, args):
+        	self.args = args
+
+2. In functionsMODULENAME.py, name all of the benchmarkable functions:
+
+	def functionnameMODULENAME(self,[0-3 args]):
+
+3. In benchmarker.py, add functionsMODULENAME to the import statement (line 5).
+
+4. In benchmarker.py, add the following 2 lines to the "__init__" function (lines 18-22):
+
+	elif ("MODULNAME" in self.args.function):
+		self.fnManager = functionsMODULNAME.FunctionManager(self.args)
+
+5. In benchmarker.py, add all functions names  (lines 86-89) into choices list.
+
+6. In the config.ini, add [arg1-3 optional]:
+
+	workflow = functionnameMODULENAME
+	workflowargs = arg1 arg2 arg3
